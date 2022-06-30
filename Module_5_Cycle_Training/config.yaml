@@ -1,0 +1,41 @@
+#config file
+#G2T
+g2t:
+    nhid: 512 # number of hidden units
+    nhead: 4 # number of attention heads
+    head_dim: 128 # dim of each attention head
+    weight_decay: 0.0 
+    prop: 2 # number of layers of GAT
+    vae_dim: 10
+    batch_size: 16
+    beam_size: 5
+    beam_max_len: 50
+    enc_lstm_layers: 2
+    lr: 2.0e-4
+    clip: 1.0 # gradient clipping
+    emb_drop: 0.0
+    attn_drop: 0.1
+    drop: 0.1 # FFN dropout
+    lp: 1.0 # length penalty
+    graph_enc: "gtrans"
+    save: "saved_models/sup_wiki_desc_only_g2t_model.pt"
+t2g:
+    batch_size: 16
+    nhid: 512 # number of hidden units
+    lr: 5.0e-5
+    drop: 0.0
+    clip: 1.0
+    save: "saved_models/sup_wiki_desc_only_t2g_model.pt"
+    weight_decay: 0.0
+
+main:
+    split: 1.1 
+    epoch: 5
+    pre_epoch: 10  # warmup epoch if using the warmup
+    seed: 654321 
+    batch_size: 16
+    train_file: "converted_data/train_plus_Wiki_desc_only.json"
+    dev_file: "converted_data/dev_plus_Wiki_desc_only.json"
+    test_file: "converted_data/test_plus_Wiki_desc_only.json"
+    display: True
+    mode: "sup" #['sup', 'cold_unsup', 'warm_unsup']
