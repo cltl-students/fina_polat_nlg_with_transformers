@@ -1,4 +1,4 @@
-Run the py files as follows:
+### Run the py files as follows:
 
   train_distilGPT2_WebNLG_verbalizer.py
   
@@ -9,3 +9,5 @@ Run the py files as follows:
   generate_with_distilGPT2_WebNLG_verbalizer.py
   
   generate_with_distilGPT2_WebNLG_plus_Wiki_verbalizer.py (2 times - for allWiki and Wiki desc only)
+  
+The training details and resulting models of this thesis project can be found in this repository.
