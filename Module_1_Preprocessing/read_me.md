@@ -1,6 +1,6 @@
-# download the data from https://gitlab.com/shimorina/webnlg-dataset
+# the data is from https://gitlab.com/shimorina/webnlg-dataset
 # release_v3.0
-# unzip the folder and place it in 'data' folder
+# if you dowload it, remember to unzip the folder and place it in 'data' folder
 # delete 'ru' folder (we only use English version)
 # run the py files in the following order:
 	# preprocess.py (run for training and development data)
