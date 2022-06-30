@@ -1,0 +1,8 @@
+Device: cuda:0
+Lenght of the dataset: 39890
+Number of batches: 9972
+Epoch: 1 , Running loss: 0.8294400235841994
+Epoch: 2 , Running loss: 0.6200403893322374
+Epoch: 3 , Running loss: 0.5518763480690071
+Epoch: 4 , Running loss: 0.5111072476661133
+Epoch: 5 , Running loss: 0.48006725839663833
