@@ -1,0 +1,6 @@
+Input file: data_ready2evaluate\generated_by_tuned_distilGPT2.txt 
+Reference file: ../preprocessed_data/test_reference_text.txt 
+Results file: results/results_of_tuned_distilGPT2.txt 
+SacreBLEU score: 10.963075962803758 
+ROUGE score: 0.43562759282780655 
+METEOR score: 0.44296159272132357 

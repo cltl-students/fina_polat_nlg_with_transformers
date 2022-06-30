@@ -1,0 +1,6 @@
+Input file: data_ready2evaluate\generated_by_tuned_T5small.txt 
+Reference file: ../preprocessed_data/test_reference_text.txt 
+Results file: results/results_of_tuned_T5small.txt 
+SacreBLEU score: 19.625733917889562 
+ROUGE score: 0.5668151508288619 
+METEOR score: 0.41579372507328444 

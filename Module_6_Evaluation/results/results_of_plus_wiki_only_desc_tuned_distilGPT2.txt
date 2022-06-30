@@ -1,0 +1,6 @@
+Input file: data_ready2evaluate\generated_by_plus_wiki_only_desc_tuned_distilGPT2.txt 
+Reference file: ../preprocessed_data/test_reference_text.txt 
+Results file: results/results_of_plus_wiki_only_desc_tuned_distilGPT2.txt 
+SacreBLEU score: 12.050638739796854 
+ROUGE score: 0.44332210398914346 
+METEOR score: 0.34860372910422943 

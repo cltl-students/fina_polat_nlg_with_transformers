@@ -1,0 +1,6 @@
+Input file: data_ready2evaluate\generated_by_plus_wiki_tuned_T5small.txt 
+Reference file: ../preprocessed_data/test_reference_text.txt 
+Results file: results/results_of_plus_wiki_tuned_T5small.txt 
+SacreBLEU score: 19.00468051405363 
+ROUGE score: 0.5550925388633414 
+METEOR score: 0.39722490250224296 

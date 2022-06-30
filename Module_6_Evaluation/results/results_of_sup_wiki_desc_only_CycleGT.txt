@@ -1,0 +1,6 @@
+Input file: data_ready2evaluate\generated_by_sup_wiki_desc_only_CycleGT.txt 
+Reference file: ../preprocessed_data/test_reference_text.txt 
+Results file: results/results_of_sup_wiki_desc_only_CycleGT.txt 
+SacreBLEU score: 20.475627451005558 
+ROUGE score: 0.5420821938351168 
+METEOR score: 0.47003450040488604 
