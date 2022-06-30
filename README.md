@@ -1,6 +1,6 @@
 # Master Thesis Project: Hallucinatory World of Automatic Text Generation with Transformers
 Written by Fina Polat
-30/06/2022
+Date: 30/06/2022
 
 Link to the report: https://www.overleaf.com/project/6271389f4714fc28f5e5be71
 
