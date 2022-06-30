@@ -1,0 +1,2 @@
+I0629 22:29:19.925885 15544 table_text_eval.py:474] Evaluated 5150 examples.
+I0629 22:29:19.926889 15544 table_text_eval.py:475] Precision = 0.1193 Recall = 0.0622 F-score = 0.0526
