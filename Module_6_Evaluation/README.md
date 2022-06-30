@@ -34,5 +34,7 @@ For DAE scores:
         java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 15000
     run prepare_my_outputs.py - resulting files will be located in 'DAE/prepared_data' folder
     run evaluate_generated_outputs.py - results will be in 'DAE_results'
-    Imported note: A few generation instances contain issues like being too shor or long. Most of the issues are gone after running prepare_my_outputs.py but a few samples are corrected manually. You may find those instances by searching 'filler filler filler filler' string.
+    
+    
+Imported note: A few generation instances contain issues like being too short or too long. Most of the issues are gone after running prepare_my_outputs.py but a few samples are corrected manually. You may find those instances by searching 'filler filler filler filler' string.
 
