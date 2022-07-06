@@ -1,0 +1,9 @@
+Evaluated file: ../Module_5_Cycle_Training/outputs\sup_wiki_desc_only_t2g_show.txt
+Number of instances in the testset: 5150
+Number of predictions: 1561
+Number of instances without prediction: 3589
+Number of instances that gold is not extracted: 2100
+Total: 5150. This must be equal to number of instance in the test set.
+##############
+F-score just for predictions: 0.8314603792230245
+Overall f-score for the full test set: 0.14163153028201567
