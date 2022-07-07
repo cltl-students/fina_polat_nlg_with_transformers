@@ -1,0 +1,500 @@
+Sample:
+{'Index': 67, 'Nr_of_triples': '3', 'input_triples': ['Mermaid_(Train_song) | followedBy | Imagine_(John_Lennon_song)', 'Mermaid_(Train_song) | producer | Espionage_(production_team)', 'Mermaid_(Train_song) | album | California_37_(Train_album)'], 'reference_text': "From the production team Espionage, Train's song Mermaid (on the California 37 album) was followed by Train's performance of Imagine by John Lennon."}
+Generation:
+{'Index': 67, 'Generation': 'Mermaid_(Train_song) | followedBy | Imagine_(John_Lennon_sung) && Mermaide_ (Train-song), | producer | Espionage_(production_team)'}
+#### End of the instance ####
+Sample:
+{'Index': 72, 'Nr_of_triples': '5', 'input_triples': ['The_Fellowship_of_the_Ring | publisher | George_Allen_&_Unwin', 'The_Fellowship_of_the_Ring | literaryGenre | Fantasy_(genre)', 'The_Fellowship_of_the_Ring | followedBy | The_Two_Towers', 'The_Fellowship_of_the_Ring | author | J._R._R._Tolkien', 'The_Fellowship_of_the_Ring | releaseDate | 1954-07-29'], 'reference_text': 'The Fellowship of the Ring belongs to the fantasy genre. Its author is J.R.R. Tolkien. It was published on July 29, 1954 by George Allen & Unwin. It was followed by The Two Towers.'}
+Generation:
+{'Index': 72, 'Generation': ':: The_Fellowship_of_the_Ring | publisher | George_Allen_&_Unwin && The_fellowship-of-the_ring | literaryGenre | Fantasy | Fantasy_(genre) | followedBy | The_Two_Towers, J._R._Tolkien, & &/ &\' & " &"'}
+#### End of the instance ####
+Sample:
+{'Index': 149, 'Nr_of_triples': '3', 'input_triples': ['ALCO_RS-3 | engine | Four-stroke_engine', 'ALCO_RS-3 | cylinderCount | 12', 'ALCO_RS-3 | length | 17068.8 (millimetres)'], 'reference_text': 'The four-stroke 12 cylinder ALCO RS-3 is 17068.8 millimetres long.'}
+Generation:
+{'Index': 149, 'Generation': 'ALCO_RS-3 | engine | Four-stroke_engine | cylinderCount | 12 | length | 17068,8 (millimetres)'}
+#### End of the instance ####
+Sample:
+{'Index': 154, 'Nr_of_triples': '4', 'input_triples': ['The_Fellowship_of_the_Ring | literaryGenre | Fantasy_(genre)', 'The_Fellowship_of_the_Ring | author | J._R._R._Tolkien', 'The_Fellowship_of_the_Ring | releaseDate | 1954-07-29', 'The_Fellowship_of_the_Ring | precededBy | The_Hobbit'], 'reference_text': 'Fellowship of the Ring, a fantasy novel created by J.R.R. Tolkien was released on July 29, 1954; the Hobbit came before The Fellowship of the Ring.'}
+Generation:
+{'Index': 154, 'Generation': 'Verbalize: The_Fellowship_of_the_Ring | literaryGenre | Fantasy | Fantasy_(genre) && The__fellowship-of-the_ring | author | J._R._Tolkien'}
+#### End of the instance ####
+Sample:
+{'Index': 181, 'Nr_of_triples': '1', 'input_triples': ['Lady_Anne_Monson | spouse | George_Monson'], 'reference_text': "Lady Anne Monson's spouse was George Monson."}
+Generation:
+{'Index': 181, 'Generation': 'Verbalize: Lady_Anne_Monson | spouse | George-Monson'}
+#### End of the instance ####
+Sample:
+{'Index': 205, 'Nr_of_triples': '3', 'input_triples': ['Pontiac_Rageous | assembly | Michigan', 'Pontiac_Rageous | assembly | Detroit', 'Pontiac_Rageous | productionEndYear | 1997'], 'reference_text': 'Ending its production in 1997, the Pontiac Rageous was assembled in Detroit, Michigan.'}
+Generation:
+{'Index': 205, 'Generation': 'Verbalize: Pontiac_Rageous | assembly | Michigan && Pontiaciaci | assembly| Detroit | Detroit | productionEndYear | 1997'}
+#### End of the instance ####
+Sample:
+{'Index': 292, 'Nr_of_triples': '3', 'input_triples': ['Olga_Bondareva | knownFor | Bondareva–Shapley_theorem', 'Olga_Bondareva | birthName | Olga Nikolaevna Bondareva', 'Olga_Bondareva | almaMater | Leningrad_State_University'], 'reference_text': 'Olga Bondareva, born "Olga Nikolaevna Bondareva" and a student of Leningrad State University, was known for the Bondareva-Shapley theorem.'}
+Generation:
+{'Index': 292, 'Generation': 'Verbalize: Olga Nikolaevna Bondareva | almaMater | Leningrad_State_University'}
+#### End of the instance ####
+Sample:
+{'Index': 401, 'Nr_of_triples': '2', 'input_triples': ['Al_Asad_Airbase | location | Al Anbar Province, Iraq', 'Al_Asad_Airbase | operatingOrganisation | United_States_Air_Force'], 'reference_text': 'The United States Air Force is the operating organisation for Al Asad airbase, which is located at Al Anbar Province, Iraq.'}
+Generation:
+{'Index': 401, 'Generation': 'Al_Asad_Airbase | location | Al Anbar Province, Iraq && Al_asade_ Airbase | operatingOrganisation | United_States_Air_Force | operatingOperation | Uni_Staaten_Air-Force'}
+#### End of the instance ####
+Sample:
+{'Index': 413, 'Nr_of_triples': '5', 'input_triples': ['University_of_Burgundy | staff | 2900', 'University_of_Burgundy | numberOfDoctoralStudents | 1299', 'University_of_Burgundy | campus | Dijon', 'University_of_Burgundy | numberOfStudents | 27400', 'University_of_Burgundy | numberOfPostgraduateStudents | 9400'], 'reference_text': 'The University of Burgundy in Dijon has 2900 staff members that educate 27400 students. They have 1299 doctoral students, and 9400 postgraduate students.'}
+Generation:
+{'Index': 413, 'Generation': ": University_of_Burgundy | staff | 2900 && University-of-Burgeundy| numberOfDoctoralStudents | 1299 &/ University_de_BourgundY | campus | Dijon & and University_d''Burgatedy | 27400, 27400 und& University''s | 9400, 9500, 9000, 9200, 9600, 9300, 9800, 9900, 9100, 9700,"}
+#### End of the instance ####
+Sample:
+{'Index': 466, 'Nr_of_triples': '6', 'input_triples': ['Adams_County,_Pennsylvania | hasToItsWest | Franklin_County,_Pennsylvania', '11th_Mississippi_Infantry_Monument | established | 2000', '11th_Mississippi_Infantry_Monument | location | Adams_County,_Pennsylvania', '11th_Mississippi_Infantry_Monument | municipality | Gettysburg,_Pennsylvania', 'Adams_County,_Pennsylvania | hasToItsSoutheast | Carroll_County,_Maryland', '11th_Mississippi_Infantry_Monument | category | Contributing_property'], 'reference_text': "A monument to the 11th Mississippi Infantry was built in 2000 in the municipality of Gettysburg which is in Adams County, Pennsylvania. Carroll County Maryland is southeast of Adams County, while Pennsylvania's Franklin County is to be found to the west. This monument is categorised as a contributing property."}
+Generation:
+{'Index': 466, 'Generation': ': Adams_County,_Pennsylvania | hasToItsWest | Franklin-County && 11th_Mississippi_Infantry_Monument | established | 2000 & and 11th-Missessis_Infrastructure | municipal | Gettysburg &/ 11th _Musses_Introstructure | Contributing_property | Contributor:'}
+#### End of the instance ####
+Sample:
+{'Index': 579, 'Nr_of_triples': '5', 'input_triples': ['Abraham_A._Ribicoff | spouse | Ruth Ribicoff', 'Abraham_A._Ribicoff | inOfficeWhilePresident | John_F._Kennedy', 'Abraham_A._Ribicoff | nationality | American', 'Abraham_A._Ribicoff | party | Democratic_Party_(United_States)', 'Abraham_A._Ribicoff | birthPlace | Connecticut'], 'reference_text': 'Abraham A. Ribicoff was in office at the same time as John F. Kennedy was president and was married to Ruth Ribicoff. He was a citizen of the USA after being born in Connecticut and was a member of the Democratic Party of the USA.'}
+Generation:
+{'Index': 579, 'Generation': '| spouse | Ruth Ribicoff && Abraham_A._Ribicoff | inOfficeWhilePresident | John_F._Kennedy &/ Abraham_a._ribic off | nationality | American | Democratic_Party_(United_States) | birthPlace | Connecticut | Connecticut.'}
+#### End of the instance ####
+Sample:
+{'Index': 646, 'Nr_of_triples': '3', 'input_triples': ['Super_Capers | editing | Stacy_Katzman', 'Super_Capers | starring | Michael_Rooker', 'Super_Capers | language | English_language'], 'reference_text': 'The English-language film Super Capers was edited by Stacy Katzman and played by Michael Rooker.'}
+Generation:
+{'Index': 646, 'Generation': 'Verbalize: Super_capers | editing | Stacy_Katzman && Super_Capers | starring | Michael_Rooker'}
+#### End of the instance ####
+Sample:
+{'Index': 680, 'Nr_of_triples': '5', 'input_triples': ['BBC | city | Broadcasting_House', 'Bananaman | starring | Bill_Oddie', 'Bill_Oddie | birthPlace | Rochdale', 'Bananaman | broadcastedBy | BBC', 'Bananaman | firstAired | 1983-10-03'], 'reference_text': 'Bill Oddie from Rochdale starred in Bananaman which was broadcasted by the BBC and first aired on 10/03/1983. BBC is based at Broadcasting House.'}
+Generation:
+{'Index': 680, 'Generation': '| BBC && Bananaman | firstAired | 1983-10-03'}
+#### End of the instance ####
+Sample:
+{'Index': 704, 'Nr_of_triples': '2', 'input_triples': ['Liselotte_Grschebina | deathPlace | Petah_Tikva', 'Petah_Tikva | leader | Itzik_Braverman'], 'reference_text': 'Liselotte Grschebina died in Petah Tikva, where one of the leaders was called Itzik Braverman.'}
+Generation:
+{'Index': 704, 'Generation': 'Verbalize: Liselotte_Grschebina | deathPlace | Petah_Tikva | leader | Itzik_Braverman'}
+#### End of the instance ####
+Sample:
+{'Index': 705, 'Nr_of_triples': '2', 'input_triples': ['Liselotte_Grschebina | deathPlace | Petah_Tikva', 'Petah_Tikva | leader | Itzik_Braverman'], 'reference_text': 'One of the leaders of Petah Tikva, where Liselotte Grschebina died, is Itzik Braverman.'}
+Generation:
+{'Index': 705, 'Generation': 'Verbalize: Liselotte_Grschebina | deathPlace | Petah_Tikva | leader | Itzik_Braverman'}
+#### End of the instance ####
+Sample:
+{'Index': 722, 'Nr_of_triples': '1', 'input_triples': ['Punk_blues | instrument | Drum_kit'], 'reference_text': 'Punk blues usually uses a drum kit.'}
+Generation:
+{'Index': 722, 'Generation': 'Verbalize: Punk_blues | instrument | Drum_kit'}
+#### End of the instance ####
+Sample:
+{'Index': 736, 'Nr_of_triples': '2', 'input_triples': ['Super_Capers | starring | Michael_Rooker', 'Michael_Rooker | birthPlace | Jasper,_Alabama'], 'reference_text': 'Super Capers starred Michael Rooker, who was born in Jasper, Alabama.'}
+Generation:
+{'Index': 736, 'Generation': 'Verbalize: Super_Capers | starring | Michael_Rooker && Michael | birthPlace | Jasper,_Alabama'}
+#### End of the instance ####
+Sample:
+{'Index': 844, 'Nr_of_triples': '2', 'input_triples': ['Bedford_Aerodrome | cityServed | Bedford_Autodrome', 'Bedford_Aerodrome | icaoLocationIdentifier | EGBF'], 'reference_text': "Bedford Aerodrome's International Civil Aviation Organization (ICAO) identifier is EGBF and serves the Bedford Autodrome."}
+Generation:
+{'Index': 844, 'Generation': 'Bedford_autodrome | cityServed | Bedford_Autodrome && Bedford_Aerodrome | icaoLocationIdentifier | EGBF'}
+#### End of the instance ####
+Sample:
+{'Index': 888, 'Nr_of_triples': '4', 'input_triples': ['GMA_New_Media | industry | Mass_Media', 'GMA_New_Media | product | Online_Game', 'GMA_New_Media | industry | Entertainment', 'GMA_New_Media | product | World_Wide_Web'], 'reference_text': 'GMA New Media offers services regarding the World Wide Web, including online games, as a mass media and entertainment industry company.'}
+Generation:
+{'Index': 888, 'Generation': 'Verbalize: GMA_New_Media | industry | Mass_Media && GMA-New_media | product | Online_Game &/ GMA & | GMA | Web | World_Wide_Web'}
+#### End of the instance ####
+Sample:
+{'Index': 895, 'Nr_of_triples': '3', 'input_triples': ['Aleksandr_Prudnikov | birthDate | 1989-02-24', 'Aleksandr_Prudnikov | youthclub | FC_Spartak_Moscow', 'Aleksandr_Prudnikov | club | FC_Spartak_Moscow'], 'reference_text': 'Aleksandr Prudnikov born on 1989-02-24 plays for and is a member of FC Spartak Moscow.'}
+Generation:
+{'Index': 895, 'Generation': 'Verbalize: Aleksandr_Prudnikov | birthDate | 1989-02-24 && Aleksadr_prudnykov | youthclub | FC_Spartak_Moscow | club | FC |'}
+#### End of the instance ####
+Sample:
+{'Index': 929, 'Nr_of_triples': '4', 'input_triples': ['McVeagh_of_the_South_Seas | director | Cyril_Bruce', 'McVeagh_of_the_South_Seas | director | Harry_Carey_(actor_born_1878)', 'McVeagh_of_the_South_Seas | starring | Harry_Carey_(actor_born_1878)', 'McVeagh_of_the_South_Seas | writer | Harry_Carey_(actor_born_1878)'], 'reference_text': 'Harry Carey was born in 1878. In addition to cowriting the film with Cyril Bruce, Harry Carey was an actor and writer of the film McVeagh of the South Seas.'}
+Generation:
+{'Index': 929, 'Generation': 'McVeagh_of_the_South_Seas | writer | Harry_Carey_(actor_born_1878)'}
+#### End of the instance ####
+Sample:
+{'Index': 982, 'Nr_of_triples': '1', 'input_triples': ['Ciudad_Ayala | type | City'], 'reference_text': 'Ciudad Ayala is a city.'}
+Generation:
+{'Index': 982, 'Generation': 'Verbalize: Ciudad_Ayala | type | City'}
+#### End of the instance ####
+Sample:
+{'Index': 1047, 'Nr_of_triples': '4', 'input_triples': ['Death_on_a_Factory_Farm | musicComposer | Jamie_Lawrence', 'Jamie_Lawrence | club | Ashford_Town_(Middlesex)_F.C.', 'Death_on_a_Factory_Farm | broadcastedBy | HBO', 'HBO | timeshiftChannel | HBO East, HBO West'], 'reference_text': '‘Death on a Factory Farm’ introduces music written by Jamie Lawrence, who also played for Ashford Town, F.C. The movie was broadcast on HBO. HBO East and HBO west are the channel’s unique timeshift services.'}
+Generation:
+{'Index': 1047, 'Generation': '&& Death_on_a_Factory_Farm | broadcastedBy | HBO East, HBO West | timeshiftChannel | HBO West, HBO East &/ HBO East.'}
+#### End of the instance ####
+Sample:
+{'Index': 1111, 'Nr_of_triples': '1', 'input_triples': ['Mermaid_(Train_song) | followedBy | Imagine_(John_Lennon_song)'], 'reference_text': 'Train followed Mermaid with Imagine, a song by John Lennon.'}
+Generation:
+{'Index': 1111, 'Generation': 'Verbalize: Mermaid_(Train_ong) | followedBy | Imagine_(John_Lennon_song)'}
+#### End of the instance ####
+Sample:
+{'Index': 1126, 'Nr_of_triples': '5', 'input_triples': ['Death_on_a_Factory_Farm | producer | Tom_Simon', 'HBO | headquarter | New_York_City,_New_York', 'HBO | owner | Time_Warner', 'Death_on_a_Factory_Farm | broadcastedBy | HBO', 'Death_on_a_Factory_Farm | producer | Sarah_Teale'], 'reference_text': 'Tom Simon and Sarah Teale produced the movie Death on a Factory Farm which was broadcasted by the Time Warner owned HBO which has headquarters in New York City, New York.'}
+Generation:
+{'Index': 1126, 'Generation': 'Verbalize: Death_on_a___'}
+#### End of the instance ####
+Sample:
+{'Index': 1157, 'Nr_of_triples': '5', 'input_triples': ['Mermaid_(Train_song) | genre | Pop_rock', 'Mermaid_(Train_song) | musicalBand | Train_(band)', 'Mermaid_(Train_song) | recordLabel | Columbia_Records', 'Mermaid_(Train_song) | runtime | 3.16', 'Mermaid_(Train_song) | releaseDate | 2012-12-27'], 'reference_text': 'Mermaid is a pop rock song that is produced and belongs to Train. It was released on December 27th, 2012. The song was released under Columbia Records and is 3:16 seconds long.'}
+Generation:
+{'Index': 1157, 'Generation': '| releaseDate | 2012-12-27'}
+#### End of the instance ####
+Sample:
+{'Index': 1188, 'Nr_of_triples': '2', 'input_triples': ['Death_on_a_Factory_Farm | producer | Sarah_Teale', 'Death_on_a_Factory_Farm | runtime | 83.0'], 'reference_text': 'The film "Death on a Factory Farm" lasts 83 minutes with Sarah Teale as the producer.'}
+Generation:
+{'Index': 1188, 'Generation': 'Verbalize: Death_on_a___'}
+#### End of the instance ####
+Sample:
+{'Index': 1221, 'Nr_of_triples': '4', 'input_triples': ['Alan_B._Miller_Hall | architect | Robert_A._M._Stern', 'Alan_B._Miller_Hall | currentTenants | Mason_School_of_Business', 'Alan_B._Miller_Hall | location | Virginia', 'Alan_B._Miller_Hall | owner | College_of_William_&_Mary'], 'reference_text': 'The Mason School of Business are the current tenants of Alan B Miller Hall, situated in Virginia, built by Robert A.M. Stern and owned by the College of William and Mary.'}
+Generation:
+{'Index': 1221, 'Generation': 'Verbalize: Alan_B_Miller_Hall | architect | Robert_A._M._Stern && Alan_W._Wall | owner | College_of_William_&_Mary'}
+#### End of the instance ####
+Sample:
+{'Index': 1318, 'Nr_of_triples': '2', 'input_triples': ['English_Without_Tears | writer | Anatole_de_Grunwald', 'English_Without_Tears | writer | Terence_Rattigan'], 'reference_text': 'Anatole de Grunwald and Terence Rattigan wrote English Without Tears.'}
+Generation:
+{'Index': 1318, 'Generation': 'Verbalize: English_Without_Tears'}
+#### End of the instance ####
+Sample:
+{'Index': 1323, 'Nr_of_triples': '4', 'input_triples': ['Mexico | currency | Mexican_peso', 'Bionico | course | Dessert', 'Dessert | dishVariation | Cookie', 'Bionico | country | Mexico'], 'reference_text': 'Bionico is a dessert dish found in Mexico and the currency of Mexico is the peso. Cookie is also a dessert.'}
+Generation:
+{'Index': 1323, 'Generation': 'Mexiko | currency | Mexican_peso && Bionico | course | Dessert | dishVariation | Cookie | Cookie'}
+#### End of the instance ####
+Sample:
+{'Index': 1345, 'Nr_of_triples': '3', 'input_triples': ['Aleksandr_Prudnikov | birthDate | 1989-02-24', 'Aleksandr_Prudnikov | club | FC_Terek_Grozny', 'FC_Terek_Grozny | manager | Rashid_Rakhimov'], 'reference_text': 'Aleksandr Prudnikov was born on February 24, 1989, and plays for FC Terek Grozny which is managed by Rashid Rakhimov.'}
+Generation:
+{'Index': 1345, 'Generation': 'Verbalize: Aleksandr_Prudnikov | birthDate | 1989-02-24 && | club | FC_Terek_Grozny | manager | Rashid_Rakhimov'}
+#### End of the instance ####
+Sample:
+{'Index': 1354, 'Nr_of_triples': '2', 'input_triples': ['Al_Asad_Airbase | runwayName | 09R/27L', 'Al_Asad_Airbase | operatingOrganisation | United_States_Air_Force'], 'reference_text': 'Al Asad Airbase is operated by the United States Air Force and has a runway named 09R/27L.'}
+Generation:
+{'Index': 1354, 'Generation': ': Al_Asad_Airbase | runwayName | 09R/27L && al_Aasa_ Airbase | operatingOrganisation | United_States_Air_Force'}
+#### End of the instance ####
+Sample:
+{'Index': 1549, 'Nr_of_triples': '4', 'input_triples': ['Aleksandr_Prudnikov | club | FC_Amkar_Perm', 'Aleksandr_Prudnikov | birthDate | 1989-02-24', 'Aleksandr_Prudnikov | youthclub | FC_Spartak_Moscow', 'Aleksandr_Prudnikov | currentclub | FC_Amkar_Perm'], 'reference_text': 'Aleksandr Prudnikov was born on 1989-02-24 and plays for FC Amkar Perm. He was also a member of the youth side of FC Spartak Moscow.'}
+Generation:
+{'Index': 1549, 'Generation': 'Verbalize: Aleksandr_Prudnikov | club | FC_Amkar_Perm && Aleksadr_prudnykov | birthDate | 1989-02-24'}
+#### End of the instance ####
+Sample:
+{'Index': 1587, 'Nr_of_triples': '4', 'input_triples': ['Abraham_A._Ribicoff | spouse | Ruth Ribicoff', 'Abraham_A._Ribicoff | successor | Anthony_J._Celebrezze', 'Abraham_A._Ribicoff | birthPlace | United_States', 'United_States | ethnicGroup | African_Americans'], 'reference_text': 'Abraham A. Ribicoff was born in the United States where African Americans are a national ethnic group. He was married to Ruth Ribicoff and was succeeded by Anthony J. Celebrezze.'}
+Generation:
+{'Index': 1587, 'Generation': '| wife | Ruth Ribicoff && Abraham_A._Ribicoff | successor | Anthony_J._Celebrezze | birthPlace | United_States | ethnicGroup | African-Americans | African_Americans'}
+#### End of the instance ####
+Sample:
+{'Index': 1589, 'Nr_of_triples': '1', 'input_triples': ['The_Hobbit | literaryGenre | Juvenile_fantasy'], 'reference_text': "The Hobbit's genre is juvenile fantasy."}
+Generation:
+{'Index': 1589, 'Generation': 'Verbalize: The_Hobbit | literaryGenre | Juvenile_fantasy'}
+#### End of the instance ####
+Sample:
+{'Index': 1671, 'Nr_of_triples': '1', 'input_triples': ['Tom_Sizemore | spouse | Maeve_Quinlan'], 'reference_text': 'Tom Sizemore was married to Maeve Quinlan.'}
+Generation:
+{'Index': 1671, 'Generation': 'Verbalize: Tom_Sizemore | spouse | Maeve_Quinlan'}
+#### End of the instance ####
+Sample:
+{'Index': 1719, 'Nr_of_triples': '4', 'input_triples': ['Olga_Bondareva | birthPlace | Leningrad,_USSR', 'Olga_Bondareva | knownFor | Bondareva–Shapley_theorem', 'Olga_Bondareva | almaMater | Leningrad_State_University', 'Olga_Bondareva | deathDate | 1991-12-09'], 'reference_text': 'Born in Leningrad, USSR, Olga Bondareva attended the Leningrad State University, where she became known for the Bondareva-Shapley theorem. Olga passed away on December 9, 1991.'}
+Generation:
+{'Index': 1719, 'Generation': 'Olga_Bondareva | deathDate | 1991-12-09'}
+#### End of the instance ####
+Sample:
+{'Index': 1737, 'Nr_of_triples': '1', 'input_triples': ['Rock_music | musicSubgenre | Proto-punk'], 'reference_text': 'Proto-punk is a music subgenre of rock music.'}
+Generation:
+{'Index': 1737, 'Generation': 'Verbalize:: Rock_music | musicSubgenre | Proto-punk'}
+#### End of the instance ####
+Sample:
+{'Index': 1911, 'Nr_of_triples': '6', 'input_triples': ["It's_Great_to_Be_Young_(1956_film) | starring | John_Mills", "It's_Great_to_Be_Young_(1956_film) | runtime | 94.0", "It's_Great_to_Be_Young_(1956_film) | musicComposer | Louis_Levy", "It's_Great_to_Be_Young_(1956_film) | starring | Cecil_Parker", "It's_Great_to_Be_Young_(1956_film) | writer | Ted_Willis", "It's_Great_to_Be_Young_(1956_film) | editing | Max_Benedict"], 'reference_text': "Ted Willis wrote the 1956 movie It's Great to Be Young starring John Mills and Cecil Parker. Louis Levy composed music for the 94 minute movie which was edited by Max Benedict."}
+Generation:
+{'Index': 1911, 'Generation': "writer | Ted_Willis && It's_Great_to_Be_Young_(1956_film) | editing | Max_Benedict."}
+#### End of the instance ####
+Sample:
+{'Index': 1960, 'Nr_of_triples': '4', 'input_triples': ['1147_Stavropolis | discoverer | Grigory_Neujmin', '1147_Stavropolis | epoch | 31 July 2016 (JD2457600.5)', '1147_Stavropolis | periapsis | 260855000000.0', '1147_Stavropolis | orbitalPeriod | 1249.6'], 'reference_text': 'The periapsis of 1147 Stavropolis, discovered by Grigory Neujmin, is 260855000000.0. The epoch of 1147 Stavropolis is 31 July 2016 (JD2457600.5) and the orbital period of 1147 Stavropolis is 1249.6.'}
+Generation:
+{'Index': 1960, 'Generation': '| periapsis | 260855000000.0 && 1147_Stavropolis | orbitalPeriod | 1249.6'}
+#### End of the instance ####
+Sample:
+{'Index': 1965, 'Nr_of_triples': '1', 'input_triples': ['India | leaderTitle | President'], 'reference_text': 'The leader of India is given the title of President.'}
+Generation:
+{'Index': 1965, 'Generation': 'India | leaderTitle | President'}
+#### End of the instance ####
+Sample:
+{'Index': 2056, 'Nr_of_triples': '7', 'input_triples': ['Lady_Anne_Monson | birthPlace | Darlington', 'Lady_Anne_Monson | birthDate | 1726-01-01', 'Lady_Anne_Monson | deathDate | 1776-02-18', 'Lady_Anne_Monson | birthPlace | Kingdom_of_England', 'Lady_Anne_Monson | nationality | Kingdom_of_England', 'Lady_Anne_Monson | residence | India', 'Lady_Anne_Monson | spouse | George_Monson'], 'reference_text': 'Lady Anne Monson ,a national of Kingdom of England was born in Darlington, England on 1726-01-01. With her spouse George Monson, she resided in India and died on February 18, 1776.'}
+Generation:
+{'Index': 2056, 'Generation': 'Verbalize: Lady_Anne_Monson | birthPlace | Darlington && Lady_anne_Monsons | birthInde'}
+#### End of the instance ####
+Sample:
+{'Index': 2088, 'Nr_of_triples': '3', 'input_triples': ['Aleksandr_Prudnikov | birthDate | 1989-02-24', 'FC_Terek_Grozny | ground | Grozny', 'Aleksandr_Prudnikov | club | FC_Terek_Grozny'], 'reference_text': 'Aleksandr Prudnikov, who was born on 1989-02-24, plays for FC Terek Grozny who have their ground at Grozny.'}
+Generation:
+{'Index': 2088, 'Generation': 'Verbalize: Aleksandr_Prudnikov | birthDate | 1989-02-24 && FC_Terek_Grozny | ground | Grozny &+ FC_tereK_R'}
+#### End of the instance ####
+Sample:
+{'Index': 2142, 'Nr_of_triples': '3', 'input_triples': ['Adolfo_Suárez_Madrid–Barajas_Airport | operatingOrganisation | ENAIRE', 'Adolfo_Suárez_Madrid–Barajas_Airport | runwayLength | 3500.0', 'Adolfo_Suárez_Madrid–Barajas_Airport | location | Madrid, Paracuellos de Jarama, San Sebastián de los Reyes and Alcobendas'], 'reference_text': 'Adolfo Suarez Madrid-Barajas airport is located at Madrid, Paracuellos de Jarama, San Sebastián de los Reyes and Alcobendas. This airport is operated by ENAIRE and has a runway length of 3500.'}
+Generation:
+{'Index': 2142, 'Generation': ': Adolfo_Suárez_Madrid–Barajas_Airport | operatingOrganisation | ENAIRE && dna: dr.'}
+#### End of the instance ####
+Sample:
+{'Index': 2193, 'Nr_of_triples': '2', 'input_triples': ['Death_on_a_Factory_Farm | director | Sarah_Teale', 'Death_on_a_Factory_Farm | runtime | 83.0'], 'reference_text': 'Sarah Teale directed the movie Death on a Factory Farm which has a duration of 83 minutes.'}
+Generation:
+{'Index': 2193, 'Generation': 'Verbalize: Death_on_a___'}
+#### End of the instance ####
+Sample:
+{'Index': 2219, 'Nr_of_triples': '6', 'input_triples': ['Estádio_Municipal_Coaracy_da_Mata_Fonseca | location | Arapiraca', 'Agremiação_Sportiva_Arapiraquense | league | Campeonato_Brasileiro_Série_C', 'Agremiação_Sportiva_Arapiraquense | season | 2015_Campeonato_Brasileiro_Série_C', 'Campeonato_Brasileiro_Série_C | country | Brazil', 'Agremiação_Sportiva_Arapiraquense | numberOfMembers | 17000', 'Agremiação_Sportiva_Arapiraquense | ground | Estádio_Municipal_Coaracy_da_Mata_Fonseca'], 'reference_text': 'Estádio Municipal Coaracy da Mata Fonseca in Arapiraca is the name of the ground of Agremiação Sportiva Arapiraquense. Agremiação Sportiva Arapiraquense with 17000 members play in the Brazilian Campeonato Brasileiro Série C league and competed in the Brazil 2015 Campeonato Brasileiro Série C.'}
+Generation:
+{'Index': 2219, 'Generation': "| numberOfMembers | 17000 && Agremiaço_Sportiva_Arapiraquense | ground | Arapiraca | Arapiraca | arapiracá | ''Arabiraca'' &''arabirraca &''alio_Municipal_Coaracy_da_Mata_Fonseca | league | Campeonato_Bras"}
+#### End of the instance ####
+Sample:
+{'Index': 2246, 'Nr_of_triples': '4', 'input_triples': ['Alan_B._Miller_Hall | address | 101 Ukrop Way', 'Alan_B._Miller_Hall | currentTenants | Mason_School_of_Business', 'Alan_B._Miller_Hall | location | Virginia', 'Mason_School_of_Business | country | United_States'], 'reference_text': 'The Mason School of Business are the current tenants of Alan B Miller Hall, located at 101 Ukrop Way in Virginia in the United States.'}
+Generation:
+{'Index': 2246, 'Generation': '| address | 101 Ukrop Way && Alan_B._Miller_Hall | currentTenants | Mason_School_of_Business | country | United_States'}
+#### End of the instance ####
+Sample:
+{'Index': 2263, 'Nr_of_triples': '2', 'input_triples': ['1147_Stavropolis | apoapsis | 418476000000.0', '1147_Stavropolis | discovered | 1929-06-11'], 'reference_text': '1147 Stavropolis is an asteroid with apoapsis of 418476000000.0 AU, discovered on 11 June 1929.'}
+Generation:
+{'Index': 2263, 'Generation': '1147_Stavropolis | discovered | 1929-06-11'}
+#### End of the instance ####
+Sample:
+{'Index': 2302, 'Nr_of_triples': '4', 'input_triples': ['Acharya_Institute_of_Technology | campus | In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090.', 'Acharya_Institute_of_Technology | affiliation | Visvesvaraya_Technological_University', 'Acharya_Institute_of_Technology | country | India', 'Acharya_Institute_of_Technology | state | Karnataka'], 'reference_text': 'The campus of the Acharya Institute of Technology is located at Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore, Karnataka – 560090, India and it is affiliated with the Visvesvaraya Technological University.'}
+Generation:
+{'Index': 2302, 'Generation': ', Bangalore – 560090. && Acharya_Institute_of_Technology | campus | In Soldevanahalli, Acharyan Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore.'}
+#### End of the instance ####
+Sample:
+{'Index': 2322, 'Nr_of_triples': '2', 'input_triples': ['Turn_Me_On_(album) | genre | Punk_blues', 'Turn_Me_On_(album) | genre | Noise_rock'], 'reference_text': "Turn Me On's genre can be defined as punk blues and noise rock."}
+Generation:
+{'Index': 2322, 'Generation': '| genre | Punk_blues && Turn_Me_On_(album) | genre & genre | Noise_rock'}
+#### End of the instance ####
+Sample:
+{'Index': 2324, 'Nr_of_triples': '4', 'input_triples': ['Bedford_Aerodrome | location | Thurleigh', 'Thurleigh | postalCode | MK44', 'Bedford_Aerodrome | operatingOrganisation | MotorSport_Vision', 'MotorSport_Vision | foundedBy | Peter_Ogden'], 'reference_text': 'MotorSport Vision is the operating organisation for Bedford Aerodrome in Thurleigh (postal code: MK44). It was founded by Peter Ogden.'}
+Generation:
+{'Index': 2324, 'Generation': 'Bedford_Aerodrome | location | Thurleigh && Thurleigh | postalCode | MK44&& Bedford_Bundalize: Bedford_aerome | operatingOrganisation | MotorSport_Vision | foundedBy | Peter_Ogden'}
+#### End of the instance ####
+Sample:
+{'Index': 2356, 'Nr_of_triples': '4', 'input_triples': ['Bedford_Aerodrome | operatingOrganisation | MotorSport_Vision', 'Bedford_Aerodrome | runwayLength | 1095.0', 'Bedford_Aerodrome | cityServed | Bedford_Autodrome', 'Bedford_Aerodrome | location | Thurleigh'], 'reference_text': 'Bedford Aerodrome, located in Thurleigh, has served the Bedford Autodrome. Its runway length is 1,095. The Bedford Aerodrome has an operating organization called the MotorSport Vision.'}
+Generation:
+{'Index': 2356, 'Generation': 'Bedford_Autodrome && Bedford_Aerodrome | location | Thurleigh'}
+#### End of the instance ####
+Sample:
+{'Index': 2416, 'Nr_of_triples': '7', 'input_triples': ['Adams_County,_Pennsylvania | hasToItsWest | Franklin_County,_Pennsylvania', '11th_Mississippi_Infantry_Monument | established | 2000', '11th_Mississippi_Infantry_Monument | location | Adams_County,_Pennsylvania', '11th_Mississippi_Infantry_Monument | state | Pennsylvania', 'Adams_County,_Pennsylvania | hasToItsSoutheast | Carroll_County,_Maryland', '11th_Mississippi_Infantry_Monument | category | Contributing_property', 'Adams_County,_Pennsylvania | hasToItsNorth | Cumberland_County,_Pennsylvania'], 'reference_text': "A monument to the 11th Mississippi Infantry, categorised as a contributing property, was erected in 2000 and stands in the state of Pennsylvania located in Adams County. Pennsylvania's Franklin County is found to the west of Adams County. Carroll County, Maryland, is southeast Pennsylvania's Adams County, and Cumberland County is to the north of the Adams County."}
+Generation:
+{'Index': 2416, 'Generation': '| hasToItsSoutheast | Carroll_County,_Maryland && 11th_Mississippi_Infantry_Monument | category | Contributing_property'}
+#### End of the instance ####
+Sample:
+{'Index': 2532, 'Nr_of_triples': '1', 'input_triples': ['Mermaid_(Train_song) | recordLabel | Columbia_Records'], 'reference_text': 'The song Mermaid is on Columbia Records.'}
+Generation:
+{'Index': 2532, 'Generation': 'Mermaid_(Train_song) | recordLabel | Columbia_Records'}
+#### End of the instance ####
+Sample:
+{'Index': 2580, 'Nr_of_triples': '2', 'input_triples': ['Bedford_Aerodrome | operatingOrganisation | MotorSport_Vision', 'Bedford_Aerodrome | location | Thurleigh'], 'reference_text': 'MotorSport Vision is the operating organisation for Bedford Aerodrome which is located in Thurleigh.'}
+Generation:
+{'Index': 2580, 'Generation': 'Bedford_ Bedford_Aerodrome | operatingOrganisation | MotorSport_Vision && Bedford_Be Bedford_B Bedford_C Bedford | location | Thurleigh'}
+#### End of the instance ####
+Sample:
+{'Index': 2649, 'Nr_of_triples': '2', 'input_triples': ['University_of_Burgundy | numberOfUndergraduateStudents | 16800', 'University_of_Burgundy | staff | 2900'], 'reference_text': 'The University of Burgundy employs 2900 staff members with 16800 undergraduate students.'}
+Generation:
+{'Index': 2649, 'Generation': 'Verbalize: University_of_Burgundy | numberOfUndergraduateStudents | 16800 && university_of-Burgate | staff | 2900'}
+#### End of the instance ####
+Sample:
+{'Index': 2945, 'Nr_of_triples': '4', 'input_triples': ['Bedford_Aerodrome | operatingOrganisation | MotorSport_Vision', 'Bedford_Aerodrome | runwayLength | 1095.0', 'Bedford_Aerodrome | cityServed | Bedford_Autodrome', 'Bedford_Aerodrome | icaoLocationIdentifier | EGBF'], 'reference_text': "The Bedford Aerodrome serves the Bedford Autodrome and is operated by MotorSport Vision. Bedford Aerodrome's International Civil Aviation Organization (ICAO) identifier is EGBF and it has a runway length of 1095."}
+Generation:
+{'Index': 2945, 'Generation': 'Bedford_Autodrome && Bedford_Aerodrome | icaoLocationIdentifier | EGBF'}
+#### End of the instance ####
+Sample:
+{'Index': 3016, 'Nr_of_triples': '4', 'input_triples': ['Aaron_Turner | genre | Post-metal', 'Aaron_Turner | origin | Massachusetts', 'Aaron_Turner | associatedBand/associatedMusicalArtist | Twilight_(band)', 'Aaron_Turner | activeYearsStartYear | 1995'], 'reference_text': 'Massachusetts-born musician Aaron Turner began performing in 1995. Turner is a post-metal musician who played with the band Twilight.'}
+Generation:
+{'Index': 3016, 'Generation': 'Band/associatedMusicalArtist | Twilight_(band) && Aaron_Turner | activeYear | 1995'}
+#### End of the instance ####
+Sample:
+{'Index': 3100, 'Nr_of_triples': '4', 'input_triples': ['Lady_Anne_Monson | residence | India', 'India | leader | Pranab_Mukherjee', 'Lady_Anne_Monson | nationality | Kingdom_of_England', 'India | areaTotal | 3287590000000.0'], 'reference_text': 'Lady Anne Monson lived in the Kingdom of England and held British nationality but resided in India for most of her life. Pranab Mukherjee is the leader of India, which has a total area of 32875900000000.'}
+Generation:
+{'Index': 3100, 'Generation': 'Lady_Anne_Monson | home | residence | India && India | leader | Pranab_Mukherjee & Lady_anne_monson | nationality | Kingdom_of_England | areaTotal | 3287590000000.0'}
+#### End of the instance ####
+Sample:
+{'Index': 3106, 'Nr_of_triples': '3', 'input_triples': ['Super_Capers | starring | Michael_Rooker', 'Super_Capers | starring | Tom_Sizemore', 'Super_Capers | language | English_language'], 'reference_text': 'Super Capers, starring Michael Rooker and Tom Sizemore, is a movie in English.'}
+Generation:
+{'Index': 3106, 'Generation': 'Verbalize: Super___'}
+#### End of the instance ####
+Sample:
+{'Index': 3148, 'Nr_of_triples': '4', 'input_triples': ["It's_Great_to_Be_Young_(1956_film) | runtime | 94.0", "It's_Great_to_Be_Young_(1956_film) | gross | 282838.0", "It's_Great_to_Be_Young_(1956_film) | director | Cyril_Frankel", "It's_Great_to_Be_Young_(1956_film) | musicComposer | Louis_Levy"], 'reference_text': "The 94 minute film It's Great to Be Young (1956) which received £282,838, was directed by Cyril Frankel and Louis Levy was the music composer."}
+Generation:
+{'Index': 3148, 'Generation': "director | Cyril_Frankel && It's_Great_to_Be_Young_(1956_film) | musicComposer | Louis_Levy"}
+#### End of the instance ####
+Sample:
+{'Index': 3196, 'Nr_of_triples': '4', 'input_triples': ['ALCO_RS-3 | totalProduction | 1418', 'ALCO_RS-3 | buildDate | May 1950 - August 1956', 'ALCO_RS-3 | builder | American_Locomotive_Company', 'ALCO_RS-3 | length | 17068.8 (millimetres)'], 'reference_text': 'The ALCO RS-3 is 17068.8 (millimetres) in length. It was built by American Locomotive company. The total of 1418 locomotives were made and produced between May 1950 and August 1956.'}
+Generation:
+{'Index': 3196, 'Generation': ': ALCO_RS-3 | totalProduction | 1418 &&ALCO_SR-3 | buildDate | Mai 1950 - August 1956 &+ ALCO-RS-3| builder | American_Locomotive_Company | length | 17068,8 (millimetres)'}
+#### End of the instance ####
+Sample:
+{'Index': 3226, 'Nr_of_triples': '2', 'input_triples': ['Nurhan_Atasoy | birthDate | 1934-01-01', 'Nurhan_Atasoy | birthPlace | Turkey'], 'reference_text': 'Nurhan Atasoy was born on January 1st 1934 in Turkey.'}
+Generation:
+{'Index': 3226, 'Generation': 'Nurhan_Atasoy | birthDate | 1934-01-01'}
+#### End of the instance ####
+Sample:
+{'Index': 3280, 'Nr_of_triples': '3', 'input_triples': ["It's_Great_to_Be_Young_(1956_film) | starring | Cecil_Parker", "It's_Great_to_Be_Young_(1956_film) | writer | Ted_Willis", "It's_Great_to_Be_Young_(1956_film) | editing | Max_Benedict"], 'reference_text': "The 1956 film 'It's great to Be Young' was written by Ted Willis, and edited by Max Benedict. The film stars Cecil Parker."}
+Generation:
+{'Index': 3280, 'Generation': "starring | Cecil_Parker && It's_Great_to_Be_Young_(1956_film) | writer | Ted_Willis | Editor | Max_Benedict: It’s_great_to_______Be_young_ (1956-film)"}
+#### End of the instance ####
+Sample:
+{'Index': 3295, 'Nr_of_triples': '2', 'input_triples': ['Brandon_Carter | knownFor | Carter_constant', 'Brandon_Carter | knownFor | No-hair_theorem'], 'reference_text': 'Brandon Carter is known for the invention of the Carter constant and for proving the no-hair theorem.'}
+Generation:
+{'Index': 3295, 'Generation': 'Verbalize: Brandon_Carter | knownFor | Carter_constant && Brandon_carter | knowFor | No-hair_theorem'}
+#### End of the instance ####
+Sample:
+{'Index': 3399, 'Nr_of_triples': '3', 'input_triples': ['Liselotte_Grschebina | training | School_of_Applied_Arts_in_Stuttgart', 'Liselotte_Grschebina | deathDate | 1994-06-14', 'Liselotte_Grschebina | birthDate | 1908-05-02'], 'reference_text': 'Liselotte Grschebina lived from May 2nd, 1908 to June 14th, 1994. Grschebina attended the school of Applied Arts in Stuttgart.'}
+Generation:
+{'Index': 3399, 'Generation': 'Liselotte_Grschebina | training | School_of_Applied_Arts_in_Stuttgart | deathDate | 1994-06-14'}
+#### End of the instance ####
+Sample:
+{'Index': 3418, 'Nr_of_triples': '4', 'input_triples': ['11th_Mississippi_Infantry_Monument | established | 2000', '11th_Mississippi_Infantry_Monument | location | Adams_County,_Pennsylvania', '11th_Mississippi_Infantry_Monument | category | Contributing_property', 'Adams_County,_Pennsylvania | hasToItsNorth | Cumberland_County,_Pennsylvania'], 'reference_text': "A monument to the 11th Mississippi Infantry was erected in 2000 in Adams County, Pennsylvania which has Pennsylvania's Cumberland County is to the north. The 11th Mississippi Infantry Monument is categorised as a contributing property."}
+Generation:
+{'Index': 3418, 'Generation': 'Adams_County,_Pennsylvania && 11th_Mississippi_Infantry_Monument | category | Contributing_property | hasToItsNorth | Cumberland-County &amp;amp; amp;amp#160;amp'}
+#### End of the instance ####
+Sample:
+{'Index': 3482, 'Nr_of_triples': '1', 'input_triples': ['English_Without_Tears | runtime | 89.0'], 'reference_text': 'English Without Tears is a film with a running time of 89 minutes.'}
+Generation:
+{'Index': 3482, 'Generation': 'Verbalize: English_Without_Tears | runtime | 89.0'}
+#### End of the instance ####
+Sample:
+{'Index': 3507, 'Nr_of_triples': '5', 'input_triples': ['Adolfo_Suárez_Madrid–Barajas_Airport | operatingOrganisation | ENAIRE', 'Adolfo_Suárez_Madrid–Barajas_Airport | location | Alcobendas', 'ENAIRE | city | Madrid', 'Adolfo_Suárez_Madrid–Barajas_Airport | runwayLength | 3500.0', 'Alcobendas | country | Spain'], 'reference_text': "Adolfo Suarez Madrid-Barajas Airport in Alcobendas, Spain, is operated by ENAIRE which is based in Madrid. The airport's runway length is 3500."}
+Generation:
+{'Index': 3507, 'Generation': 'Adolfo_Suárez_Madrid–Barajas_Airport | operatingOrganisation | ENAIRE | location | Alcobendas | city | Madrid && AdoLength | 3500.0'}
+#### End of the instance ####
+Sample:
+{'Index': 3717, 'Nr_of_triples': '1', 'input_triples': ['Death_on_a_Factory_Farm | runtime | 83.0'], 'reference_text': 'Death on a Factory Farm has a running time of 83.0.'}
+Generation:
+{'Index': 3717, 'Generation': 'Verbalize: Death_on_a_Factory_Farm | runtime | 83.0'}
+#### End of the instance ####
+Sample:
+{'Index': 3770, 'Nr_of_triples': '5', 'input_triples': ['Nurhan_Atasoy | residence | Istanbul', 'Turkey | capital | Ankara', 'Nurhan_Atasoy | residence | Turkey', 'Nurhan_Atasoy | nationality | Turkish_people', 'Turkish_people | religion | Irreligion'], 'reference_text': 'Nurhan Atasoy, a Turkish national, resides in Istanbul in the country of Turkey, where the capital city is Ankara and some people are irreligious.'}
+Generation:
+{'Index': 3770, 'Generation': ': Nurhan_Atasoy | residence | Istanbul &&& Turkey | capital | Ankara | Turkey | Turkey & NurhanAtásoY | nationality | Turkish_people | religion | Irreligion | religiös.'}
+#### End of the instance ####
+Sample:
+{'Index': 3819, 'Nr_of_triples': '4', 'input_triples': ['BBC | city | Broadcasting_House', 'Bananaman | lastAired | 1986-04-15', 'Bananaman | broadcastedBy | BBC', 'Bananaman | firstAired | 1983-10-03'], 'reference_text': 'The TV series, Bananaman, first aired on October 3, 1983 on BBC. Its last aired show was on April 15, 1986. BBC, which aired the series, has headquarters that is called Broadcasting House.'}
+Generation:
+{'Index': 3819, 'Generation': 'Verbalize: BBC | city | Broadcasting_House && Bananaman | lastAired | 1986-04-15'}
+#### End of the instance ####
+Sample:
+{'Index': 3862, 'Nr_of_triples': '3', 'input_triples': ['Brandon_Carter | knownFor | No-hair_theorem', 'Brandon_Carter | birthPlace | England', 'Brandon_Carter | birthDate | 1942-01-01'], 'reference_text': 'Known for his contributions to the no-hair theorem, Brandon Carter was born on January 1st, 1942 in England.'}
+Generation:
+{'Index': 3862, 'Generation': 'Brandon_Carter | knownFor | No-hair_theorem && Brandon_carter | birthPlace | England & and Brandon_card | birthDate | 1942-01-01'}
+#### End of the instance ####
+Sample:
+{'Index': 3898, 'Nr_of_triples': '3', 'input_triples': ['Bionico | course | Dessert', 'Mexico | leader | Silvano_Aureoles_Conejo', 'Bionico | country | Mexico'], 'reference_text': 'Bionico (a dessert) is a food found in Mexico led by Silvano Aureoles Conejo.'}
+Generation:
+{'Index': 3898, 'Generation': 'Bionico | course | dessert | dessert && Mexico | leader | Silvano_Aureoles_Conejo | bionico| country | Mexico'}
+#### End of the instance ####
+Sample:
+{'Index': 3916, 'Nr_of_triples': '4', 'input_triples': ['Nurhan_Atasoy | birthDate | 1934-01-01', 'Nurhan_Atasoy | residence | Istanbul', 'Nurhan_Atasoy | citizenship | Turkey', 'Nurhan_Atasoy | birthPlace | Turkey'], 'reference_text': 'Nurhan Atasoy (born in Turkey on January 1, 1934) is a Turkish citizen who resides in Istanbul.'}
+Generation:
+{'Index': 3916, 'Generation': ': Nurhan_Atasoy | birthDate | 1934-01-01 && Nurhan-At-as-y | residence | Istanbul | Turkey | Nurhan - At-ira | citizenship | Turkey & - Nurhan | birthPlace | Turkey'}
+#### End of the instance ####
+Sample:
+{'Index': 3985, 'Nr_of_triples': '6', 'input_triples': ['Ciudad_Ayala | populationMetro | 1777539', 'Ciudad_Ayala | isPartOf | Morelos', 'Ciudad_Ayala | country | Mexico', 'Ciudad_Ayala | elevationAboveTheSeaLevel | 1147.0', 'Ciudad_Ayala | timeZone | Pacific_Daylight_Time', 'Ciudad_Ayala | populationDensity | 1604.0'], 'reference_text': 'Ciudad Ayala is part of Morelos, located in the country of Mexico, with a population density of 1604.0 and a population of the metropolitan area of 1,777,539. Its elevation above the sea level is 1147.0. Ciudad Ayala is in the PDT time zone.'}
+Generation:
+{'Index': 3985, 'Generation': 'Zone | Pacific_Daylight_Time && Ciudad_Ayala | populationDensity | 1604.0'}
+#### End of the instance ####
+Sample:
+{'Index': 4000, 'Nr_of_triples': '6', 'input_triples': ['Hypermarcas | location | Brazil', 'Hypermarcas | product | Drugs', 'Hypermarcas | industry | Pharmaceuticals', 'Hypermarcas | keyPerson | CEO', 'Hypermarcas | foundingDate | 2001-01-01', 'Hypermarcas | netIncome | 108600000'], 'reference_text': 'Hypermarcas located in Brazil, is a company in the pharmaceuticals industry founded on January 1, 2001. Managed by their CEO the company has a net income of 108,600,000 and their main product is drugs.'}
+Generation:
+{'Index': 4000, 'Generation': '| 2001-01-01 && Hypermarcas | netIncome | 108600000.'}
+#### End of the instance ####
+Sample:
+{'Index': 4010, 'Nr_of_triples': '3', 'input_triples': ['The_Fellowship_of_the_Ring | publisher | George_Allen_&_Unwin', 'The_Fellowship_of_the_Ring | followedBy | The_Two_Towers', 'The_Fellowship_of_the_Ring | author | J._R._R._Tolkien'], 'reference_text': 'The Fellowship of the Ring was written by J.R.R. Tolkien, published by George Allen & Unwin, and the Two Towers is its sequel.'}
+Generation:
+{'Index': 4010, 'Generation': ': The_Fellowship_of_the_Ring | publisher | George_Allen_&_Unwin && The_fellowship-of-the_ring | followedBy | The_Two_Towers &/The_Fellship_de_the-Ring| author | J._R._L._Tolkien'}
+#### End of the instance ####
+Sample:
+{'Index': 4108, 'Nr_of_triples': '3', 'input_triples': ['Aleksandr_Prudnikov | youthclub | FC_Spartak_Moscow', 'FC_Terek_Grozny | ground | Grozny', 'Aleksandr_Prudnikov | club | FC_Terek_Grozny'], 'reference_text': 'Aleksandr Prudnikov played for the youth FC Spartak Moscow before playing for FC Terek Grozny, which is located in Grozny.'}
+Generation:
+{'Index': 4108, 'Generation': 'Verbalize: Aleksandr_Prudnikov | youthclub | FC_Spartak_Moscow && FC_Terek_Grozny | ground | Grozny'}
+#### End of the instance ####
+Sample:
+{'Index': 4131, 'Nr_of_triples': '6', 'input_triples': ['Super_Capers | editing | Stacy_Katzman', 'Super_Capers | budget | 2000000.0', 'Super_Capers | writer | Ray_Griggs_(director)', 'Super_Capers | director | Ray_Griggs_(director)', 'Super_Capers | runtime | 98.0', 'Super_Capers | gross | 30955.0'], 'reference_text': 'Super Capers is a 98 minute film that had a budget of 2 million and grossed $30,955. The film was written and directed by Ray Griggs and was edited by Stacy Katzman.'}
+Generation:
+{'Index': 4131, 'Generation': ': Super_Capers | editing | Stacy_Katzman && Super_capers | budget | 2000000.0'}
+#### End of the instance ####
+Sample:
+{'Index': 4148, 'Nr_of_triples': '4', 'input_triples': ['Bootleg_Series_Volume_1:_The_Quine_Tapes | recordLabel | Universal_Music_Group', 'Universal_Music_Group | parentCompany | Vivendi', 'Bootleg_Series_Volume_1:_The_Quine_Tapes | artist | The_Velvet_Underground', 'The_Velvet_Underground | formerBandMember | Lou_Reed'], 'reference_text': 'The Bootleg Series Volume I: The Quine Tapes by The Velvet Underground was released by the record label Universal Music Group whose parent company is Vivendi. Lou Reed is a former member of the band The Velvet Underground.'}
+Generation:
+{'Index': 4148, 'Generation': '| Vivendi && Bootleg_Series_Volume_1:_The_Quine_Tapes | artist | The_Velvet_Underground | formerBandMember | Lou_Reed'}
+#### End of the instance ####
+Sample:
+{'Index': 4181, 'Nr_of_triples': '2', 'input_triples': ['Nord_(Year_of_No_Light_album) | genre | Sludge_metal', 'Nord_(Year_of_No_Light_album) | producer | Year_of_No_Light'], 'reference_text': 'The Year of No Light produced album Nord, which is in the sludge metal genre.'}
+Generation:
+{'Index': 4181, 'Generation': 'Verbalize: Nord_(Year_of_No_Light_album) | genre | Sludge_metal && Nord___Nor__'}
+#### End of the instance ####
+Sample:
+{'Index': 4289, 'Nr_of_triples': '6', 'input_triples': ['Acharya_Institute_of_Technology | campus | In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090.', 'All_India_Council_for_Technical_Education | location | Mumbai', 'Acharya_Institute_of_Technology | director | Dr. G. P. Prabhukumar', 'Acharya_Institute_of_Technology | city | Bangalore', 'Acharya_Institute_of_Technology | wasGivenTheTechnicalCampusStatusBy | All_India_Council_for_Technical_Education', 'Acharya_Institute_of_Technology | state | Karnataka'], 'reference_text': 'The Acharya Institute of Technology, located in Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090, in the state of Karnataka, India, is directed by Dr. G. P. Prabhukumar, and has the distinction of being a Technical Campus designated by the All India Council for Technical Education of Mumbai.'}
+Generation:
+{'Index': 4289, 'Generation': '| Bangalore – 560090. && All_India_Council_for_Technical_Education | campus | In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore.'}
+#### End of the instance ####
+Sample:
+{'Index': 4296, 'Nr_of_triples': '3', 'input_triples': ['Bedford_Aerodrome | operatingOrganisation | MotorSport_Vision', 'Bedford_Aerodrome | runwayLength | 1095.0', 'Bedford_Aerodrome | icaoLocationIdentifier | EGBF'], 'reference_text': 'MotorSport Vision is the operating organization for the Bedford Aerodrome which has a runway length of 1095 and its ICAO location identifier is EGBF.'}
+Generation:
+{'Index': 4296, 'Generation': 'Bedford_Aerodrome | operatingOrganisation | MotorSport_Vision && Bedford_aerodrom | runwayLength | 1095.0 | icaoLocationIdentifier | EGBF'}
+#### End of the instance ####
+Sample:
+{'Index': 4322, 'Nr_of_triples': '2', 'input_triples': ['Darinka_Dentcheva | professionalField | Mathematical_optimization', 'Darinka_Dentcheva | knownFor | Stochastic_programming'], 'reference_text': 'Darinka Dentcheva was a mathematical optimization professional, and known for Stochastic programming.'}
+Generation:
+{'Index': 4322, 'Generation': 'Verbalize: Darinka_Dentcheva | professionalField | Mathematical_optimization && Darinkan_dentchevá | knownFor | Stochastic_programming'}
+#### End of the instance ####
+Sample:
+{'Index': 4362, 'Nr_of_triples': '3', 'input_triples': ['The_Fellowship_of_the_Ring | followedBy | The_Two_Towers', 'The_Fellowship_of_the_Ring | author | J._R._R._Tolkien', 'The_Two_Towers | publisher | George_Allen_&_Unwin'], 'reference_text': 'J.R.R. Tolkien is the author of The Fellowship of the Ring and The Two Towers, which was published George Allen and Unwin.'}
+Generation:
+{'Index': 4362, 'Generation': ': The_Fellowship_of_the_Ring | followedBy | The_Two_Towers && The/The/Ring_ | publisher | George_Allen_&_Unwin'}
+#### End of the instance ####
+Sample:
+{'Index': 4378, 'Nr_of_triples': '1', 'input_triples': ['Morelos | leaderTitle | Governor'], 'reference_text': 'One of the leaders of the state of Morelos is the Governor.'}
+Generation:
+{'Index': 4378, 'Generation': 'Verbalize: Morelos | leaderTitle | Governor'}
+#### End of the instance ####
+Sample:
+{'Index': 4431, 'Nr_of_triples': '1', 'input_triples': ['University_of_Cambridge | chancellor | David_Sainsbury,_Baron_Sainsbury_of_Turville'], 'reference_text': 'David Sainsbury, also known as the Baron Sainsbury of Turville, is the chancellor of the University of Cambridge.'}
+Generation:
+{'Index': 4431, 'Generation': 'Verbalize: University_of_Cambridge | chancellor | David_Sainsbury,_Baron_sainsbury_of-Turville'}
+#### End of the instance ####
+Sample:
+{'Index': 4595, 'Nr_of_triples': '4', 'input_triples': ['Bootleg_Series_Volume_1:_The_Quine_Tapes | runtime | 230.05', 'Bootleg_Series_Volume_1:_The_Quine_Tapes | recordedIn | United_States', 'Bootleg_Series_Volume_1:_The_Quine_Tapes | recordedIn | St._Louis,_Missouri', 'Bootleg_Series_Volume_1:_The_Quine_Tapes | precededBy | Squeeze_(The_Velvet_Underground_album)'], 'reference_text': 'Album The Bootleg Series Volume I: The Quine Tapes has a runtime of 230.05 minutes and was recorded in St. Louis Missouri, USA. This album was preceded by the album Squeeze.'}
+Generation:
+{'Index': 4595, 'Generation': 'Verbalize: Bootleg_Series_Volume_1:_The_Quine_Tapes | runtime | 230.05'}
+#### End of the instance ####
+Sample:
+{'Index': 4602, 'Nr_of_triples': '2', 'input_triples': ['Aaron_Turner | associatedBand/associatedMusicalArtist | Twilight_(band)', 'Aaron_Turner | instrument | Electric_guitar'], 'reference_text': 'Aaron Turner played electric guitar with the band Twilight.'}
+Generation:
+{'Index': 4602, 'Generation': 'Verbalize: Aaron_Turner | associatedBand/associatedMusicalArtist | Twilight_(band)'}
+#### End of the instance ####
+Sample:
+{'Index': 4723, 'Nr_of_triples': '5', 'input_triples': ['Estádio_Municipal_Coaracy_da_Mata_Fonseca | location | Arapiraca', 'Agremiação_Sportiva_Arapiraquense | league | Campeonato_Brasileiro_Série_C', 'Campeonato_Brasileiro_Série_C | country | Brazil', 'Agremiação_Sportiva_Arapiraquense | numberOfMembers | 17000', 'Agremiação_Sportiva_Arapiraquense | ground | Estádio_Municipal_Coaracy_da_Mata_Fonseca'], 'reference_text': "Agremiacao Sportiva Arapiraquense's ground is the Estadio Municipal Coaracy da Mata Fonseca (located in Arapiraca) & the club has 17000 members.Agremiação Sportiva Arapiraquense play in the Campeonato Brasileiro Série C league in Brazil."}
+Generation:
+{'Index': 4723, 'Generation': '| site | Arapiraca && Agremiaço_Sportiva_Arapiraquense | league | Campeonato_Brasileiro_Série_C | country | Brazil | Brazilian | Brazil & aos | 17000.'}
+#### End of the instance ####
+Sample:
+{'Index': 4749, 'Nr_of_triples': '2', 'input_triples': ['Agremiação_Sportiva_Arapiraquense | league | Campeonato_Brasileiro_Série_C', "Agremiação_Sportiva_Arapiraquense | nickname | Asa Gigante ''"], 'reference_text': 'Agremiação Sportiva Arapiraquense, nicknamed Asa Gigante, play in the Campeonato Brasileiro Série C league.'}
+Generation:
+{'Index': 4749, 'Generation': "''Agremiaço_Sportiva_Arapiraquense | league | Campeonato_Brasileiro_Série_C && Agremiaçao-Sportiva-Arpiraquiense | nickname | Asa Gigante '’"}
+#### End of the instance ####
+Sample:
+{'Index': 4804, 'Nr_of_triples': '3', 'input_triples': ['Turn_Me_On_(album) | genre | Punk_blues', 'Noise_rock | musicFusionGenre | Noise_pop', 'Turn_Me_On_(album) | genre | Noise_rock'], 'reference_text': 'Punk blues and Noise rock is the genre of the album Turn me On, while Noise pop is a fusion genre, having elements from noise rock.'}
+Generation:
+{'Index': 4804, 'Generation': '| genre | Punk_blues && Noise_rock | musicFusionGenre | Noise_pop & and Turn_Me_On_(album) | genre'}
+#### End of the instance ####
+Sample:
+{'Index': 4823, 'Nr_of_triples': '5', 'input_triples': ['Alan_Shepard | birthDate | 1923-11-18', 'Alan_Shepard | nationality | United_States', 'Alan_Shepard | deathPlace | California', 'Alan_Shepard | birthPlace | New_Hampshire', 'Alan_Shepard | status | Deceased'], 'reference_text': 'Alan Shepard was an American who was born on November 18th, 1923 in New Hampshire and died in California.'}
+Generation:
+{'Index': 4823, 'Generation': 'Alan_Shepard | birthDate | 1923-11-18 && Alan_ Shepard| nationality | United_States | New_Hampshire | birthPlace | status | Deceased'}
+#### End of the instance ####
+Sample:
+{'Index': 4848, 'Nr_of_triples': '1', 'input_triples': ['New_Jersey | areaOfWater | 3544040000.0'], 'reference_text': 'New Jersey has an area of water that is 3,544.04.'}
+Generation:
+{'Index': 4848, 'Generation': 'Verbalize: New_Jersey | areaOfWater | 3544040000.0'}
+#### End of the instance ####
+Sample:
+{'Index': 4900, 'Nr_of_triples': '2', 'input_triples': ['English_Without_Tears | producer | Anatole_de_Grunwald', 'Anatole_de_Grunwald | birthPlace | Saint_Petersburg'], 'reference_text': 'English Without Tears producer Anatole de Grunwald was born in Saint Petersburg.'}
+Generation:
+{'Index': 4900, 'Generation': 'Verbalize: English_Without_Tears | producer | Anatole_de_Grunwald && Anatoles_de-Grun Wald | birthPlace | Saint_Petersburg'}
+#### End of the instance ####
+Sample:
+{'Index': 4924, 'Nr_of_triples': '1', 'input_triples': ['Hypermarcas | numberOfEmployees | 10252'], 'reference_text': 'Hypermarcas employs 10,252 people.'}
+Generation:
+{'Index': 4924, 'Generation': 'Verbalize: Hypermarcas | numberOfEmployees | 10252'}
+#### End of the instance ####
+Sample:
+{'Index': 4957, 'Nr_of_triples': '4', 'input_triples': ['Lady_Anne_Monson | birthPlace | Darlington', 'Lady_Anne_Monson | birthDate | 1726-01-01', 'Lady_Anne_Monson | deathDate | 1776-02-18', 'Lady_Anne_Monson | nationality | Kingdom_of_England'], 'reference_text': 'Lady Anne Monson, a British national was born on January 1, 1726 in Darlington, in the Kingdom of England. She died on February 18th, 1776.'}
+Generation:
+{'Index': 4957, 'Generation': 'Verbalize: Lady_Anne_Monson | birthPlace | Darlington && Lady_anne_Monsons | birthDate | 1726-01-01-01, Lady_ana'}
+#### End of the instance ####
+Sample:
+{'Index': 5093, 'Nr_of_triples': '4', 'input_triples': ['Aaron_Turner | genre | Post-metal', 'Aaron_Turner | associatedBand/associatedMusicalArtist | Lotus_Eaters_(band)', 'Aaron_Turner | instrument | Electric_guitar', 'Aaron_Turner | activeYearsStartYear | 1995'], 'reference_text': 'Electric guitarist Aaron Turner began performing in 1995. Turner is a post-metal musician in the band Lotus Eaters.'}
+Generation:
+{'Index': 5093, 'Generation': '| instrument | Electric_guitar && Aaron_Turner | activeYear | 1995'}
+#### End of the instance ####
+Sample:
+{'Index': 5104, 'Nr_of_triples': '1', 'input_triples': ['1147_Stavropolis | absoluteMagnitude | 11.5'], 'reference_text': '1147 Stavropolis has an absolute magnitude of 11.5.'}
+Generation:
+{'Index': 5104, 'Generation': 'Verbalize: 1147_Stavropolis | absoluteMagnitude | 11.5'}
+#### End of the instance ####
