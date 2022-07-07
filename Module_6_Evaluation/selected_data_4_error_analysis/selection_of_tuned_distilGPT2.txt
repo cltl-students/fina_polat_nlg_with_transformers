@@ -1,0 +1,4269 @@
+### Beginning of the instance###
+Index : 53
+Nr_of_triples : 3
+input_triples : ['Abraham_A._Ribicoff | deathPlace | United_States', 'Abraham_A._Ribicoff | birthPlace | United_States', 'United_States | ethnicGroup | African_Americans']
+reference_text : Abraham A. Ribicoff was born and died in the United States where African Americans are an ethnic group.
+Index : 53
+Generation : Abraham A. Ribicoff died in the United States. The African American population of the US is one of the ethnic groups in the US.
+Index : 53
+DAE_result : Gold sentence :	[CLS] abraham a . rib ##ico ##ff was born and died in the united states where african americans are an ethnic group . [SEP] abraham a . rib ##ico ##ff died in the united states . the african american population of the us is one of the ethnic groups in the us . [SEP]
+Generated Output:	abraham a . rib ##ico ##ff died in the united states . the african american population of the us is one of the ethnic groups in the us .
+Arc:	[CLS] amod [SEP] abraham [SEP] ribicoff [SEP]
+Pred:	1
+Probs:	0=0.06527101248502731	1=0.9347290396690369
+Arc:	[CLS] compound [SEP] a. [SEP] ribicoff [SEP]
+Pred:	1
+Probs:	0=0.06262396275997162	1=0.9373760223388672
+Arc:	[CLS] nsubj [SEP] ribicoff [SEP] died [SEP]
+Pred:	1
+Probs:	0=0.05638931691646576	1=0.943610668182373
+Arc:	[CLS] amod [SEP] united [SEP] states [SEP]
+Pred:	1
+Probs:	0=0.07322093844413757	1=0.92677903175354
+Arc:	[CLS] obl : in [SEP] states [SEP] died [SEP]
+Pred:	1
+Probs:	0=0.08811993896961212	1=0.9118800759315491
+Arc:	[CLS] amod [SEP] african [SEP] population [SEP]
+Pred:	1
+Probs:	0=0.0075685614719986916	1=0.9924314022064209
+Arc:	[CLS] amod [SEP] american [SEP] population [SEP]
+Pred:	1
+Probs:	0=0.014546484686434269	1=0.9854534864425659
+Arc:	[CLS] nsubj [SEP] population [SEP] one [SEP]
+Pred:	1
+Probs:	0=0.01225756760686636	1=0.9877424240112305
+Arc:	[CLS] nmod : of [SEP] us [SEP] population [SEP]
+Pred:	1
+Probs:	0=0.023057950660586357	1=0.9769420623779297
+Arc:	[CLS] parataxis [SEP] one [SEP] died [SEP]
+Pred:	1
+Probs:	0=0.069355309009552	1=0.930644690990448
+Arc:	[CLS] amod [SEP] ethnic [SEP] groups [SEP]
+Pred:	1
+Probs:	0=0.005378148518502712	1=0.9946218729019165
+Arc:	[CLS] nmod : of [SEP] groups [SEP] one [SEP]
+Pred:	1
+Probs:	0=0.011010147631168365	1=0.9889898300170898
+Arc:	[CLS] nmod : in [SEP] us [SEP] groups [SEP]
+Pred:	1
+Probs:	0=0.017176032066345215	1=0.9828239679336548
+
+Sent-level factuality probability:	0.9610788822174072
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 204
+Nr_of_triples : 3
+input_triples : ['Pontiac_Rageous | assembly | Michigan', 'Pontiac_Rageous | assembly | Detroit', 'Pontiac_Rageous | productionEndYear | 1997']
+reference_text : The Pontiac Rageous assembled in Michigan with assembly line in Detroit was last produced in 1997.
+Index : 204
+Generation : The manufacturer of the Pontiac Rageous was the Detroit Company.
+Index : 204
+DAE_result : Gold sentence :	[CLS] the pontiac rage ##ous assembled in michigan with assembly line in detroit was last produced in 1997 . [SEP] the manufacturer of the pontiac rage ##ous was the detroit company . [SEP]
+Generated Output:	the manufacturer of the pontiac rage ##ous was the detroit company .
+Arc:	[CLS] nsubj [SEP] manufacturer [SEP] company [SEP]
+Pred:	0
+Probs:	0=0.9108482599258423	1=0.0891517847776413
+Arc:	[CLS] compound [SEP] pontiac [SEP] rageous [SEP]
+Pred:	1
+Probs:	0=0.11553219705820084	1=0.8844678401947021
+Arc:	[CLS] nmod : of [SEP] rageous [SEP] manufacturer [SEP]
+Pred:	0
+Probs:	0=0.5392977595329285	1=0.4607022702693939
+Arc:	[CLS] compound [SEP] detroit [SEP] company [SEP]
+Pred:	0
+Probs:	0=0.9428120255470276	1=0.05718790367245674
+
+Sent-level factuality probability:	0.37287744879722595
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 217
+Nr_of_triples : 1
+input_triples : ['Olga_Bondareva | professionalField | Economics']
+reference_text : Olga Bondareva currently works in the field of Economics.
+Index : 217
+Generation : Olga Bondareva is a doctoral student at the University of California at San Diego and is a member of the Economics team.
+Index : 217
+DAE_result : Gold sentence :	[CLS] olga bond ##are ##va currently works in the field of economics . [SEP] olga bond ##are ##va is a doctoral student at the university of california at san diego and is a member of the economics team . [SEP]
+Generated Output:	olga bond ##are ##va is a doctoral student at the university of california at san diego and is a member of the economics team .
+Arc:	[CLS] amod [SEP] olga [SEP] bondareva [SEP]
+Pred:	0
+Probs:	0=0.5814412832260132	1=0.41855868697166443
+Arc:	[CLS] nsubj [SEP] bondareva [SEP] student [SEP]
+Pred:	0
+Probs:	0=0.9007198214530945	1=0.09928014874458313
+Arc:	[CLS] amod [SEP] doctoral [SEP] student [SEP]
+Pred:	0
+Probs:	0=0.996802806854248	1=0.0031971875578165054
+Arc:	[CLS] nmod : at [SEP] university [SEP] student [SEP]
+Pred:	0
+Probs:	0=0.9923040270805359	1=0.007695908658206463
+Arc:	[CLS] nmod : of [SEP] california [SEP] university [SEP]
+Pred:	0
+Probs:	0=0.9899694323539734	1=0.010030516423285007
+Arc:	[CLS] compound [SEP] san [SEP] diego [SEP]
+Pred:	0
+Probs:	0=0.992916464805603	1=0.007083524949848652
+Arc:	[CLS] nmod : at [SEP] diego [SEP] university [SEP]
+Pred:	0
+Probs:	0=0.993354320526123	1=0.006645669229328632
+Arc:	[CLS] cc [SEP] and [SEP] member [SEP]
+Pred:	0
+Probs:	0=0.9887887835502625	1=0.011211258359253407
+Arc:	[CLS] conj : and [SEP] member [SEP] student [SEP]
+Pred:	0
+Probs:	0=0.9947406649589539	1=0.005259335041046143
+Arc:	[CLS] compound [SEP] economics [SEP] team [SEP]
+Pred:	0
+Probs:	0=0.9742713570594788	1=0.025728629902005196
+Arc:	[CLS] nmod : of [SEP] team [SEP] member [SEP]
+Pred:	0
+Probs:	0=0.9957461953163147	1=0.004253774881362915
+
+Sent-level factuality probability:	0.05444951355457306
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 244
+Nr_of_triples : 1
+input_triples : ['Expect_a_Miracle | genre | Easy_listening']
+reference_text : Expect a Miracle's genre is easy listening.
+Index : 244
+Generation : The musical genre for the musical musical is Easy Listening.
+Index : 244
+DAE_result : Gold sentence :	[CLS] expect a miracle ' s genre is easy listening . [SEP] the musical genre for the musical musical is easy listening . [SEP]
+Generated Output:	the musical genre for the musical musical is easy listening .
+Arc:	[CLS] amod [SEP] musical [SEP] genre [SEP]
+Pred:	0
+Probs:	0=0.5707155466079712	1=0.4292844831943512
+Arc:	[CLS] nsubj [SEP] genre [SEP] listening [SEP]
+Pred:	1
+Probs:	0=0.46153220534324646	1=0.5384678244590759
+Arc:	[CLS] amod [SEP] musical [SEP] musical [SEP]
+Pred:	0
+Probs:	0=0.9586688280105591	1=0.04133119806647301
+Arc:	[CLS] nmod : for [SEP] musical [SEP] genre [SEP]
+Pred:	0
+Probs:	0=0.8756245374679565	1=0.12437549233436584
+Arc:	[CLS] amod [SEP] easy [SEP] listening [SEP]
+Pred:	1
+Probs:	0=0.29013749957084656	1=0.7098625302314758
+
+Sent-level factuality probability:	0.36866432428359985
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 260
+Nr_of_triples : 5
+input_triples : ['Mexico | currency | Mexican_peso', 'Mexico | demonym | Mexicans', 'Bionico | course | Dessert', 'Bionico | dishVariation | Honey', 'Bionico | country | Mexico']
+reference_text : Bionico is a dessert food that can be made with honey and is found in Mexico. Mexico is inhabited by Mexicans and their currency is the peso.
+Index : 260
+Generation : Bionico is a dessert. The country is the location of Bionico.
+Index : 260
+DAE_result : Gold sentence :	[CLS] bio ##nic ##o is a dessert food that can be made with honey and is found in mexico . mexico is inhabited by mexican ##s and their currency is the pe ##so . [SEP] bio ##nic ##o is a dessert . the country is the location of bio ##nic ##o . [SEP]
+Generated Output:	bio ##nic ##o is a dessert . the country is the location of bio ##nic ##o .
+Arc:	[CLS] nsubj [SEP] bionico [SEP] dessert [SEP]
+Pred:	1
+Probs:	0=0.07131219655275345	1=0.9286877512931824
+Arc:	[CLS] nsubj [SEP] country [SEP] location [SEP]
+Pred:	0
+Probs:	0=0.9259905815124512	1=0.07400941848754883
+Arc:	[CLS] parataxis [SEP] location [SEP] dessert [SEP]
+Pred:	0
+Probs:	0=0.7197696566581726	1=0.280230313539505
+Arc:	[CLS] nmod : of [SEP] bionico [SEP] location [SEP]
+Pred:	0
+Probs:	0=0.8248353004455566	1=0.17516472935676575
+
+Sent-level factuality probability:	0.3645230531692505
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 262
+Nr_of_triples : 1
+input_triples : ['Gdynia,_Poland | timeZone | Central_European_Summer_Time']
+reference_text : Gdynia, Poland follows the Central European Summer Time timezone.
+Index : 262
+Generation : Eastern Summer Time is the time of Gdynia Poland.
+Index : 262
+DAE_result : Gold sentence :	[CLS] g ##dy ##nia , poland follows the central european summer time time ##zone . [SEP] eastern summer time is the time of g ##dy ##nia poland . [SEP]
+Generated Output:	eastern summer time is the time of g ##dy ##nia poland .
+Arc:	[CLS] amod [SEP] eastern [SEP] time [SEP]
+Pred:	0
+Probs:	0=0.9738856554031372	1=0.02611427940428257
+Arc:	[CLS] compound [SEP] summer [SEP] time [SEP]
+Pred:	0
+Probs:	0=0.8890113234519958	1=0.11098868399858475
+Arc:	[CLS] nsubj [SEP] time [SEP] time [SEP]
+Pred:	0
+Probs:	0=0.9131410717964172	1=0.08685896545648575
+Arc:	[CLS] compound [SEP] gdynia [SEP] poland [SEP]
+Pred:	1
+Probs:	0=0.2842696011066437	1=0.7157304286956787
+Arc:	[CLS] nmod : of [SEP] poland [SEP] time [SEP]
+Pred:	0
+Probs:	0=0.7105030417442322	1=0.2894969582557678
+
+Sent-level factuality probability:	0.24583788216114044
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 355
+Nr_of_triples : 3
+input_triples : ['Super_Capers | starring | Danielle_Harris', 'Super_Capers | writer | Ray_Griggs_(director)', 'Super_Capers | runtime | 98.0']
+reference_text : Super Capers, a film written by Ray Griggs, is 98 minutes long. Danielle Harris was one of the stars of the movie.
+Index : 355
+Generation : Ray Gurner is a director of Super Capers.
+Index : 355
+DAE_result : Gold sentence :	[CLS] super cape ##rs , a film written by ray gr ##ig ##gs , is 98 minutes long . danielle harris was one of the stars of the movie . [SEP] ray gu ##rner is a director of super cape ##rs . [SEP]
+Generated Output:	ray gu ##rner is a director of super cape ##rs .
+Arc:	[CLS] compound [SEP] ray [SEP] gurner [SEP]
+Pred:	0
+Probs:	0=0.9846282005310059	1=0.015371762216091156
+Arc:	[CLS] nsubj [SEP] gurner [SEP] director [SEP]
+Pred:	0
+Probs:	0=0.9756430387496948	1=0.02435692958533764
+Arc:	[CLS] amod [SEP] super [SEP] capers [SEP]
+Pred:	1
+Probs:	0=0.24801138043403625	1=0.7519885897636414
+Arc:	[CLS] nmod : of [SEP] capers [SEP] director [SEP]
+Pred:	0
+Probs:	0=0.6968719959259033	1=0.3031280040740967
+
+Sent-level factuality probability:	0.27371132373809814
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 375
+Nr_of_triples : 3
+input_triples : ['Abraham_A._Ribicoff | spouse | Casey_Ribicoff', 'Abraham_A._Ribicoff | deathPlace | United_States', 'United_States | ethnicGroup | African_Americans']
+reference_text : In the United States, one of the national ethnic groups are the African Americans. The United States is where Abraham A. Ribicoff, who was married to Casey Ribicoff, died.
+Index : 375
+Generation : The United States is an ethnic group in the U.S. and African Americans are one of the ethnic groups. Abraham A Ribicoff died in the United States.
+Index : 375
+DAE_result : Gold sentence :	[CLS] in the united states , one of the national ethnic groups are the african americans . the united states is where abraham a . rib ##ico ##ff , who was married to casey rib ##ico ##ff , died . [SEP] the united states is an ethnic group in the u . s . and african americans are one of the ethnic groups . abraham a rib ##ico ##ff died in the united states . [SEP]
+Generated Output:	the united states is an ethnic group in the u . s . and african americans are one of the ethnic groups . abraham a rib ##ico ##ff died in the united states .
+Arc:	[CLS] amod [SEP] united [SEP] states [SEP]
+Pred:	1
+Probs:	0=0.32714205980300903	1=0.672857940196991
+Arc:	[CLS] nsubj [SEP] states [SEP] group [SEP]
+Pred:	0
+Probs:	0=0.6639419794082642	1=0.3360580801963806
+Arc:	[CLS] amod [SEP] ethnic [SEP] group [SEP]
+Pred:	0
+Probs:	0=0.7786455154418945	1=0.22135449945926666
+Arc:	[CLS] csubj [SEP] group [SEP] one [SEP]
+Pred:	1
+Probs:	0=0.15139639377593994	1=0.8486036062240601
+Arc:	[CLS] amod [SEP] u. s. [SEP] americans [SEP]
+Pred:	1
+Probs:	0=0.0190054289996624	1=0.9809945225715637
+Arc:	[CLS] cc [SEP] and [SEP] african [SEP]
+Pred:	1
+Probs:	0=0.01132679171860218	1=0.9886731505393982
+Arc:	[CLS] conj : and [SEP] african [SEP] u. s. [SEP]
+Pred:	1
+Probs:	0=0.016522131860256195	1=0.9834778904914856
+Arc:	[CLS] amod [SEP] african [SEP] americans [SEP]
+Pred:	1
+Probs:	0=0.0023667204659432173	1=0.9976332187652588
+Arc:	[CLS] nmod : in [SEP] americans [SEP] group [SEP]
+Pred:	1
+Probs:	0=0.1140151172876358	1=0.8859848976135254
+Arc:	[CLS] amod [SEP] ethnic [SEP] groups [SEP]
+Pred:	1
+Probs:	0=0.005884900689125061	1=0.9941151142120361
+Arc:	[CLS] nmod : of [SEP] groups [SEP] one [SEP]
+Pred:	1
+Probs:	0=0.005709733348339796	1=0.9942902326583862
+Arc:	[CLS] nsubj [SEP] ribicoff [SEP] died [SEP]
+Pred:	1
+Probs:	0=0.005609036423265934	1=0.9943910241127014
+Arc:	[CLS] parataxis [SEP] died [SEP] one [SEP]
+Pred:	1
+Probs:	0=0.0067691258154809475	1=0.9932308197021484
+Arc:	[CLS] amod [SEP] united [SEP] states [SEP]
+Pred:	1
+Probs:	0=0.01228872500360012	1=0.9877112507820129
+Arc:	[CLS] obl : in [SEP] states [SEP] died [SEP]
+Pred:	1
+Probs:	0=0.010800455696880817	1=0.9891995191574097
+
+Sent-level factuality probability:	0.8579050898551941
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 458
+Nr_of_triples : 3
+input_triples : ['Aaron_Turner | genre | Post-metal', 'Aaron_Turner | associatedBand/associatedMusicalArtist | Twilight_(band)', 'Aaron_Turner | activeYearsStartYear | 1995']
+reference_text : Aaron Turner is a post metal musician who started performing in 1995 and played with the band, Twilight.
+Index : 458
+Generation : This band comes from the Twilight band. Aaron Turner started his career in 1995.
+Index : 458
+DAE_result : Gold sentence :	[CLS] aaron turner is a post metal musician who started performing in 1995 and played with the band , twilight . [SEP] this band comes from the twilight band . aaron turner started his career in 1995 . [SEP]
+Generated Output:	this band comes from the twilight band . aaron turner started his career in 1995 .
+Arc:	[CLS] nsubj [SEP] band [SEP] comes [SEP]
+Pred:	0
+Probs:	0=0.978415310382843	1=0.02158466912806034
+Arc:	[CLS] compound [SEP] twilight [SEP] band [SEP]
+Pred:	0
+Probs:	0=0.9278132319450378	1=0.07218674570322037
+Arc:	[CLS] obl : from [SEP] band [SEP] comes [SEP]
+Pred:	0
+Probs:	0=0.9800519943237305	1=0.01994805410504341
+Arc:	[CLS] compound [SEP] aaron [SEP] turner [SEP]
+Pred:	1
+Probs:	0=0.056232500821352005	1=0.9437675476074219
+Arc:	[CLS] nsubj [SEP] turner [SEP] started [SEP]
+Pred:	1
+Probs:	0=0.02948305755853653	1=0.9705169796943665
+Arc:	[CLS] parataxis [SEP] started [SEP] comes [SEP]
+Pred:	1
+Probs:	0=0.43089935183525085	1=0.5691006183624268
+Arc:	[CLS] nmod : poss [SEP] his [SEP] career [SEP]
+Pred:	1
+Probs:	0=0.04037373885512352	1=0.9596261978149414
+Arc:	[CLS] obj [SEP] career [SEP] started [SEP]
+Pred:	1
+Probs:	0=0.027389442548155785	1=0.972610592842102
+Arc:	[CLS] obl : in [SEP] 1995 [SEP] started [SEP]
+Pred:	1
+Probs:	0=0.042610108852386475	1=0.9573898911476135
+
+Sent-level factuality probability:	0.6096367835998535
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 542
+Nr_of_triples : 1
+input_triples : ['Take_It_Off! | producer | The_Honeymoon_Killers_(American_band)']
+reference_text : Take It Off! was produced by the American band, the Honeymoon Killers.
+Index : 542
+Generation : The Honeymoon Killers was produced by The Honeymoon Killers.
+Index : 542
+DAE_result : Gold sentence :	[CLS] take it off ! was produced by the american band , the honeymoon killers . [SEP] the honeymoon killers was produced by the honeymoon killers . [SEP]
+Generated Output:	the honeymoon killers was produced by the honeymoon killers .
+Arc:	[CLS] compound [SEP] honeymoon [SEP] killers [SEP]
+Pred:	0
+Probs:	0=0.53788822889328	1=0.46211180090904236
+Arc:	[CLS] nsubj : pass [SEP] killers [SEP] produced [SEP]
+Pred:	0
+Probs:	0=0.8766205906867981	1=0.12337939441204071
+Arc:	[CLS] aux : pass [SEP] was [SEP] produced [SEP]
+Pred:	0
+Probs:	0=0.8839313983917236	1=0.11606865376234055
+Arc:	[CLS] compound [SEP] honeymoon [SEP] killers [SEP]
+Pred:	0
+Probs:	0=0.5887163281440735	1=0.4112836718559265
+Arc:	[CLS] obl : agent [SEP] killers [SEP] produced [SEP]
+Pred:	0
+Probs:	0=0.8446797728538513	1=0.1553201675415039
+
+Sent-level factuality probability:	0.25363272428512573
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 569
+Nr_of_triples : 1
+input_triples : ['Bedford_Aerodrome | cityServed | Bedford_Autodrome']
+reference_text : Bedford Aerodrome has served the Bedford Autodrome.
+Index : 569
+Generation : The runway is located at the city of Bedford.
+Index : 569
+DAE_result : Gold sentence :	[CLS] bedford aerodrome has served the bedford auto ##drome . [SEP] the runway is located at the city of bedford . [SEP]
+Generated Output:	the runway is located at the city of bedford .
+Arc:	[CLS] nsubj : pass [SEP] runway [SEP] located [SEP]
+Pred:	0
+Probs:	0=0.9909707307815552	1=0.009029252454638481
+Arc:	[CLS] aux : pass [SEP] is [SEP] located [SEP]
+Pred:	0
+Probs:	0=0.9736817479133606	1=0.026318278163671494
+Arc:	[CLS] obl : at [SEP] city [SEP] located [SEP]
+Pred:	0
+Probs:	0=0.990119218826294	1=0.009880765341222286
+Arc:	[CLS] nmod : of [SEP] bedford [SEP] city [SEP]
+Pred:	0
+Probs:	0=0.9472513794898987	1=0.052748627960681915
+
+Sent-level factuality probability:	0.0244942307472229
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 584
+Nr_of_triples : 5
+input_triples : ['Abraham_A._Ribicoff | spouse | Ruth Ribicoff', 'Abraham_A._Ribicoff | inOfficeWhilePresident | John_F._Kennedy', 'Abraham_A._Ribicoff | nationality | American', 'Abraham_A._Ribicoff | successor | John_N._Dempsey', 'Abraham_A._Ribicoff | birthPlace | Connecticut']
+reference_text : Abraham A. Ribicoff’s spouse was Ruth Ribicoff and his successor was John N. Dempsey. Abraham was in office during the John F. Kennedy presidency. Abraham A. Ribicoff was American and was born in Connecticut.
+Index : 584
+Generation : Abraham A Ribicoff is married to Ruth Ribicoff.
+Index : 584
+DAE_result : Gold sentence :	[CLS] abraham a . rib ##ico ##ff ’ s spouse was ruth rib ##ico ##ff and his successor was john n . dempsey . abraham was in office during the john f . kennedy presidency . abraham a . rib ##ico ##ff was american and was born in connecticut . [SEP] abraham a rib ##ico ##ff is married to ruth rib ##ico ##ff . [SEP]
+Generated Output:	abraham a rib ##ico ##ff is married to ruth rib ##ico ##ff .
+Arc:	[CLS] nsubj : pass [SEP] ribicoff [SEP] married [SEP]
+Pred:	1
+Probs:	0=0.04870675504207611	1=0.9512932896614075
+Arc:	[CLS] aux : pass [SEP] is [SEP] married [SEP]
+Pred:	1
+Probs:	0=0.47073325514793396	1=0.5292667746543884
+Arc:	[CLS] compound [SEP] ruth [SEP] ribicoff [SEP]
+Pred:	1
+Probs:	0=0.053233303129673004	1=0.94676673412323
+Arc:	[CLS] obl : to [SEP] ribicoff [SEP] married [SEP]
+Pred:	1
+Probs:	0=0.06733810901641846	1=0.9326618909835815
+
+Sent-level factuality probability:	0.8399971723556519
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 645
+Nr_of_triples : 5
+input_triples : ['Darinka_Dentcheva | influencedBy | Andrzej_Piotr_Ruszczyński', 'Darinka_Dentcheva | citizenship | United_States', 'Darinka_Dentcheva | birthDate | 1958-01-01', 'Darinka_Dentcheva | professionalField | Mathematical_optimization', 'Darinka_Dentcheva | knownFor | Stochastic_programming']
+reference_text : Darinka Dentcheva, born January 1, 1958, is a US citizen and is known for stochastic programming. She is a professional in the field of mathematical optimization and was influenced by Andrzej Piotr Ruszczyński.
+Index : 645
+Generation : The Stochastic program is the basis behind the Stochastic Programming language.
+Index : 645
+DAE_result : Gold sentence :	[CLS] dar ##ink ##a dent ##chev ##a , born january 1 , 1958 , is a us citizen and is known for st ##och ##astic programming . she is a professional in the field of mathematical optimization and was influenced by and ##rz ##ej pi ##ot ##r rus ##zcz ##yn ##ski . [SEP] the st ##och ##astic program is the basis behind the st ##och ##astic programming language . [SEP]
+Generated Output:	the st ##och ##astic program is the basis behind the st ##och ##astic programming language .
+Arc:	[CLS] amod [SEP] stochastic [SEP] program [SEP]
+Pred:	0
+Probs:	0=0.5146064758300781	1=0.4853935241699219
+Arc:	[CLS] nsubj [SEP] program [SEP] basis [SEP]
+Pred:	0
+Probs:	0=0.8684125542640686	1=0.1315874457359314
+Arc:	[CLS] amod [SEP] stochastic [SEP] language [SEP]
+Pred:	0
+Probs:	0=0.8911131024360657	1=0.10888689011335373
+Arc:	[CLS] compound [SEP] programming [SEP] language [SEP]
+Pred:	0
+Probs:	0=0.9169577956199646	1=0.08304215222597122
+Arc:	[CLS] nmod : behind [SEP] language [SEP] basis [SEP]
+Pred:	0
+Probs:	0=0.9701157212257385	1=0.029884332790970802
+
+Sent-level factuality probability:	0.16775886714458466
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 653
+Nr_of_triples : 1
+input_triples : ['Death_on_a_Factory_Farm | broadcastedBy | HBO']
+reference_text : Death on a Factory Farm is a film broadcasted by HBO.
+Index : 653
+Generation : Death Ona Factory was broadcast by the HBO.
+Index : 653
+DAE_result : Gold sentence :	[CLS] death on a factory farm is a film broadcast ##ed by hbo . [SEP] death on ##a factory was broadcast by the hbo . [SEP]
+Generated Output:	death on ##a factory was broadcast by the hbo .
+Arc:	[CLS] compound [SEP] death [SEP] ona [SEP]
+Pred:	1
+Probs:	0=0.45612117648124695	1=0.5438788533210754
+Arc:	[CLS] compound [SEP] ona [SEP] factory [SEP]
+Pred:	0
+Probs:	0=0.6291468143463135	1=0.37085315585136414
+Arc:	[CLS] nsubj : pass [SEP] factory [SEP] broadcast [SEP]
+Pred:	1
+Probs:	0=0.2659788131713867	1=0.7340211868286133
+Arc:	[CLS] aux : pass [SEP] was [SEP] broadcast [SEP]
+Pred:	0
+Probs:	0=0.5063623189926147	1=0.49363768100738525
+Arc:	[CLS] obl : agent [SEP] hbo [SEP] broadcast [SEP]
+Pred:	1
+Probs:	0=0.13054589927196503	1=0.8694540858268738
+
+Sent-level factuality probability:	0.602368950843811
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 712
+Nr_of_triples : 6
+input_triples : ['Adolfo_Suárez_Madrid–Barajas_Airport | operatingOrganisation | ENAIRE', 'Adolfo_Suárez_Madrid–Barajas_Airport | location | Alcobendas', 'Adolfo_Suárez_Madrid–Barajas_Airport | runwayLength | 4349.0', 'Adolfo_Suárez_Madrid–Barajas_Airport | runwayName | 14R/32L', 'ENAIRE | city | Madrid', 'Adolfo_Suárez_Madrid–Barajas_Airport | elevationAboveTheSeaLevel | 610.0']
+reference_text : Adolfo Suárez Madrid–Barajas Airport is in Alcobendas and is operated by ENAIRE in which is in Madrid. The runway length of Adolfo Suárez Madrid–Barajas Airport is 4,349 and is named 14R/32L, Adolfo Suárez Madrid-Barajas Airport also has an elevation of 610.0 metres above sea level and a runway length of 4,349.
+Index : 712
+Generation : Adolfo Suárez Madrid–Barajas Airport, operated by ENAIRE. The runway name is 14R/32L. The runway is located 610 metres above sea level.
+Index : 712
+DAE_result : Gold sentence :	[CLS] adolf ##o suarez madrid – bar ##aja ##s airport is in al ##co ##ben ##das and is operated by en ##aire in which is in madrid . the runway length of adolf ##o suarez madrid – bar ##aja ##s airport is 4 , 34 ##9 and is named 14 ##r / 32 ##l , adolf ##o suarez madrid - bar ##aja ##s airport also has an elevation of 610 . 0 metres above sea level and a runway length of 4 , 34 ##9 . [SEP] adolf ##o suarez madrid – bar ##aja ##s airport , operated by en ##aire . the runway name is 14 ##r / 32 ##l . the runway is located 610 metres above sea level . [SEP]
+Generated Output:	adolf ##o suarez madrid – bar ##aja ##s airport , operated by en ##aire . the runway name is 14 ##r / 32 ##l . the runway is located 610 metres above sea level .
+Arc:	[CLS] amod [SEP] suarez [SEP] airport [SEP]
+Pred:	1
+Probs:	0=0.0041532269679009914	1=0.9958468079566956
+Arc:	[CLS] compound [SEP] madrid [SEP] barajas [SEP]
+Pred:	1
+Probs:	0=0.0092680174857378	1=0.9907320141792297
+Arc:	[CLS] compound [SEP] barajas [SEP] airport [SEP]
+Pred:	1
+Probs:	0=0.0051362281665205956	1=0.9948638081550598
+Arc:	[CLS] obl : adolfo [SEP] airport [SEP] operated [SEP]
+Pred:	1
+Probs:	0=0.003233878407627344	1=0.9967660903930664
+Arc:	[CLS] obl : by [SEP] enaire [SEP] operated [SEP]
+Pred:	1
+Probs:	0=0.0026068699080497026	1=0.9973931312561035
+Arc:	[CLS] compound [SEP] runway [SEP] name [SEP]
+Pred:	1
+Probs:	0=0.0020866196136921644	1=0.9979134202003479
+Arc:	[CLS] nsubj [SEP] name [SEP] 32l [SEP]
+Pred:	1
+Probs:	0=0.00715607451274991	1=0.9928439259529114
+Arc:	[CLS] compound [SEP] 14r [SEP] 32l [SEP]
+Pred:	1
+Probs:	0=0.006693580653518438	1=0.9933064579963684
+Arc:	[CLS] parataxis [SEP] 32l [SEP] operated [SEP]
+Pred:	1
+Probs:	0=0.003568485379219055	1=0.9964314699172974
+Arc:	[CLS] nsubj : pass [SEP] runway [SEP] located [SEP]
+Pred:	1
+Probs:	0=0.18966710567474365	1=0.8103328943252563
+Arc:	[CLS] aux : pass [SEP] is [SEP] located [SEP]
+Pred:	1
+Probs:	0=0.2312987595796585	1=0.7687012553215027
+Arc:	[CLS] parataxis [SEP] located [SEP] operated [SEP]
+Pred:	1
+Probs:	0=0.04362724721431732	1=0.9563726782798767
+Arc:	[CLS] nummod [SEP] 610 [SEP] metres [SEP]
+Pred:	1
+Probs:	0=0.02520688623189926	1=0.9747930765151978
+Arc:	[CLS] obl : above [SEP] metres [SEP] located [SEP]
+Pred:	1
+Probs:	0=0.1295139640569687	1=0.8704860806465149
+Arc:	[CLS] compound [SEP] sea [SEP] level [SEP]
+Pred:	1
+Probs:	0=0.031267013400793076	1=0.968733012676239
+
+Sent-level factuality probability:	0.9537010788917542
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 759
+Nr_of_triples : 6
+input_triples : ['Turn_Me_On_(album) | runtime | 35.1', 'Turn_Me_On_(album) | artist | The_Honeymoon_Killers_(American_band)', 'Turn_Me_On_(album) | genre | Punk_blues', 'Turn_Me_On_(album) | producer | The_Honeymoon_Killers_(American_band)', 'Turn_Me_On_(album) | genre | Noise_rock', 'Turn_Me_On_(album) | producer | Wharton_Tiers']
+reference_text : In the genre of punk blues, the Honeymoon Killers' "Turn Me On" is a 35 minutes 10 seconds example of noise rock produced by Wharton Tiers for this American band. The band also participated in the production.
+Index : 759
+Generation : The musical genre of the musical Work is Punk blues.
+Index : 759
+DAE_result : Gold sentence :	[CLS] in the genre of punk blues , the honeymoon killers ' ` ` turn me on ' ' is a 35 minutes 10 seconds example of noise rock produced by wharton tier ##s for this american band . the band also participated in the production . [SEP] the musical genre of the musical work is punk blues . [SEP]
+Generated Output:	the musical genre of the musical work is punk blues .
+Arc:	[CLS] amod [SEP] musical [SEP] genre [SEP]
+Pred:	1
+Probs:	0=0.006732143461704254	1=0.9932678937911987
+Arc:	[CLS] nsubj [SEP] genre [SEP] blues [SEP]
+Pred:	1
+Probs:	0=0.012791060842573643	1=0.9872089624404907
+Arc:	[CLS] amod [SEP] musical [SEP] work [SEP]
+Pred:	1
+Probs:	0=0.021152770146727562	1=0.9788472056388855
+Arc:	[CLS] nmod : of [SEP] work [SEP] genre [SEP]
+Pred:	1
+Probs:	0=0.025344060733914375	1=0.9746559262275696
+Arc:	[CLS] compound [SEP] punk [SEP] blues [SEP]
+Pred:	1
+Probs:	0=0.009372729808092117	1=0.9906272888183594
+
+Sent-level factuality probability:	0.9849214553833008
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 767
+Nr_of_triples : 2
+input_triples : ['Liselotte_Grschebina | birthPlace | German_Empire', 'Liselotte_Grschebina | professionalField | Photographer']
+reference_text : Liselotte Grschebina was a photographer who was born in the German Empire.
+Index : 767
+Generation : The stylistic origins of Liselotte Grove Grass was German Empire.
+Index : 767
+DAE_result : Gold sentence :	[CLS] li ##sel ##otte gr ##sche ##bina was a photographer who was born in the german empire . [SEP] the stylistic origins of li ##sel ##otte grove grass was german empire . [SEP]
+Generated Output:	the stylistic origins of li ##sel ##otte grove grass was german empire .
+Arc:	[CLS] amod [SEP] stylistic [SEP] origins [SEP]
+Pred:	0
+Probs:	0=0.9823221564292908	1=0.017677869647741318
+Arc:	[CLS] nsubj [SEP] origins [SEP] empire [SEP]
+Pred:	0
+Probs:	0=0.9486066102981567	1=0.05139343440532684
+Arc:	[CLS] compound [SEP] liselotte [SEP] grove [SEP]
+Pred:	0
+Probs:	0=0.948195219039917	1=0.0518047921359539
+Arc:	[CLS] compound [SEP] grove [SEP] grass [SEP]
+Pred:	0
+Probs:	0=0.9839057326316833	1=0.016094330698251724
+Arc:	[CLS] nmod : of [SEP] grass [SEP] origins [SEP]
+Pred:	0
+Probs:	0=0.9847954511642456	1=0.01520454976707697
+Arc:	[CLS] amod [SEP] german [SEP] empire [SEP]
+Pred:	0
+Probs:	0=0.622559130191803	1=0.3774409294128418
+
+Sent-level factuality probability:	0.08826931565999985
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 792
+Nr_of_triples : 1
+input_triples : ['Let_It_Breed | followedBy | Turn_Me_On_(album)']
+reference_text : "Let It Breed" was followed by the album "Turn Me On".
+Index : 792
+Generation : A musical work performed by the musical artist, Turn Me On.
+Index : 792
+DAE_result : Gold sentence :	[CLS] ` ` let it breed ' ' was followed by the album ` ` turn me on ' ' . [SEP] a musical work performed by the musical artist , turn me on . [SEP]
+Generated Output:	a musical work performed by the musical artist , turn me on .
+Arc:	[CLS] amod [SEP] musical [SEP] work [SEP]
+Pred:	0
+Probs:	0=0.988767683506012	1=0.011232309974730015
+Arc:	[CLS] nsubj [SEP] work [SEP] performed [SEP]
+Pred:	0
+Probs:	0=0.994929313659668	1=0.0050707426853477955
+Arc:	[CLS] amod [SEP] musical [SEP] artist [SEP]
+Pred:	0
+Probs:	0=0.9841281771659851	1=0.015871869400143623
+Arc:	[CLS] obl : by [SEP] artist [SEP] performed [SEP]
+Pred:	0
+Probs:	0=0.9964779019355774	1=0.0035221430007368326
+Arc:	[CLS] obj [SEP] me [SEP] turn [SEP]
+Pred:	1
+Probs:	0=0.41398024559020996	1=0.58601975440979
+Arc:	[CLS] compound : prt [SEP] on [SEP] turn [SEP]
+Pred:	1
+Probs:	0=0.3079858422279358	1=0.6920141577720642
+
+Sent-level factuality probability:	0.2189551591873169
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 827
+Nr_of_triples : 5
+input_triples : ['Super_Capers | distributor | Lionsgate', 'Super_Capers | director | Ray_Griggs_(director)', 'Super_Capers | runtime | 98.0', 'Super_Capers | starring | Tom_Lister,_Jr.', 'Super_Capers | gross | 30955.0']
+reference_text : The box office $30,955.00 film, Super Capers, with a running time of 98 minutes, starring Tom Lister Jr., was distributed by Lionsgate and directed by Ray Griggs.
+Index : 827
+Generation : Super Capers was produced by Ray Gigigigigigigigigigigigigigigigig.
+Index : 827
+DAE_result : Gold sentence :	[CLS] the box office $ 30 , 95 ##5 . 00 film , super cape ##rs , with a running time of 98 minutes , starring tom lister jr . , was distributed by lions ##gate and directed by ray gr ##ig ##gs . [SEP] super cape ##rs was produced by ray gig ##ig ##ig ##ig ##ig ##ig ##ig ##ig ##ig ##ig ##ig ##ig ##ig ##ig ##ig ##ig . [SEP]
+Generated Output:	super cape ##rs was produced by ray gig ##ig ##ig ##ig ##ig ##ig ##ig ##ig ##ig ##ig ##ig ##ig ##ig ##ig ##ig ##ig .
+Arc:	[CLS] advmod [SEP] super [SEP] capers [SEP]
+Pred:	1
+Probs:	0=0.19449032843112946	1=0.805509626865387
+Arc:	[CLS] nsubj : pass [SEP] capers [SEP] produced [SEP]
+Pred:	0
+Probs:	0=0.6019427180290222	1=0.3980572819709778
+Arc:	[CLS] aux : pass [SEP] was [SEP] produced [SEP]
+Pred:	0
+Probs:	0=0.8863492608070374	1=0.11365076154470444
+Arc:	[CLS] compound [SEP] ray [SEP] gigigigigigigigigigigigigigigig
+Pred:	0
+Probs:	0=0.924358606338501	1=0.07564138621091843
+Arc:	[CLS] obl : agent [SEP] gigigigigigigigigigigigigigig
+Pred:	0
+Probs:	0=0.9274988174438477	1=0.07250121235847473
+
+Sent-level factuality probability:	0.29307204484939575
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 837
+Nr_of_triples : 3
+input_triples : ['Bananaman | starring | Bill_Oddie', 'Bananaman | broadcastedBy | BBC', 'BBC | city | London']
+reference_text : Bananaman starring Bill Oddie is broadcast by the BBC, which is located in London.
+Index : 837
+Generation : Bananaman is a character in the BBC series Bananaman.
+Index : 837
+DAE_result : Gold sentence :	[CLS] banana ##man starring bill odd ##ie is broadcast by the bbc , which is located in london . [SEP] banana ##man is a character in the bbc series banana ##man . [SEP]
+Generated Output:	banana ##man is a character in the bbc series banana ##man .
+Arc:	[CLS] nsubj [SEP] bananaman [SEP] character [SEP]
+Pred:	0
+Probs:	0=0.9865620732307434	1=0.013437973335385323
+Arc:	[CLS] compound [SEP] bbc [SEP] series [SEP]
+Pred:	0
+Probs:	0=0.9947029948234558	1=0.0052969432435929775
+Arc:	[CLS] compound [SEP] series [SEP] bananaman [SEP]
+Pred:	0
+Probs:	0=0.9865582585334778	1=0.013441812247037888
+Arc:	[CLS] nmod : in [SEP] bananaman [SEP] character [SEP]
+Pred:	0
+Probs:	0=0.9623309373855591	1=0.03766901418566704
+
+Sent-level factuality probability:	0.017461435869336128
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 839
+Nr_of_triples : 3
+input_triples : ['Bananaman | starring | Bill_Oddie', 'Bananaman | broadcastedBy | BBC', 'BBC | city | London']
+reference_text : Bananaman the TV series starring Bill Oddie was shown on the BBC and BBC is located in London.
+Index : 839
+Generation : Bananaman was broadcast by BBC in London.
+Index : 839
+DAE_result : Gold sentence :	[CLS] banana ##man the tv series starring bill odd ##ie was shown on the bbc and bbc is located in london . [SEP] banana ##man was broadcast by bbc in london . [SEP]
+Generated Output:	banana ##man was broadcast by bbc in london .
+Arc:	[CLS] nsubj : pass [SEP] bananaman [SEP] broadcast [SEP]
+Pred:	1
+Probs:	0=0.13171805441379547	1=0.868281900882721
+Arc:	[CLS] aux : pass [SEP] was [SEP] broadcast [SEP]
+Pred:	1
+Probs:	0=0.2731904685497284	1=0.726809561252594
+Arc:	[CLS] obl : agent [SEP] bbc [SEP] broadcast [SEP]
+Pred:	1
+Probs:	0=0.11695195734500885	1=0.8830480575561523
+Arc:	[CLS] obl : in [SEP] london [SEP] broadcast [SEP]
+Pred:	1
+Probs:	0=0.19666260480880737	1=0.8033373951911926
+
+Sent-level factuality probability:	0.8203691840171814
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 912
+Nr_of_triples : 2
+input_triples : ['Nie_Haisheng | mission | Shenzhou_6', 'Shenzhou_6 | cosparId | 2005-040A']
+reference_text : Nie Haisheng took part in the Shenzhou 6 mission which had a COSPAR ID of 2005-040A.
+Index : 912
+Generation : Nie Haisheng was born in Nie Haishou, China. He joined NASA's Astronaut, Nie Haisheng.
+Index : 912
+DAE_result : Gold sentence :	[CLS] ni ##e hai ##sh ##eng took part in the shen ##zhou 6 mission which had a co ##spar id of 2005 - 04 ##0 ##a . [SEP] ni ##e hai ##sh ##eng was born in ni ##e hai ##sho ##u , china . he joined nasa ' s astronaut , ni ##e hai ##sh ##eng . [SEP]
+Generated Output:	ni ##e hai ##sh ##eng was born in ni ##e hai ##sho ##u , china . he joined nasa ' s astronaut , ni ##e hai ##sh ##eng .
+Arc:	[CLS] compound [SEP] nie [SEP] haisheng [SEP]
+Pred:	1
+Probs:	0=0.30226007103919983	1=0.6977399587631226
+Arc:	[CLS] nsubj : pass [SEP] haisheng [SEP] born [SEP]
+Pred:	0
+Probs:	0=0.8074632883071899	1=0.19253672659397125
+Arc:	[CLS] aux : pass [SEP] was [SEP] born [SEP]
+Pred:	0
+Probs:	0=0.9718729853630066	1=0.0281270369887352
+Arc:	[CLS] compound [SEP] nie [SEP] haishou [SEP]
+Pred:	0
+Probs:	0=0.9477142095565796	1=0.05228576064109802
+Arc:	[CLS] obl : in [SEP] haishou [SEP] born [SEP]
+Pred:	0
+Probs:	0=0.9916951060295105	1=0.008304940536618233
+Arc:	[CLS] appos [SEP] china [SEP] haishou [SEP]
+Pred:	0
+Probs:	0=0.990494966506958	1=0.009504979476332664
+Arc:	[CLS] nsubj [SEP] he [SEP] joined [SEP]
+Pred:	0
+Probs:	0=0.9839751124382019	1=0.016024919226765633
+Arc:	[CLS] parataxis [SEP] joined [SEP] born [SEP]
+Pred:	0
+Probs:	0=0.9888054132461548	1=0.011194623075425625
+Arc:	[CLS] nmod : poss [SEP] nasa [SEP] astronaut [SEP]
+Pred:	0
+Probs:	0=0.9869747161865234	1=0.013025345280766487
+Arc:	[CLS] obj [SEP] astronaut [SEP] joined [SEP]
+Pred:	0
+Probs:	0=0.9731093049049377	1=0.026890672743320465
+Arc:	[CLS] compound [SEP] nie [SEP] haisheng [SEP]
+Pred:	0
+Probs:	0=0.5396312475204468	1=0.4603687524795532
+Arc:	[CLS] appos [SEP] haisheng [SEP] astronaut [SEP]
+Pred:	0
+Probs:	0=0.8691319823265076	1=0.13086800277233124
+
+Sent-level factuality probability:	0.13723930716514587
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 1022
+Nr_of_triples : 1
+input_triples : ['Noise_rock | stylisticOrigin | Noise_music']
+reference_text : The stylistic origins of noise rock are from noise music.
+Index : 1022
+Generation : The instrument used in the musical genre is Noise.
+Index : 1022
+DAE_result : Gold sentence :	[CLS] the stylistic origins of noise rock are from noise music . [SEP] the instrument used in the musical genre is noise . [SEP]
+Generated Output:	the instrument used in the musical genre is noise .
+Arc:	[CLS] nsubj [SEP] instrument [SEP] used [SEP]
+Pred:	0
+Probs:	0=0.9835401177406311	1=0.016459869220852852
+Arc:	[CLS] csubj [SEP] used [SEP] noise [SEP]
+Pred:	0
+Probs:	0=0.9566129446029663	1=0.043386995792388916
+Arc:	[CLS] amod [SEP] musical [SEP] genre [SEP]
+Pred:	0
+Probs:	0=0.8655657768249512	1=0.13443420827388763
+Arc:	[CLS] obl : in [SEP] genre [SEP] used [SEP]
+Pred:	0
+Probs:	0=0.9553169012069702	1=0.04468308761715889
+
+Sent-level factuality probability:	0.05974103882908821
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 1143
+Nr_of_triples : 3
+input_triples : ['Bionico | course | Dessert', 'Dessert | dishVariation | Cookie', 'Bionico | country | Mexico']
+reference_text : Bionico is a dessert, which is found in Mexico. Cookie is also a type of dessert.
+Index : 1143
+Generation : The cookie is from Mexico.
+Index : 1143
+DAE_result : Gold sentence :	[CLS] bio ##nic ##o is a dessert , which is found in mexico . cookie is also a type of dessert . [SEP] the cookie is from mexico . [SEP]
+Generated Output:	the cookie is from mexico .
+Arc:	[CLS] nsubj [SEP] cookie [SEP] mexico [SEP]
+Pred:	0
+Probs:	0=0.825137197971344	1=0.1748628318309784
+
+Sent-level factuality probability:	0.1748628318309784
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 1170
+Nr_of_triples : 2
+input_triples : ['Olga_Bondareva | knownFor | Bondareva–Shapley_theorem', 'Olga_Bondareva | almaMater | Leningrad_State_University']
+reference_text : Olga Bondareva, whose alma mater is Leningrad State University, is known for the Bondareva-Shapley theorem.
+Index : 1170
+Generation : Olga Bondareva was discovered in theeningrad state of the United States. It is the alma mater of Leningrad State University.
+Index : 1170
+DAE_result : Gold sentence :	[CLS] olga bond ##are ##va , whose alma mater is leningrad state university , is known for the bond ##are ##va - sha ##ple ##y theorem . [SEP] olga bond ##are ##va was discovered in thee ##ning ##rad state of the united states . it is the alma mater of leningrad state university . [SEP]
+Generated Output:	olga bond ##are ##va was discovered in thee ##ning ##rad state of the united states . it is the alma mater of leningrad state university .
+Arc:	[CLS] amod [SEP] olga [SEP] bondareva [SEP]
+Pred:	0
+Probs:	0=0.8409227132797241	1=0.1590772569179535
+Arc:	[CLS] nsubj : pass [SEP] bondareva [SEP] discovered [SEP]
+Pred:	0
+Probs:	0=0.927039623260498	1=0.07296042144298553
+Arc:	[CLS] aux : pass [SEP] was [SEP] discovered [SEP]
+Pred:	0
+Probs:	0=0.9829694032669067	1=0.017030591145157814
+Arc:	[CLS] amod [SEP] theeningrad [SEP] state [SEP]
+Pred:	0
+Probs:	0=0.9944434762001038	1=0.005556563381105661
+Arc:	[CLS] obl : in [SEP] state [SEP] discovered [SEP]
+Pred:	0
+Probs:	0=0.9935118556022644	1=0.006488137412816286
+Arc:	[CLS] amod [SEP] united [SEP] states [SEP]
+Pred:	0
+Probs:	0=0.9953709244728088	1=0.004629028029739857
+Arc:	[CLS] nmod : of [SEP] states [SEP] state [SEP]
+Pred:	0
+Probs:	0=0.9956557750701904	1=0.004344230052083731
+Arc:	[CLS] nsubj [SEP] it [SEP] mater [SEP]
+Pred:	0
+Probs:	0=0.8691057562828064	1=0.13089419901371002
+Arc:	[CLS] compound [SEP] alma [SEP] mater [SEP]
+Pred:	0
+Probs:	0=0.6523637175559998	1=0.34763631224632263
+Arc:	[CLS] parataxis [SEP] mater [SEP] discovered [SEP]
+Pred:	0
+Probs:	0=0.9048776626586914	1=0.09512229263782501
+Arc:	[CLS] amod [SEP] leningrad [SEP] university [SEP]
+Pred:	1
+Probs:	0=0.07659502327442169	1=0.9234049916267395
+Arc:	[CLS] compound [SEP] state [SEP] university [SEP]
+Pred:	1
+Probs:	0=0.05900529772043228	1=0.9409946799278259
+Arc:	[CLS] nmod : of [SEP] university [SEP] mater [SEP]
+Pred:	1
+Probs:	0=0.39024123549461365	1=0.6097587943077087
+
+Sent-level factuality probability:	0.255222886800766
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 1273
+Nr_of_triples : 4
+input_triples : ['Nurhan_Atasoy | birthPlace | Reşadiye', 'Reşadiye | isPartOf | Tokat_Province', 'Turkey | areaTotal | 783356.0', 'Nurhan_Atasoy | birthPlace | Turkey']
+reference_text : Nurhan Atasoy was born in Resadiye, a town located in the Tokat Province in Turkey. Turkey has a total area of 783,356.0 km^2.
+Index : 1273
+Generation : The area of Nurhan Atasoy, which was born in Reşadiye is 783356.0.
+Index : 1273
+DAE_result : Gold sentence :	[CLS] nur ##han ata ##so ##y was born in res ##adi ##ye , a town located in the to ##kat province in turkey . turkey has a total area of 78 ##3 , 356 . 0 km ^ 2 . [SEP] the area of nur ##han ata ##so ##y , which was born in res ##adi ##ye is 78 ##33 ##56 . 0 . [SEP]
+Generated Output:	the area of nur ##han ata ##so ##y , which was born in res ##adi ##ye is 78 ##33 ##56 . 0 .
+Arc:	[CLS] nsubj : pass [SEP] area [SEP] born [SEP]
+Pred:	1
+Probs:	0=0.043276652693748474	1=0.9567233920097351
+Arc:	[CLS] nsubj [SEP] area [SEP] 783356. 0 [SEP]
+Pred:	1
+Probs:	0=0.23967324197292328	1=0.7603268027305603
+Arc:	[CLS] amod [SEP] nurhan [SEP] atasoy [SEP]
+Pred:	1
+Probs:	0=0.026494009420275688	1=0.9735060334205627
+Arc:	[CLS] nmod : of [SEP] atasoy [SEP] area [SEP]
+Pred:	1
+Probs:	0=0.05723494663834572	1=0.9427649974822998
+Arc:	[CLS] ref [SEP] which [SEP] area [SEP]
+Pred:	1
+Probs:	0=0.16037686169147491	1=0.8396231532096863
+Arc:	[CLS] aux : pass [SEP] was [SEP] born [SEP]
+Pred:	1
+Probs:	0=0.014138736762106419	1=0.9858613014221191
+Arc:	[CLS] acl : relcl [SEP] born [SEP] area [SEP]
+Pred:	1
+Probs:	0=0.04851677641272545	1=0.9514831900596619
+Arc:	[CLS] obl : in [SEP] resadiye [SEP] born [SEP]
+Pred:	1
+Probs:	0=0.009190275333821774	1=0.9908096790313721
+
+Sent-level factuality probability:	0.9251373410224915
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 1307
+Nr_of_triples : 5
+input_triples : ['GMA_New_Media | keyPerson | Felipe_Gozon', 'GMA_New_Media | industry | Entertainment', 'GMA_New_Media | subsidiary | Philippine_Entertainment_Portal', 'GMA_New_Media | subsidiary | Digify,_Inc.', 'GMA_New_Media | parentCompany | GMA_Network_(company)']
+reference_text : GMA New Media, Inc. is a subsidiary of GMA Network. GMA New Media offers applications in the Entertainment Industry. Felipe Gozon is the key person in GMA New Media. Both Philippine Entertainment Portal, Inc. and Digify Inc. are subsidiaries of the company.
+Index : 1307
+Generation : GMA Network is the subsidiary of the GMA Network. The parent company of the GMA Network is Digify, Inc. The company is owned by the Philippine Entertainment Portal.
+Index : 1307
+DAE_result : Gold sentence :	[CLS] gma new media , inc . is a subsidiary of gma network . gma new media offers applications in the entertainment industry . felipe go ##zon is the key person in gma new media . both philippine entertainment portal , inc . and dig ##ify inc . are subsidiaries of the company . [SEP] gma network is the subsidiary of the gma network . the parent company of the gma network is dig ##ify , inc . the company is owned by the philippine entertainment portal . [SEP]
+Generated Output:	gma network is the subsidiary of the gma network . the parent company of the gma network is dig ##ify , inc . the company is owned by the philippine entertainment portal .
+Arc:	[CLS] compound [SEP] gma [SEP] network [SEP]
+Pred:	0
+Probs:	0=0.5203040838241577	1=0.4796959161758423
+Arc:	[CLS] nsubj [SEP] network [SEP] subsidiary [SEP]
+Pred:	0
+Probs:	0=0.8531706929206848	1=0.1468292772769928
+Arc:	[CLS] compound [SEP] gma [SEP] network [SEP]
+Pred:	0
+Probs:	0=0.5808684229850769	1=0.4191315174102783
+Arc:	[CLS] nmod : of [SEP] network [SEP] subsidiary [SEP]
+Pred:	0
+Probs:	0=0.8369803428649902	1=0.16301961243152618
+Arc:	[CLS] compound [SEP] parent [SEP] company [SEP]
+Pred:	0
+Probs:	0=0.8707641959190369	1=0.12923578917980194
+Arc:	[CLS] nsubj [SEP] company [SEP] digify [SEP]
+Pred:	0
+Probs:	0=0.6001550555229187	1=0.3998449444770813
+Arc:	[CLS] compound [SEP] gma [SEP] network [SEP]
+Pred:	0
+Probs:	0=0.6880000233650208	1=0.312000036239624
+Arc:	[CLS] nmod : of [SEP] network [SEP] company [SEP]
+Pred:	0
+Probs:	0=0.8274533748626709	1=0.17254666984081268
+Arc:	[CLS] nsubj : pass [SEP] digify [SEP] owned [SEP]
+Pred:	0
+Probs:	0=0.8440796732902527	1=0.1559203565120697
+Arc:	[CLS] acl [SEP] inc. [SEP] digify [SEP]
+Pred:	0
+Probs:	0=0.5205040574073792	1=0.47949597239494324
+Arc:	[CLS] obj [SEP] company [SEP] inc. [SEP]
+Pred:	0
+Probs:	0=0.6196558475494385	1=0.3803441822528839
+Arc:	[CLS] aux : pass [SEP] is [SEP] owned [SEP]
+Pred:	0
+Probs:	0=0.8839954733848572	1=0.11600454896688461
+Arc:	[CLS] parataxis [SEP] owned [SEP] subsidiary [SEP]
+Pred:	0
+Probs:	0=0.9585019946098328	1=0.04149802774190903
+Arc:	[CLS] amod [SEP] philippine [SEP] portal [SEP]
+Pred:	1
+Probs:	0=0.09869103878736496	1=0.9013090133666992
+Arc:	[CLS] compound [SEP] entertainment [SEP] portal [SEP]
+Pred:	1
+Probs:	0=0.07522106170654297	1=0.924778938293457
+Arc:	[CLS] obl : agent [SEP] portal [SEP] owned [SEP]
+Pred:	0
+Probs:	0=0.6885947585105896	1=0.3114052712917328
+
+Sent-level factuality probability:	0.3458162546157837
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 1332
+Nr_of_triples : 4
+input_triples : ['Mermaid_(Train_song) | genre | Pop_rock', 'Mermaid_(Train_song) | recordLabel | Columbia_Records', 'Mermaid_(Train_song) | runtime | 3.16', 'Mermaid_(Train_song) | recordLabel | Sony_Music_Entertainment']
+reference_text : Mermaid, a pop rock song by Train with a length of 3 minutes and 16 seconds, was released by Sony Music Entertainment under their Columbia Records label.
+Index : 1332
+Generation : Mermaid has been produced by Sony Music Entertainment and was recorded by Sony Music Entertainment. The musical genre of the song is Pop music.
+Index : 1332
+DAE_result : Gold sentence :	[CLS] mermaid , a pop rock song by train with a length of 3 minutes and 16 seconds , was released by sony music entertainment under their columbia records label . [SEP] mermaid has been produced by sony music entertainment and was recorded by sony music entertainment . the musical genre of the song is pop music . [SEP]
+Generated Output:	mermaid has been produced by sony music entertainment and was recorded by sony music entertainment . the musical genre of the song is pop music .
+Arc:	[CLS] nsubj : pass [SEP] mermaid [SEP] produced [SEP]
+Pred:	0
+Probs:	0=0.7984917163848877	1=0.2015082985162735
+Arc:	[CLS] nsubj : pass [SEP] mermaid [SEP] recorded [SEP]
+Pred:	0
+Probs:	0=0.5739508271217346	1=0.4260491728782654
+Arc:	[CLS] aux : pass [SEP] been [SEP] produced [SEP]
+Pred:	0
+Probs:	0=0.9549784660339355	1=0.045021556317806244
+Arc:	[CLS] compound [SEP] sony [SEP] entertainment [SEP]
+Pred:	0
+Probs:	0=0.8271164894104004	1=0.1728835254907608
+Arc:	[CLS] compound [SEP] music [SEP] entertainment [SEP]
+Pred:	0
+Probs:	0=0.7061936259269714	1=0.2938063442707062
+Arc:	[CLS] obl : agent [SEP] entertainment [SEP] produced [SEP]
+Pred:	0
+Probs:	0=0.9197759628295898	1=0.08022405207157135
+Arc:	[CLS] cc [SEP] and [SEP] recorded [SEP]
+Pred:	0
+Probs:	0=0.8273084163665771	1=0.17269159853458405
+Arc:	[CLS] aux : pass [SEP] was [SEP] recorded [SEP]
+Pred:	0
+Probs:	0=0.8247827291488647	1=0.17521724104881287
+Arc:	[CLS] conj : and [SEP] recorded [SEP] produced [SEP]
+Pred:	0
+Probs:	0=0.9495556354522705	1=0.050444405525922775
+Arc:	[CLS] compound [SEP] sony [SEP] entertainment [SEP]
+Pred:	0
+Probs:	0=0.842886745929718	1=0.157113179564476
+Arc:	[CLS] compound [SEP] music [SEP] entertainment [SEP]
+Pred:	0
+Probs:	0=0.6968135833740234	1=0.30318641662597656
+Arc:	[CLS] obl : agent [SEP] entertainment [SEP] recorded [SEP]
+Pred:	0
+Probs:	0=0.8061609864234924	1=0.19383899867534637
+Arc:	[CLS] amod [SEP] musical [SEP] genre [SEP]
+Pred:	0
+Probs:	0=0.5267924666404724	1=0.47320756316185
+Arc:	[CLS] nsubj [SEP] genre [SEP] music [SEP]
+Pred:	0
+Probs:	0=0.5939823389053345	1=0.4060176908969879
+Arc:	[CLS] nmod : of [SEP] song [SEP] genre [SEP]
+Pred:	0
+Probs:	0=0.5631765127182007	1=0.4368234872817993
+Arc:	[CLS] amod [SEP] pop [SEP] music [SEP]
+Pred:	1
+Probs:	0=0.295148104429245	1=0.7048518657684326
+Arc:	[CLS] parataxis [SEP] music [SEP] produced [SEP]
+Pred:	0
+Probs:	0=0.848280131816864	1=0.15171994268894196
+
+Sent-level factuality probability:	0.26144737005233765
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 1338
+Nr_of_triples : 1
+input_triples : ['United_States | demonym | American']
+reference_text : People from the United States are called Americans.
+Index : 1338
+Generation : A demonym for Americans is American.
+Index : 1338
+DAE_result : Gold sentence :	[CLS] people from the united states are called americans . [SEP] a demon ##ym for americans is american . [SEP]
+Generated Output:	a demon ##ym for americans is american .
+Arc:	[CLS] nsubj [SEP] demonym [SEP] american [SEP]
+Pred:	0
+Probs:	0=0.6641368865966797	1=0.3358631134033203
+Arc:	[CLS] nmod : for [SEP] americans [SEP] demonym [SEP]
+Pred:	1
+Probs:	0=0.33313682675361633	1=0.666863203048706
+
+Sent-level factuality probability:	0.5013631582260132
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 1401
+Nr_of_triples : 5
+input_triples : ['Abraham_A._Ribicoff | spouse | Ruth Ribicoff', 'Abraham_A._Ribicoff | inOfficeWhilePresident | John_F._Kennedy', 'Abraham_A._Ribicoff | nationality | American', 'Abraham_A._Ribicoff | deathPlace | United_States', 'Abraham_A._Ribicoff | birthPlace | Connecticut']
+reference_text : Abraham A. Ribicoff was in office during the John F. Kennedy presidency and was married to Ruth Ribicoff. Abraham A. Ribicoff was American and his place of birth was Connecticut. He also died in the USA.
+Index : 1401
+Generation : Abraham A Ribicoff died in the United States.
+Index : 1401
+DAE_result : Gold sentence :	[CLS] abraham a . rib ##ico ##ff was in office during the john f . kennedy presidency and was married to ruth rib ##ico ##ff . abraham a . rib ##ico ##ff was american and his place of birth was connecticut . he also died in the usa . [SEP] abraham a rib ##ico ##ff died in the united states . [SEP]
+Generated Output:	abraham a rib ##ico ##ff died in the united states .
+Arc:	[CLS] compound [SEP] abraham [SEP] ribicoff [SEP]
+Pred:	1
+Probs:	0=0.01969956047832966	1=0.9803004264831543
+Arc:	[CLS] nsubj [SEP] ribicoff [SEP] died [SEP]
+Pred:	1
+Probs:	0=0.016571521759033203	1=0.9834285378456116
+Arc:	[CLS] amod [SEP] united [SEP] states [SEP]
+Pred:	1
+Probs:	0=0.03804076462984085	1=0.9619592428207397
+Arc:	[CLS] obl : in [SEP] states [SEP] died [SEP]
+Pred:	1
+Probs:	0=0.03934389352798462	1=0.9606561660766602
+
+Sent-level factuality probability:	0.9715861082077026
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 1575
+Nr_of_triples : 1
+input_triples : ['Ciudad_Ayala | timeZone | Pacific_Standard_Time_Zone']
+reference_text : The timezone of Ciudad Ayala is the Pacific Standard Time Zone.
+Index : 1575
+Generation : 
+Index : 1575
+DAE_result : Gold sentence :	[CLS] the time ##zone of ciudad a ##yala is the pacific standard time zone . [SEP] this is a fill ##er text because the model did not make a proper generation . [SEP]
+Generated Output:	this is a fill ##er text because the model did not make a proper generation .
+Arc:	[CLS] nsubj [SEP] this [SEP] text [SEP]
+Pred:	0
+Probs:	0=0.9860170483589172	1=0.013982968404889107
+Arc:	[CLS] compound [SEP] filler [SEP] text [SEP]
+Pred:	0
+Probs:	0=0.9777712821960449	1=0.022228706628084183
+Arc:	[CLS] nsubj [SEP] model [SEP] make [SEP]
+Pred:	0
+Probs:	0=0.9924120306968689	1=0.007587945554405451
+Arc:	[CLS] advmod [SEP] not [SEP] make [SEP]
+Pred:	0
+Probs:	0=0.9812965989112854	1=0.018703408539295197
+Arc:	[CLS] advcl : because [SEP] make [SEP] text [SEP]
+Pred:	0
+Probs:	0=0.9795820713043213	1=0.02041787840425968
+Arc:	[CLS] amod [SEP] proper [SEP] generation [SEP]
+Pred:	0
+Probs:	0=0.9835057854652405	1=0.01649416796863079
+Arc:	[CLS] obj [SEP] generation [SEP] make [SEP]
+Pred:	0
+Probs:	0=0.9899590611457825	1=0.010040920227766037
+
+Sent-level factuality probability:	0.015636572614312172
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 1628
+Nr_of_triples : 4
+input_triples : ['University_of_Burgundy | numberOfUndergraduateStudents | 16800', 'University_of_Burgundy | staff | 2900', 'University_of_Burgundy | numberOfStudents | 27400', 'University_of_Burgundy | numberOfDoctoralStudents | 1299']
+reference_text : The University of Burgundy has a staff of 2900 members. The number of students currently in attendance is 27400, including 16800 undergraduate students and 1299 doctoral students.
+Index : 1628
+Generation : The University of Burgundundy has 16800 academic staff. The number of students is 2900.
+Index : 1628
+DAE_result : Gold sentence :	[CLS] the university of burgundy has a staff of 290 ##0 members . the number of students currently in attendance is 274 ##00 , including 1680 ##0 undergraduate students and 129 ##9 doctoral students . [SEP] the university of bu ##rg ##und ##und ##y has 1680 ##0 academic staff . the number of students is 290 ##0 . [SEP]
+Generated Output:	the university of bu ##rg ##und ##und ##y has 1680 ##0 academic staff . the number of students is 290 ##0 .
+Arc:	[CLS] nsubj [SEP] university [SEP] has [SEP]
+Pred:	1
+Probs:	0=0.07716412842273712	1=0.9228358864784241
+Arc:	[CLS] nmod : of [SEP] burgundundy [SEP] university [SEP]
+Pred:	0
+Probs:	0=0.7449484467506409	1=0.2550515830516815
+Arc:	[CLS] nummod [SEP] 16800 [SEP] staff [SEP]
+Pred:	1
+Probs:	0=0.14698156714439392	1=0.8530184030532837
+Arc:	[CLS] amod [SEP] academic [SEP] staff [SEP]
+Pred:	1
+Probs:	0=0.10691514611244202	1=0.8930848836898804
+Arc:	[CLS] obj [SEP] staff [SEP] has [SEP]
+Pred:	1
+Probs:	0=0.06519825756549835	1=0.9348017573356628
+Arc:	[CLS] nsubj [SEP] number [SEP] 2900 [SEP]
+Pred:	1
+Probs:	0=0.10216395556926727	1=0.8978360891342163
+Arc:	[CLS] nmod : of [SEP] students [SEP] number [SEP]
+Pred:	1
+Probs:	0=0.04850524663925171	1=0.9514947533607483
+Arc:	[CLS] parataxis [SEP] 2900 [SEP] has [SEP]
+Pred:	1
+Probs:	0=0.18666888773441315	1=0.8133310675621033
+
+Sent-level factuality probability:	0.8151817917823792
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 1716
+Nr_of_triples : 4
+input_triples : ['Expect_a_Miracle | artist | Brian_Kelly_(composer_&_pianist)', 'Expect_a_Miracle | type | Compilation_Album', 'Expect_a_Miracle | runtime | 54.56', 'Expect_a_Miracle | precededBy | Pools_of_Light_(Brian_Kelly_album)']
+reference_text : Expect a Miracle, a compilation album with runtime of 54.56 minutes was created by composer & pianist Artist Brian Kelly. This album was preceded by the album Pools of Light.
+Index : 1716
+Generation : The musical genre of the musical genre of the musical genre is Pools of Light, and Brian Kelly is the creator of the musical genre.
+Index : 1716
+DAE_result : Gold sentence :	[CLS] expect a miracle , a compilation album with run ##time of 54 . 56 minutes was created by composer & pianist artist brian kelly . this album was preceded by the album pools of light . [SEP] the musical genre of the musical genre of the musical genre is pools of light , and brian kelly is the creator of the musical genre . [SEP]
+Generated Output:	the musical genre of the musical genre of the musical genre is pools of light , and brian kelly is the creator of the musical genre .
+Arc:	[CLS] amod [SEP] musical [SEP] genre [SEP]
+Pred:	0
+Probs:	0=0.7080621719360352	1=0.29193785786628723
+Arc:	[CLS] nsubj [SEP] genre [SEP] pools [SEP]
+Pred:	0
+Probs:	0=0.8734322786331177	1=0.12656770646572113
+Arc:	[CLS] amod [SEP] musical [SEP] genre [SEP]
+Pred:	0
+Probs:	0=0.7027949094772339	1=0.29720503091812134
+Arc:	[CLS] nmod : of [SEP] genre [SEP] genre [SEP]
+Pred:	0
+Probs:	0=0.8625814318656921	1=0.13741850852966309
+Arc:	[CLS] amod [SEP] musical [SEP] genre [SEP]
+Pred:	0
+Probs:	0=0.6638327836990356	1=0.33616724610328674
+Arc:	[CLS] nmod : of [SEP] genre [SEP] genre [SEP]
+Pred:	0
+Probs:	0=0.8585603833198547	1=0.14143963158130646
+Arc:	[CLS] nmod : of [SEP] light [SEP] pools [SEP]
+Pred:	0
+Probs:	0=0.5985761880874634	1=0.4014238119125366
+Arc:	[CLS] cc [SEP] and [SEP] kelly [SEP]
+Pred:	1
+Probs:	0=0.3318903148174286	1=0.668109655380249
+Arc:	[CLS] compound [SEP] brian [SEP] kelly [SEP]
+Pred:	1
+Probs:	0=0.040318816900253296	1=0.9596812129020691
+Arc:	[CLS] conj : and [SEP] kelly [SEP] pools [SEP]
+Pred:	1
+Probs:	0=0.19605320692062378	1=0.8039467334747314
+Arc:	[CLS] amod [SEP] musical [SEP] genre [SEP]
+Pred:	1
+Probs:	0=0.04244278371334076	1=0.957557201385498
+Arc:	[CLS] nmod : of [SEP] genre [SEP] creator [SEP]
+Pred:	1
+Probs:	0=0.12617379426956177	1=0.8738261461257935
+
+Sent-level factuality probability:	0.499606728553772
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 1728
+Nr_of_triples : 5
+input_triples : ['Brandon_Carter | professionalField | General_relativity', 'Brandon_Carter | knownFor | Carter_constant', 'Brandon_Carter | knownFor | No-hair_theorem', 'Brandon_Carter | doctoralAdvisor | Dennis_William_Sciama', 'Brandon_Carter | birthDate | 1942-01-01']
+reference_text : Brandon Carter (born on born on 01-01-1942) is a professional in the field of general relativity, known for for the Carter constant and the No-hair theorem. Dennis William Sciama was his doctoral advisor.
+Index : 1728
+Generation : At the same time, Brandon Carter was a student at the General Relativity School, which was established on 1st January 1942, and was retired on 01-01-2012.
+Index : 1728
+DAE_result : Gold sentence :	[CLS] brandon carter ( born on born on 01 - 01 - 1942 ) is a professional in the field of general relativity , known for for the carter constant and the no - hair theorem . dennis william sci ##ama was his doctoral advisor . [SEP] at the same time , brandon carter was a student at the general relativity school , which was established on 1st january 1942 , and was retired on 01 - 01 - 2012 . [SEP]
+Generated Output:	at the same time , brandon carter was a student at the general relativity school , which was established on 1st january 1942 , and was retired on 01 - 01 - 2012 .
+Arc:	[CLS] amod [SEP] same [SEP] time [SEP]
+Pred:	0
+Probs:	0=0.9863622188568115	1=0.013637835159897804
+Arc:	[CLS] obl : at [SEP] time [SEP] student [SEP]
+Pred:	0
+Probs:	0=0.9952996969223022	1=0.004700222983956337
+Arc:	[CLS] compound [SEP] brandon [SEP] carter [SEP]
+Pred:	0
+Probs:	0=0.7386683821678162	1=0.2613316476345062
+Arc:	[CLS] nsubj [SEP] carter [SEP] student [SEP]
+Pred:	0
+Probs:	0=0.9324362874031067	1=0.0675637498497963
+Arc:	[CLS] amod [SEP] general [SEP] school [SEP]
+Pred:	0
+Probs:	0=0.9228153228759766	1=0.07718474417924881
+Arc:	[CLS] compound [SEP] relativity [SEP] school [SEP]
+Pred:	0
+Probs:	0=0.9552591443061829	1=0.04474084824323654
+Arc:	[CLS] obl : at [SEP] school [SEP] student [SEP]
+Pred:	0
+Probs:	0=0.9959332346916199	1=0.004066744819283485
+Arc:	[CLS] nsubj : pass [SEP] school [SEP] established [SEP]
+Pred:	0
+Probs:	0=0.9925600290298462	1=0.007439958862960339
+Arc:	[CLS] nsubj : pass [SEP] school [SEP] retired [SEP]
+Pred:	0
+Probs:	0=0.9964104294776917	1=0.003589602652937174
+Arc:	[CLS] ref [SEP] which [SEP] school [SEP]
+Pred:	0
+Probs:	0=0.9782207608222961	1=0.02177925780415535
+Arc:	[CLS] aux : pass [SEP] was [SEP] established [SEP]
+Pred:	0
+Probs:	0=0.9742092490196228	1=0.025790780782699585
+Arc:	[CLS] acl : relcl [SEP] established [SEP] school [SEP]
+Pred:	0
+Probs:	0=0.9879662394523621	1=0.012033767998218536
+Arc:	[CLS] amod [SEP] 1st [SEP] january [SEP]
+Pred:	0
+Probs:	0=0.9772496223449707	1=0.022750385105609894
+Arc:	[CLS] obl : on [SEP] january [SEP] established [SEP]
+Pred:	0
+Probs:	0=0.9956834316253662	1=0.004316577222198248
+Arc:	[CLS] nummod [SEP] 1942 [SEP] january [SEP]
+Pred:	0
+Probs:	0=0.986365795135498	1=0.013634205795824528
+Arc:	[CLS] cc [SEP] and [SEP] retired [SEP]
+Pred:	0
+Probs:	0=0.9909979104995728	1=0.009002062492072582
+Arc:	[CLS] aux : pass [SEP] was [SEP] retired [SEP]
+Pred:	0
+Probs:	0=0.9909561276435852	1=0.009043872356414795
+Arc:	[CLS] acl : relcl [SEP] retired [SEP] school [SEP]
+Pred:	0
+Probs:	0=0.9918096661567688	1=0.008190354332327843
+Arc:	[CLS] conj : and [SEP] retired [SEP] established [SEP]
+Pred:	0
+Probs:	0=0.9928047060966492	1=0.007195299956947565
+Arc:	[CLS] obl : on [SEP] 01 - 01 - 2012 [SEP] retired [SEP]
+Pred:	0
+Probs:	0=0.9972506165504456	1=0.0027493315283209085
+
+Sent-level factuality probability:	0.031037062406539917
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 1741
+Nr_of_triples : 7
+input_triples : ['Ciudad_Ayala | type | City', 'Ciudad_Ayala | leaderTitle | Governator', 'Ciudad_Ayala | isPartOf | Morelos', 'Ciudad_Ayala | country | Mexico', 'Ciudad_Ayala | elevationAboveTheSeaLevel | 1147.0', 'Ciudad_Ayala | timeZone | Pacific_Daylight_Time', 'Ciudad_Ayala | populationDensity | 1604.0']
+reference_text : Ciudad Ayala is a city and a part of Morelos located in Mexico. This city has a population density of 1604.0, with an elevation of 1147.0 above sea level. The city is in PDT time zone. The leader in Ciudad Ayala is called the governator.
+Index : 1741
+Generation : The city's total area in Mexico is 1147.0.
+Index : 1741
+DAE_result : Gold sentence :	[CLS] ciudad a ##yala is a city and a part of more ##los located in mexico . this city has a population density of 1604 . 0 , with an elevation of 114 ##7 . 0 above sea level . the city is in pd ##t time zone . the leader in ciudad a ##yala is called the govern ##ator . [SEP] the city ' s total area in mexico is 114 ##7 . 0 . [SEP]
+Generated Output:	the city ' s total area in mexico is 114 ##7 . 0 .
+Arc:	[CLS] nmod : poss [SEP] city [SEP] area [SEP]
+Pred:	0
+Probs:	0=0.6734080910682678	1=0.32659193873405457
+Arc:	[CLS] amod [SEP] total [SEP] area [SEP]
+Pred:	0
+Probs:	0=0.959726870059967	1=0.04027307406067848
+Arc:	[CLS] nsubj [SEP] area [SEP] 1147. 0 [SEP]
+Pred:	0
+Probs:	0=0.8345730304718018	1=0.16542701423168182
+Arc:	[CLS] nmod : in [SEP] mexico [SEP] area [SEP]
+Pred:	0
+Probs:	0=0.805467963218689	1=0.19453206658363342
+
+Sent-level factuality probability:	0.1817060112953186
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 1763
+Nr_of_triples : 6
+input_triples : ['University_of_Burgundy | numberOfUndergraduateStudents | 16800', 'University_of_Burgundy | staff | 2900', 'University_of_Burgundy | numberOfStudents | 27400', 'University_of_Burgundy | numberOfDoctoralStudents | 1299', 'University_of_Burgundy | campus | Dijon', 'University_of_Burgundy | city | Dijon']
+reference_text : The University of Burgundy which is located in the city of Dijon has 27400 students, of which 16800 are undergraduates and 1299 are doctoral students. It has 2900 staff members.
+Index : 1763
+Generation : The number of students is 16800. The University of Hamburg is located at Dijon. The number of undergraduate students is 16800.
+Index : 1763
+DAE_result : Gold sentence :	[CLS] the university of burgundy which is located in the city of di ##jon has 274 ##00 students , of which 1680 ##0 are undergraduate ##s and 129 ##9 are doctoral students . it has 290 ##0 staff members . [SEP] the number of students is 1680 ##0 . the university of hamburg is located at di ##jon . the number of undergraduate students is 1680 ##0 . [SEP]
+Generated Output:	the number of students is 1680 ##0 . the university of hamburg is located at di ##jon . the number of undergraduate students is 1680 ##0 .
+Arc:	[CLS] nsubj [SEP] number [SEP] 16800 [SEP]
+Pred:	1
+Probs:	0=0.10236688703298569	1=0.8976331353187561
+Arc:	[CLS] nmod : of [SEP] students [SEP] number [SEP]
+Pred:	1
+Probs:	0=0.07357721030712128	1=0.9264227747917175
+Arc:	[CLS] nsubj : pass [SEP] university [SEP] located [SEP]
+Pred:	1
+Probs:	0=0.07745318859815598	1=0.9225467443466187
+Arc:	[CLS] nmod : of [SEP] hamburg [SEP] university [SEP]
+Pred:	0
+Probs:	0=0.701379656791687	1=0.2986203730106354
+Arc:	[CLS] aux : pass [SEP] is [SEP] located [SEP]
+Pred:	1
+Probs:	0=0.06118103489279747	1=0.9388189315795898
+Arc:	[CLS] parataxis [SEP] located [SEP] 16800 [SEP]
+Pred:	1
+Probs:	0=0.14785146713256836	1=0.8521485328674316
+Arc:	[CLS] obl : at [SEP] dijon [SEP] located [SEP]
+Pred:	1
+Probs:	0=0.08991830796003342	1=0.910081684589386
+Arc:	[CLS] nsubj [SEP] number [SEP] 16800 [SEP]
+Pred:	1
+Probs:	0=0.011343211866915226	1=0.9886566996574402
+Arc:	[CLS] amod [SEP] undergraduate [SEP] students [SEP]
+Pred:	1
+Probs:	0=0.011890816502273083	1=0.9881091713905334
+Arc:	[CLS] nmod : of [SEP] students [SEP] number [SEP]
+Pred:	1
+Probs:	0=0.005538173485547304	1=0.9944618344306946
+Arc:	[CLS] parataxis [SEP] 16800 [SEP] 16800 [SEP]
+Pred:	1
+Probs:	0=0.11029990762472153	1=0.8897000551223755
+
+Sent-level factuality probability:	0.8733817934989929
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 1791
+Nr_of_triples : 2
+input_triples : ['Al_Asad_Airbase | operatingOrganisation | United_States_Air_Force', 'Al_Asad_Airbase | runwayName | 09L/27R']
+reference_text : Al Asad airbase operated by United States Air Force has the runway named as "09L/27R".
+Index : 1791
+Generation : This runway name is the name of the airport operated by the United States Air Force.
+Index : 1791
+DAE_result : Gold sentence :	[CLS] al asa ##d air ##base operated by united states air force has the runway named as ` ` 09 ##l / 27 ##r ' ' . [SEP] this runway name is the name of the airport operated by the united states air force . [SEP]
+Generated Output:	this runway name is the name of the airport operated by the united states air force .
+Arc:	[CLS] compound [SEP] runway [SEP] name [SEP]
+Pred:	1
+Probs:	0=0.06099754199385643	1=0.939002513885498
+Arc:	[CLS] nsubj [SEP] name [SEP] name [SEP]
+Pred:	1
+Probs:	0=0.2719036042690277	1=0.7280963659286499
+Arc:	[CLS] nmod : of [SEP] airport [SEP] name [SEP]
+Pred:	1
+Probs:	0=0.3203684985637665	1=0.6796315312385559
+Arc:	[CLS] acl [SEP] operated [SEP] airport [SEP]
+Pred:	1
+Probs:	0=0.03656871244311333	1=0.9634312987327576
+Arc:	[CLS] amod [SEP] united [SEP] states [SEP]
+Pred:	1
+Probs:	0=0.01759166829288006	1=0.982408344745636
+Arc:	[CLS] compound [SEP] states [SEP] force [SEP]
+Pred:	1
+Probs:	0=0.023048073053359985	1=0.9769518971443176
+Arc:	[CLS] compound [SEP] air [SEP] force [SEP]
+Pred:	1
+Probs:	0=0.01816125400364399	1=0.9818387031555176
+Arc:	[CLS] obl : by [SEP] force [SEP] operated [SEP]
+Pred:	1
+Probs:	0=0.015962453559041023	1=0.9840375185012817
+
+Sent-level factuality probability:	0.904424786567688
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 1799
+Nr_of_triples : 1
+input_triples : ['India | demonym | Indian']
+reference_text : The demonym for a person from India is Indian.
+Index : 1799
+Generation : Indians are an ethnic group in India. The demonym is Indian.
+Index : 1799
+DAE_result : Gold sentence :	[CLS] the demon ##ym for a person from india is indian . [SEP] indians are an ethnic group in india . the demon ##ym is indian . [SEP]
+Generated Output:	indians are an ethnic group in india . the demon ##ym is indian .
+Arc:	[CLS] nsubj [SEP] indians [SEP] group [SEP]
+Pred:	0
+Probs:	0=0.5705593824386597	1=0.42944058775901794
+Arc:	[CLS] amod [SEP] ethnic [SEP] group [SEP]
+Pred:	0
+Probs:	0=0.9422677159309387	1=0.05773226171731949
+Arc:	[CLS] nmod : in [SEP] india [SEP] group [SEP]
+Pred:	0
+Probs:	0=0.8643612861633301	1=0.1356387436389923
+Arc:	[CLS] nsubj [SEP] demonym [SEP] indian [SEP]
+Pred:	1
+Probs:	0=0.02238396182656288	1=0.977616012096405
+Arc:	[CLS] parataxis [SEP] indian [SEP] group [SEP]
+Pred:	1
+Probs:	0=0.37761181592941284	1=0.6223881840705872
+
+Sent-level factuality probability:	0.4445631504058838
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 1805
+Nr_of_triples : 1
+input_triples : ['Ciudad_Ayala | populationMetro | 1777539']
+reference_text : The population of the metropolitan area of Ciudad Ayala is 1,777,539.
+Index : 1805
+Generation : 877539 inhabitants are Metro.
+Index : 1805
+DAE_result : Gold sentence :	[CLS] the population of the metropolitan area of ciudad a ##yala is 1 , 77 ##7 , 53 ##9 . [SEP] 87 ##75 ##39 inhabitants are metro . [SEP]
+Generated Output:	87 ##75 ##39 inhabitants are metro .
+Arc:	[CLS] nummod [SEP] 877539 [SEP] inhabitants [SEP]
+Pred:	0
+Probs:	0=0.969964861869812	1=0.030035123229026794
+Arc:	[CLS] nsubj [SEP] inhabitants [SEP] metro [SEP]
+Pred:	0
+Probs:	0=0.9686571955680847	1=0.031342826783657074
+
+Sent-level factuality probability:	0.030688975006341934
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 1828
+Nr_of_triples : 2
+input_triples : ['Abraham_A._Ribicoff | spouse | Casey_Ribicoff', 'Abraham_A._Ribicoff | office | United States Secretary of Health, Education, and Welfare']
+reference_text : Casey Ribicoff is the wife of Abraham A. Ribicoff, the US secretary of Health, Education, and Welfare.
+Index : 1828
+Generation : Abraham A Ribicoff is married to Casey Ribicoff.
+Index : 1828
+DAE_result : Gold sentence :	[CLS] casey rib ##ico ##ff is the wife of abraham a . rib ##ico ##ff , the us secretary of health , education , and welfare . [SEP] abraham a rib ##ico ##ff is married to casey rib ##ico ##ff . [SEP]
+Generated Output:	abraham a rib ##ico ##ff is married to casey rib ##ico ##ff .
+Arc:	[CLS] nsubj : pass [SEP] ribicoff [SEP] married [SEP]
+Pred:	1
+Probs:	0=0.07477542757987976	1=0.9252246022224426
+Arc:	[CLS] aux : pass [SEP] is [SEP] married [SEP]
+Pred:	1
+Probs:	0=0.1191563680768013	1=0.8808436393737793
+Arc:	[CLS] compound [SEP] casey [SEP] ribicoff [SEP]
+Pred:	1
+Probs:	0=0.0689845159649849	1=0.9310154914855957
+Arc:	[CLS] obl : to [SEP] ribicoff [SEP] married [SEP]
+Pred:	1
+Probs:	0=0.08232536166906357	1=0.9176746606826782
+
+Sent-level factuality probability:	0.9136896133422852
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 1866
+Nr_of_triples : 4
+input_triples : ['Aleksandr_Prudnikov | club | FC_Amkar_Perm', 'Aleksandr_Prudnikov | height | 185.0 (centimetres)', 'Aleksandr_Prudnikov | birthDate | 1989-02-24', 'FC_Amkar_Perm | manager | Gadzhi_Gadzhiyev']
+reference_text : Aleksandr Prudnikov was born on February 24th, 1989 and stands at a height of 185.0. He plays for the FC Amkar Perm Football Club, managed by Gadzhi Gadzhiyev.
+Index : 1866
+Generation : Aleksandr Prudnikov was born on Feb 24, 1989 in Petrok Perm. He is a player who was hired by Gadzhi Gadzhi Gadzhi Gadzhiyev.
+Index : 1866
+DAE_result : Gold sentence :	[CLS] aleksandr pr ##ud ##nikov was born on february 24th , 1989 and stands at a height of 185 . 0 . he plays for the fc am ##kar per ##m football club , managed by ga ##d ##zhi ga ##d ##zhi ##yev . [SEP] aleksandr pr ##ud ##nikov was born on feb 24 , 1989 in pet ##rok per ##m . he is a player who was hired by ga ##d ##zhi ga ##d ##zhi ga ##d ##zhi ga ##d ##zhi ##yev . [SEP]
+Generated Output:	aleksandr pr ##ud ##nikov was born on feb 24 , 1989 in pet ##rok per ##m . he is a player who was hired by ga ##d ##zhi ga ##d ##zhi ga ##d ##zhi ga ##d ##zhi ##yev .
+Arc:	[CLS] compound [SEP] aleksandr [SEP] prudnikov [SEP]
+Pred:	1
+Probs:	0=0.09181664884090424	1=0.9081833362579346
+Arc:	[CLS] nsubj : pass [SEP] prudnikov [SEP] born [SEP]
+Pred:	1
+Probs:	0=0.0350043922662735	1=0.9649955630302429
+Arc:	[CLS] aux : pass [SEP] was [SEP] born [SEP]
+Pred:	1
+Probs:	0=0.05143949016928673	1=0.9485604763031006
+Arc:	[CLS] obl : on [SEP] feb [SEP] born [SEP]
+Pred:	1
+Probs:	0=0.043285567313432693	1=0.9567144513130188
+Arc:	[CLS] nummod [SEP] 24 [SEP] feb [SEP]
+Pred:	1
+Probs:	0=0.023176800459623337	1=0.9768232107162476
+Arc:	[CLS] obl : tmod [SEP] 1989 [SEP] feb [SEP]
+Pred:	1
+Probs:	0=0.04446840286254883	1=0.9555315971374512
+Arc:	[CLS] compound [SEP] petrok [SEP] perm [SEP]
+Pred:	0
+Probs:	0=0.8430240750312805	1=0.15697593986988068
+Arc:	[CLS] obl : in [SEP] perm [SEP] born [SEP]
+Pred:	1
+Probs:	0=0.13036160171031952	1=0.8696383237838745
+Arc:	[CLS] nsubj [SEP] he [SEP] player [SEP]
+Pred:	1
+Probs:	0=0.2676215171813965	1=0.7323784828186035
+Arc:	[CLS] parataxis [SEP] player [SEP] born [SEP]
+Pred:	1
+Probs:	0=0.08844465017318726	1=0.9115553498268127
+Arc:	[CLS] nsubj : pass [SEP] player [SEP] hired [SEP]
+Pred:	0
+Probs:	0=0.5753121376037598	1=0.42468783259391785
+Arc:	[CLS] ref [SEP] who [SEP] player [SEP]
+Pred:	1
+Probs:	0=0.2664735019207001	1=0.7335264682769775
+Arc:	[CLS] aux : pass [SEP] was [SEP] hired [SEP]
+Pred:	0
+Probs:	0=0.7357770204544067	1=0.2642229497432709
+Arc:	[CLS] acl : relcl [SEP] hired [SEP] player [SEP]
+Pred:	0
+Probs:	0=0.8238661289215088	1=0.1761338859796524
+Arc:	[CLS] compound [SEP] gadzhi [SEP] gadzhiyev [SEP]
+Pred:	1
+Probs:	0=0.3815575838088989	1=0.6184424757957458
+Arc:	[CLS] compound [SEP] gadzhi [SEP] gadzhiyev [SEP]
+Pred:	1
+Probs:	0=0.4855901598930359	1=0.5144098401069641
+Arc:	[CLS] compound [SEP] gadzhi [SEP] gadzhiyev [SEP]
+Pred:	1
+Probs:	0=0.34908196330070496	1=0.6509180068969727
+Arc:	[CLS] obl : agent [SEP] gadzhiyev [SEP] hired [SEP]
+Pred:	0
+Probs:	0=0.6313530802726746	1=0.36864691972732544
+
+Sent-level factuality probability:	0.6740190982818604
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 1876
+Nr_of_triples : 7
+input_triples : ['Mexico | currency | Mexican_peso', 'Mexico | demonym | Mexicans', 'Bionico | course | Dessert', 'Bionico | region | Guadalajara', 'Bionico | ingredient | Granola', 'Dessert | dishVariation | Sandesh_(confectionery)', 'Bionico | country | Mexico']
+reference_text : The people in Mexico are called Mexicans and the currency is the peso. Bionico is a dessert food found in Mexico in the Guadalajara area. This dish requires granola as one of its ingredients. Another types of dessert is Sandesh.
+Index : 1876
+Generation : Bionico is a dessert from Mexico. Mexico uses Mexicanpeso.
+Index : 1876
+DAE_result : Gold sentence :	[CLS] the people in mexico are called mexican ##s and the currency is the pe ##so . bio ##nic ##o is a dessert food found in mexico in the guadalajara area . this dish requires gran ##ola as one of its ingredients . another types of dessert is sand ##esh . [SEP] bio ##nic ##o is a dessert from mexico . mexico uses mexican ##pes ##o . [SEP]
+Generated Output:	bio ##nic ##o is a dessert from mexico . mexico uses mexican ##pes ##o .
+Arc:	[CLS] nsubj [SEP] bionico [SEP] dessert [SEP]
+Pred:	1
+Probs:	0=0.008545559830963612	1=0.9914544820785522
+Arc:	[CLS] nmod : from [SEP] mexico [SEP] dessert [SEP]
+Pred:	1
+Probs:	0=0.013380814343690872	1=0.9866191744804382
+Arc:	[CLS] nsubj [SEP] mexico [SEP] uses [SEP]
+Pred:	0
+Probs:	0=0.815673828125	1=0.1843262016773224
+Arc:	[CLS] parataxis [SEP] uses [SEP] dessert [SEP]
+Pred:	1
+Probs:	0=0.355398565530777	1=0.6446014046669006
+Arc:	[CLS] obj [SEP] mexicanpeso [SEP] uses [SEP]
+Pred:	0
+Probs:	0=0.8679602146148682	1=0.1320398449897766
+
+Sent-level factuality probability:	0.5878081917762756
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 1905
+Nr_of_triples : 3
+input_triples : ['Turn_Me_On_(album) | runtime | 35.1', 'Turn_Me_On_(album) | precededBy | Let_It_Breed', 'Let_It_Breed | precededBy | Love_American_Style_(album)']
+reference_text : Following the albums, Let it Breed and Love American Style, Turn me on was released at a length of 35 minutes and 10 seconds.
+Index : 1905
+Generation : The following musical work was performed on Turn Me On, a musical musical genre.
+Index : 1905
+DAE_result : Gold sentence :	[CLS] following the albums , let it breed and love american style , turn me on was released at a length of 35 minutes and 10 seconds . [SEP] the following musical work was performed on turn me on , a musical musical genre . [SEP]
+Generated Output:	the following musical work was performed on turn me on , a musical musical genre .
+Arc:	[CLS] amod [SEP] following [SEP] work [SEP]
+Pred:	0
+Probs:	0=0.9733216762542725	1=0.02667834423482418
+Arc:	[CLS] amod [SEP] musical [SEP] work [SEP]
+Pred:	0
+Probs:	0=0.9628392457962036	1=0.03716070577502251
+Arc:	[CLS] nsubj : pass [SEP] work [SEP] performed [SEP]
+Pred:	0
+Probs:	0=0.9817519783973694	1=0.018248101696372032
+Arc:	[CLS] aux : pass [SEP] was [SEP] performed [SEP]
+Pred:	0
+Probs:	0=0.9477339386940002	1=0.052266135811805725
+Arc:	[CLS] advcl : on [SEP] turn [SEP] performed [SEP]
+Pred:	0
+Probs:	0=0.8411712646484375	1=0.1588287651538849
+Arc:	[CLS] obj [SEP] me [SEP] turn [SEP]
+Pred:	1
+Probs:	0=0.3665326237678528	1=0.6334673762321472
+Arc:	[CLS] compound : prt [SEP] on [SEP] turn [SEP]
+Pred:	1
+Probs:	0=0.3043745160102844	1=0.6956255435943604
+Arc:	[CLS] amod [SEP] musical [SEP] genre [SEP]
+Pred:	0
+Probs:	0=0.9813740849494934	1=0.018625866621732712
+Arc:	[CLS] amod [SEP] musical [SEP] genre [SEP]
+Pred:	0
+Probs:	0=0.9780576825141907	1=0.021942270919680595
+Arc:	[CLS] obj [SEP] genre [SEP] turn [SEP]
+Pred:	0
+Probs:	0=0.9488356709480286	1=0.05116432160139084
+
+Sent-level factuality probability:	0.1714007407426834
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 1907
+Nr_of_triples : 5
+input_triples : ['Nurhan_Atasoy | residence | Istanbul', 'Nurhan_Atasoy | citizenship | Turkey', 'Nurhan_Atasoy | nationality | Turkish_people', 'Nurhan_Atasoy | residence | Turkey', 'Nurhan_Atasoy | award | State_Award_for_Superior_Achievement']
+reference_text : Nurhan Atasoy, of Turkish citizenship and nationality, resides in Istanbul, Turkey. Nurhan won the State Award for Superior Achievement.
+Index : 1907
+Generation : The award of the award of the State of Turkey is the State of Turkey. The award is awarded to the Turkish people and is awarded to the national.
+Index : 1907
+DAE_result : Gold sentence :	[CLS] nur ##han ata ##so ##y , of turkish citizenship and nationality , resides in istanbul , turkey . nur ##han won the state award for superior achievement . [SEP] the award of the award of the state of turkey is the state of turkey . the award is awarded to the turkish people and is awarded to the national . [SEP]
+Generated Output:	the award of the award of the state of turkey is the state of turkey . the award is awarded to the turkish people and is awarded to the national .
+Arc:	[CLS] nsubj [SEP] award [SEP] state [SEP]
+Pred:	0
+Probs:	0=0.9092023372650146	1=0.09079769998788834
+Arc:	[CLS] nmod : of [SEP] award [SEP] award [SEP]
+Pred:	0
+Probs:	0=0.8512486815452576	1=0.14875127375125885
+Arc:	[CLS] nmod : of [SEP] state [SEP] award [SEP]
+Pred:	0
+Probs:	0=0.900515615940094	1=0.09948443621397018
+Arc:	[CLS] nmod : of [SEP] turkey [SEP] state [SEP]
+Pred:	0
+Probs:	0=0.9206219911575317	1=0.07937801629304886
+Arc:	[CLS] nmod : of [SEP] turkey [SEP] state [SEP]
+Pred:	0
+Probs:	0=0.9698672890663147	1=0.030132703483104706
+Arc:	[CLS] nsubj : pass [SEP] award [SEP] awarded [SEP]
+Pred:	1
+Probs:	0=0.44026660919189453	1=0.5597333908081055
+Arc:	[CLS] nsubj : pass [SEP] award [SEP] awarded [SEP]
+Pred:	0
+Probs:	0=0.5502018928527832	1=0.4497981071472168
+Arc:	[CLS] aux : pass [SEP] is [SEP] awarded [SEP]
+Pred:	0
+Probs:	0=0.5210937857627869	1=0.4789062738418579
+Arc:	[CLS] parataxis [SEP] awarded [SEP] state [SEP]
+Pred:	0
+Probs:	0=0.8979888558387756	1=0.1020110696554184
+Arc:	[CLS] amod [SEP] turkish [SEP] people [SEP]
+Pred:	0
+Probs:	0=0.8787734508514404	1=0.12122659385204315
+Arc:	[CLS] obl : to [SEP] people [SEP] awarded [SEP]
+Pred:	0
+Probs:	0=0.8959048390388489	1=0.10409513115882874
+Arc:	[CLS] cc [SEP] and [SEP] awarded [SEP]
+Pred:	0
+Probs:	0=0.8499526977539062	1=0.15004728734493256
+Arc:	[CLS] aux : pass [SEP] is [SEP] awarded [SEP]
+Pred:	0
+Probs:	0=0.8290815353393555	1=0.17091846466064453
+Arc:	[CLS] parataxis [SEP] awarded [SEP] state [SEP]
+Pred:	0
+Probs:	0=0.9286551475524902	1=0.07134484499692917
+Arc:	[CLS] conj : and [SEP] awarded [SEP] awarded [SEP]
+Pred:	0
+Probs:	0=0.7685312032699585	1=0.2314688265323639
+Arc:	[CLS] obl : to [SEP] national [SEP] awarded [SEP]
+Pred:	0
+Probs:	0=0.8360217809677124	1=0.1639782041311264
+
+Sent-level factuality probability:	0.19075451791286469
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 2005
+Nr_of_triples : 3
+input_triples : ['Nord_(Year_of_No_Light_album) | releaseDate | 2006-09-06', 'Nord_(Year_of_No_Light_album) | followedBy | Live_at_Roadburn_2008_(Year_of_No_Light_album)', 'Nord_(Year_of_No_Light_album) | artist | Year_of_No_Light']
+reference_text : Nord is an album by Year of No Light that was released on June 9th, 2006. The band followed Nord with the album Live at Roadburn 2008.
+Index : 2005
+Generation : The year of No Light was the birth of the musical work of Nord. The year of No Light was the year of the Live album.
+Index : 2005
+DAE_result : Gold sentence :	[CLS] nord is an album by year of no light that was released on june 9th , 2006 . the band followed nord with the album live at road ##burn 2008 . [SEP] the year of no light was the birth of the musical work of nord . the year of no light was the year of the live album . [SEP]
+Generated Output:	the year of no light was the birth of the musical work of nord . the year of no light was the year of the live album .
+Arc:	[CLS] nsubj [SEP] year [SEP] birth [SEP]
+Pred:	0
+Probs:	0=0.913849949836731	1=0.08615007996559143
+Arc:	[CLS] nmod : of [SEP] light [SEP] year [SEP]
+Pred:	1
+Probs:	0=0.4557650685310364	1=0.5442348718643188
+Arc:	[CLS] amod [SEP] musical [SEP] work [SEP]
+Pred:	0
+Probs:	0=0.9153468012809753	1=0.08465323597192764
+Arc:	[CLS] nmod : of [SEP] work [SEP] birth [SEP]
+Pred:	0
+Probs:	0=0.9701806902885437	1=0.029819313436746597
+Arc:	[CLS] nmod : of [SEP] nord [SEP] work [SEP]
+Pred:	0
+Probs:	0=0.8659562468528748	1=0.13404372334480286
+Arc:	[CLS] nsubj [SEP] year [SEP] year [SEP]
+Pred:	1
+Probs:	0=0.0270751491189003	1=0.9729248881340027
+Arc:	[CLS] nmod : of [SEP] light [SEP] year [SEP]
+Pred:	1
+Probs:	0=0.019132792949676514	1=0.9808672070503235
+Arc:	[CLS] parataxis [SEP] year [SEP] birth [SEP]
+Pred:	0
+Probs:	0=0.7833767533302307	1=0.21662332117557526
+Arc:	[CLS] amod [SEP] live [SEP] album [SEP]
+Pred:	1
+Probs:	0=0.03436943143606186	1=0.9656306505203247
+Arc:	[CLS] nmod : of [SEP] album [SEP] year [SEP]
+Pred:	1
+Probs:	0=0.043170101940631866	1=0.9568299055099487
+
+Sent-level factuality probability:	0.49717774987220764
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 2006
+Nr_of_triples : 6
+input_triples : ['Acharya_Institute_of_Technology | campus | In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090.', 'All_India_Council_for_Technical_Education | location | Mumbai', 'Acharya_Institute_of_Technology | director | Dr. G. P. Prabhukumar', 'Acharya_Institute_of_Technology | affiliation | Visvesvaraya_Technological_University', 'Visvesvaraya_Technological_University | city | Belgaum', 'Acharya_Institute_of_Technology | wasGivenTheTechnicalCampusStatusBy | All_India_Council_for_Technical_Education']
+reference_text : The campus of the Acharya Institute of Technology, directed by Dr.G. Prabhukumar and affiliated with the Belgaum-located Visvesvaraya Technological University, may be found at at Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090, India. It was given 'Technical Campus' status by the All India Council for Technical Education of Mumbai.
+Index : 2006
+Generation : The Acharya Institute of Technology was given the "Technical Campus status by All India Council for Technical Education in Mumbai.
+Index : 2006
+DAE_result : Gold sentence :	[CLS] the campus of the ac ##har ##ya institute of technology , directed by dr . g . pr ##ab ##hu ##kumar and affiliated with the bel ##gau ##m - located vis ##ves ##vara ##ya technological university , may be found at at sold ##eva ##nah ##all ##i , ac ##har ##ya dr . sar ##va ##pal ##li radha ##krishna ##n road , hess ##ar ##gh ##att ##a main road , bangalore – 560 ##0 ##90 , india . it was given ' technical campus ' status by the all india council for technical education of mumbai . [SEP] the ac ##har ##ya institute of technology was given the " technical campus status by all india council for technical education in mumbai . [SEP]
+Generated Output:	the ac ##har ##ya institute of technology was given the " technical campus status by all india council for technical education in mumbai .
+Arc:	[CLS] compound [SEP] acharya [SEP] institute [SEP]
+Pred:	1
+Probs:	0=0.004493595100939274	1=0.9955064058303833
+Arc:	[CLS] nsubj : pass [SEP] institute [SEP] given [SEP]
+Pred:	1
+Probs:	0=0.004566853400319815	1=0.9954332113265991
+Arc:	[CLS] nmod : of [SEP] technology [SEP] institute [SEP]
+Pred:	1
+Probs:	0=0.0025633578188717365	1=0.9974367022514343
+Arc:	[CLS] aux : pass [SEP] was [SEP] given [SEP]
+Pred:	1
+Probs:	0=0.008279859088361263	1=0.9917201995849609
+Arc:	[CLS] amod [SEP] technical [SEP] campus [SEP]
+Pred:	1
+Probs:	0=0.005650410894304514	1=0.9943496584892273
+Arc:	[CLS] compound [SEP] campus [SEP] status [SEP]
+Pred:	1
+Probs:	0=0.008468378335237503	1=0.9915315508842468
+Arc:	[CLS] obj [SEP] status [SEP] given [SEP]
+Pred:	1
+Probs:	0=0.006675823591649532	1=0.9933242201805115
+Arc:	[CLS] compound [SEP] india [SEP] council [SEP]
+Pred:	1
+Probs:	0=0.003979057539254427	1=0.9960209727287292
+Arc:	[CLS] obl : agent [SEP] council [SEP] given [SEP]
+Pred:	1
+Probs:	0=0.005232945550233126	1=0.9947670698165894
+Arc:	[CLS] amod [SEP] technical [SEP] education [SEP]
+Pred:	1
+Probs:	0=0.0018517106072977185	1=0.9981483221054077
+Arc:	[CLS] obl : for [SEP] education [SEP] given [SEP]
+Pred:	1
+Probs:	0=0.004163029137998819	1=0.9958369731903076
+Arc:	[CLS] nmod : in [SEP] mumbai [SEP] education [SEP]
+Pred:	1
+Probs:	0=0.0053699263371527195	1=0.9946300983428955
+
+Sent-level factuality probability:	0.9948921203613281
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 2166
+Nr_of_triples : 7
+input_triples : ['Alan_Shepard | birthDate | 1923-11-18', 'Alan_Shepard | nationality | United_States', 'Alan_Shepard | servedAsChiefOfTheAstronautOfficeIn | 1963', 'Alan_Shepard | deathPlace | California', 'Alan_Shepard | birthPlace | New_Hampshire', 'Alan_Shepard | mission | Apollo_14', 'Alan_Shepard | award | Distinguished_Service_Medal_(United_States_Navy)']
+reference_text : American Alan Shepard, who was the Chief of the Astronaut Office in 1963, and a member of the Apollo 14 crew, was awarded the Distinguished Service Medal in the United States Navy. He was born in New Hampshire on Nov 18, 1923 and died in California.
+Index : 2166
+Generation : The United States Navy was awarded Alan Shepard's Distinguished Service Medal in 1963.
+Index : 2166
+DAE_result : Gold sentence :	[CLS] american alan shepard , who was the chief of the astronaut office in 1963 , and a member of the apollo 14 crew , was awarded the distinguished service medal in the united states navy . he was born in new hampshire on nov 18 , 1923 and died in california . [SEP] the united states navy was awarded alan shepard ' s distinguished service medal in 1963 . [SEP]
+Generated Output:	the united states navy was awarded alan shepard ' s distinguished service medal in 1963 .
+Arc:	[CLS] amod [SEP] united [SEP] states [SEP]
+Pred:	1
+Probs:	0=0.009474250487983227	1=0.9905257225036621
+Arc:	[CLS] nsubj : pass [SEP] navy [SEP] awarded [SEP]
+Pred:	1
+Probs:	0=0.003778151236474514	1=0.9962217807769775
+Arc:	[CLS] aux : pass [SEP] was [SEP] awarded [SEP]
+Pred:	1
+Probs:	0=0.006699986755847931	1=0.9932999610900879
+Arc:	[CLS] compound [SEP] alan [SEP] shepard [SEP]
+Pred:	1
+Probs:	0=0.014451533555984497	1=0.9855484366416931
+Arc:	[CLS] nmod : poss [SEP] shepard [SEP] medal [SEP]
+Pred:	1
+Probs:	0=0.0056825000792741776	1=0.9943174719810486
+Arc:	[CLS] amod [SEP] distinguished [SEP] medal [SEP]
+Pred:	1
+Probs:	0=0.0025169176515191793	1=0.9974830746650696
+Arc:	[CLS] compound [SEP] service [SEP] medal [SEP]
+Pred:	1
+Probs:	0=0.002351936884224415	1=0.9976480603218079
+Arc:	[CLS] obj [SEP] medal [SEP] awarded [SEP]
+Pred:	1
+Probs:	0=0.003963373135775328	1=0.99603670835495
+Arc:	[CLS] obl : in [SEP] 1963 [SEP] awarded [SEP]
+Pred:	1
+Probs:	0=0.007351377978920937	1=0.9926485419273376
+
+Sent-level factuality probability:	0.9937477111816406
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 2169
+Nr_of_triples : 3
+input_triples : ['Turn_Me_On_(album) | runtime | 35.1', 'Turn_Me_On_(album) | artist | The_Honeymoon_Killers_(American_band)', 'Turn_Me_On_(album) | producer | The_Honeymoon_Killers_(American_band)']
+reference_text : The album Turn Me On (produced by American band the Honeymoon Killers) is 35 minutes 10 seconds long.
+Index : 2169
+Generation : The musical genre of the album is Turn Me On. It was produced by The Honeymoon Killers.
+Index : 2169
+DAE_result : Gold sentence :	[CLS] the album turn me on ( produced by american band the honeymoon killers ) is 35 minutes 10 seconds long . [SEP] the musical genre of the album is turn me on . it was produced by the honeymoon killers . [SEP]
+Generated Output:	the musical genre of the album is turn me on . it was produced by the honeymoon killers .
+Arc:	[CLS] amod [SEP] musical [SEP] genre [SEP]
+Pred:	0
+Probs:	0=0.966471791267395	1=0.0335281640291214
+Arc:	[CLS] nsubj [SEP] genre [SEP] turn [SEP]
+Pred:	0
+Probs:	0=0.891139566898346	1=0.10886038094758987
+Arc:	[CLS] nmod : of [SEP] album [SEP] genre [SEP]
+Pred:	0
+Probs:	0=0.8998309969902039	1=0.10016904026269913
+Arc:	[CLS] obj [SEP] me [SEP] turn [SEP]
+Pred:	1
+Probs:	0=0.2927490770816803	1=0.7072509527206421
+Arc:	[CLS] compound : prt [SEP] on [SEP] turn [SEP]
+Pred:	1
+Probs:	0=0.35275936126708984	1=0.6472406983375549
+Arc:	[CLS] nsubj : pass [SEP] it [SEP] produced [SEP]
+Pred:	1
+Probs:	0=0.46101823449134827	1=0.5389817357063293
+Arc:	[CLS] aux : pass [SEP] was [SEP] produced [SEP]
+Pred:	0
+Probs:	0=0.5241450667381287	1=0.4758549630641937
+Arc:	[CLS] parataxis [SEP] produced [SEP] turn [SEP]
+Pred:	1
+Probs:	0=0.3267298638820648	1=0.6732701659202576
+Arc:	[CLS] compound [SEP] honeymoon [SEP] killers [SEP]
+Pred:	1
+Probs:	0=0.117838054895401	1=0.8821619749069214
+Arc:	[CLS] obl : agent [SEP] killers [SEP] produced [SEP]
+Pred:	1
+Probs:	0=0.17543090879917145	1=0.8245691061019897
+
+Sent-level factuality probability:	0.49918875098228455
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 2187
+Nr_of_triples : 4
+input_triples : ['McVeagh_of_the_South_Seas | director | Harry_Carey_(actor_born_1878)', 'McVeagh_of_the_South_Seas | distributor | Alliance_Films_Corporation', 'McVeagh_of_the_South_Seas | director | Gregory_Allen', 'McVeagh_of_the_South_Seas | imdbId | 0004319']
+reference_text : "McVeagh of the South Seas" is distributed by Alliance Films Corporation and has the IMDb id of 0004319. It’s directed by Harry Carey and Gregory Allen. Carey was born in 1878.
+Index : 2187
+Generation : The distributor of the film, Alliance Films Corporation, is Harry Carey, who was born 1878 in Manchester.
+Index : 2187
+DAE_result : Gold sentence :	[CLS] ` ` mc ##ve ##agh of the south seas ' ' is distributed by alliance films corporation and has the im ##db id of 000 ##43 ##19 . it ’ s directed by harry carey and gregory allen . carey was born in 1878 . [SEP] the distributor of the film , alliance films corporation , is harry carey , who was born 1878 in manchester . [SEP]
+Generated Output:	the distributor of the film , alliance films corporation , is harry carey , who was born 1878 in manchester .
+Arc:	[CLS] nsubj [SEP] distributor [SEP] carey [SEP]
+Pred:	1
+Probs:	0=0.060419462621212006	1=0.9395805597305298
+Arc:	[CLS] nmod : of [SEP] film [SEP] distributor [SEP]
+Pred:	1
+Probs:	0=0.09006436169147491	1=0.9099355936050415
+Arc:	[CLS] compound [SEP] alliance [SEP] films [SEP]
+Pred:	1
+Probs:	0=0.009110084734857082	1=0.990889847278595
+Arc:	[CLS] compound [SEP] films [SEP] corporation [SEP]
+Pred:	1
+Probs:	0=0.010022962465882301	1=0.9899770617485046
+Arc:	[CLS] appos [SEP] corporation [SEP] distributor [SEP]
+Pred:	1
+Probs:	0=0.020434103906154633	1=0.9795659184455872
+Arc:	[CLS] amod [SEP] harry [SEP] carey [SEP]
+Pred:	1
+Probs:	0=0.14966373145580292	1=0.8503362536430359
+Arc:	[CLS] nsubj : pass [SEP] who [SEP] born [SEP]
+Pred:	1
+Probs:	0=0.3145807981491089	1=0.6854192018508911
+Arc:	[CLS] aux : pass [SEP] was [SEP] born [SEP]
+Pred:	1
+Probs:	0=0.21078331768512726	1=0.7892166972160339
+Arc:	[CLS] parataxis [SEP] born [SEP] carey [SEP]
+Pred:	1
+Probs:	0=0.21007421612739563	1=0.789925754070282
+Arc:	[CLS] obj [SEP] 1878 [SEP] born [SEP]
+Pred:	1
+Probs:	0=0.2998718023300171	1=0.7001281380653381
+Arc:	[CLS] obl : in [SEP] manchester [SEP] born [SEP]
+Pred:	0
+Probs:	0=0.9281176924705505	1=0.07188229262828827
+
+Sent-level factuality probability:	0.7906234264373779
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 2193
+Nr_of_triples : 2
+input_triples : ['Death_on_a_Factory_Farm | director | Sarah_Teale', 'Death_on_a_Factory_Farm | runtime | 83.0']
+reference_text : Sarah Teale directed the movie Death on a Factory Farm which has a duration of 83 minutes.
+Index : 2193
+Generation : The 'uncredited' director is Sarah Teale. The film was made by Sarah Teale. The director is Sarah Teale.
+Index : 2193
+DAE_result : Gold sentence :	[CLS] sarah tea ##le directed the movie death on a factory farm which has a duration of 83 minutes . [SEP] the ' uncredited ' director is sarah tea ##le . the film was made by sarah tea ##le . the director is sarah tea ##le . [SEP]
+Generated Output:	the ' uncredited ' director is sarah tea ##le . the film was made by sarah tea ##le . the director is sarah tea ##le .
+Arc:	[CLS] amod [SEP] uncredited [SEP] director [SEP]
+Pred:	0
+Probs:	0=0.9683902859687805	1=0.03160970285534859
+Arc:	[CLS] nsubj [SEP] director [SEP] teale [SEP]
+Pred:	0
+Probs:	0=0.5417989492416382	1=0.4582010805606842
+Arc:	[CLS] compound [SEP] sarah [SEP] teale [SEP]
+Pred:	1
+Probs:	0=0.27375057339668274	1=0.7262494564056396
+Arc:	[CLS] nsubj : pass [SEP] film [SEP] made [SEP]
+Pred:	0
+Probs:	0=0.5352319478988647	1=0.46476802229881287
+Arc:	[CLS] aux : pass [SEP] was [SEP] made [SEP]
+Pred:	0
+Probs:	0=0.6659007668495178	1=0.3340991735458374
+Arc:	[CLS] parataxis [SEP] made [SEP] teale [SEP]
+Pred:	0
+Probs:	0=0.5361262559890747	1=0.4638737142086029
+Arc:	[CLS] compound [SEP] sarah [SEP] teale [SEP]
+Pred:	1
+Probs:	0=0.2227160483598709	1=0.7772839665412903
+Arc:	[CLS] obl : agent [SEP] teale [SEP] made [SEP]
+Pred:	1
+Probs:	0=0.29802554845809937	1=0.7019744515419006
+Arc:	[CLS] nsubj [SEP] director [SEP] teale [SEP]
+Pred:	1
+Probs:	0=0.03995322436094284	1=0.9600467085838318
+Arc:	[CLS] compound [SEP] sarah [SEP] teale [SEP]
+Pred:	1
+Probs:	0=0.020847927778959274	1=0.9791520237922668
+Arc:	[CLS] parataxis [SEP] teale [SEP] teale [SEP]
+Pred:	1
+Probs:	0=0.1021411195397377	1=0.8978589177131653
+
+Sent-level factuality probability:	0.6177379488945007
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 2211
+Nr_of_triples : 5
+input_triples : ['BBC | city | Broadcasting_House', 'Bananaman | starring | Bill_Oddie', 'Bananaman | creator | Steve_Bright', 'BBC | foundedBy | John_Reith,_1st_Baron_Reith', 'Bananaman | broadcastedBy | BBC']
+reference_text : Bananaman starring Bill Oddie and created by Steve Bright was broadcasted by BBC. BBC was founded by 1st Baron, John Reith and has its home at Broadcasting House.
+Index : 2211
+Generation : Bananaman was created by John Reith, 1st Baron Reith, 1st Baron Reith, and the BBC.
+Index : 2211
+DAE_result : Gold sentence :	[CLS] banana ##man starring bill odd ##ie and created by steve bright was broadcast ##ed by bbc . bbc was founded by 1st baron , john rei ##th and has its home at broadcasting house . [SEP] banana ##man was created by john rei ##th , 1st baron rei ##th , 1st baron rei ##th , and the bbc . [SEP]
+Generated Output:	banana ##man was created by john rei ##th , 1st baron rei ##th , 1st baron rei ##th , and the bbc .
+Arc:	[CLS] nsubj : pass [SEP] bananaman [SEP] created [SEP]
+Pred:	1
+Probs:	0=0.11620695888996124	1=0.8837929964065552
+Arc:	[CLS] aux : pass [SEP] was [SEP] created [SEP]
+Pred:	1
+Probs:	0=0.2409747838973999	1=0.7590251564979553
+Arc:	[CLS] compound [SEP] john [SEP] reith [SEP]
+Pred:	1
+Probs:	0=0.14896322786808014	1=0.8510367274284363
+Arc:	[CLS] obl : agent [SEP] reith [SEP] created [SEP]
+Pred:	1
+Probs:	0=0.14921823143959045	1=0.8507817983627319
+Arc:	[CLS] compound [SEP] 1st [SEP] reith [SEP]
+Pred:	1
+Probs:	0=0.4336121380329132	1=0.5663878321647644
+Arc:	[CLS] compound [SEP] baron [SEP] reith [SEP]
+Pred:	1
+Probs:	0=0.33911362290382385	1=0.6608863472938538
+Arc:	[CLS] obl : agent [SEP] reith [SEP] created [SEP]
+Pred:	1
+Probs:	0=0.23196370899677277	1=0.7680363059043884
+Arc:	[CLS] conj : and [SEP] reith [SEP] reith [SEP]
+Pred:	1
+Probs:	0=0.16680531203746796	1=0.8331947326660156
+Arc:	[CLS] compound [SEP] 1st [SEP] reith [SEP]
+Pred:	0
+Probs:	0=0.7396863698959351	1=0.26031363010406494
+Arc:	[CLS] compound [SEP] baron [SEP] reith [SEP]
+Pred:	0
+Probs:	0=0.7242841124534607	1=0.27571582794189453
+Arc:	[CLS] obl : agent [SEP] reith [SEP] created [SEP]
+Pred:	1
+Probs:	0=0.30320480465888977	1=0.6967951655387878
+Arc:	[CLS] conj : and [SEP] reith [SEP] reith [SEP]
+Pred:	1
+Probs:	0=0.22386784851551056	1=0.7761321663856506
+Arc:	[CLS] cc [SEP] and [SEP] bbc [SEP]
+Pred:	1
+Probs:	0=0.4507027864456177	1=0.5492972135543823
+Arc:	[CLS] obl : agent [SEP] bbc [SEP] created [SEP]
+Pred:	1
+Probs:	0=0.2417854219675064	1=0.7582145929336548
+Arc:	[CLS] conj : and [SEP] bbc [SEP] reith [SEP]
+Pred:	1
+Probs:	0=0.17449495196342468	1=0.8255050182342529
+
+Sent-level factuality probability:	0.6876744031906128
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 2253
+Nr_of_triples : 3
+input_triples : ['Anatole_de_Grunwald | birthDate | 1910-12-25', 'English_Without_Tears | writer | Anatole_de_Grunwald', 'English_Without_Tears | writer | Terence_Rattigan']
+reference_text : Anatole de Grunwald, born December 25, 1910, and Terence Rattigan wrote English Without Tears.
+Index : 2253
+Generation : Terence Ranier was born in 1913 in Paris. He wrote novels.
+Index : 2253
+DAE_result : Gold sentence :	[CLS] ana ##to ##le de gr ##un ##wald , born december 25 , 1910 , and terence rat ##ti ##gan wrote english without tears . [SEP] terence rani ##er was born in 1913 in paris . he wrote novels . [SEP]
+Generated Output:	terence rani ##er was born in 1913 in paris . he wrote novels .
+Arc:	[CLS] compound [SEP] terence [SEP] ranier [SEP]
+Pred:	0
+Probs:	0=0.9676456451416016	1=0.032354410737752914
+Arc:	[CLS] nsubj : pass [SEP] ranier [SEP] born [SEP]
+Pred:	0
+Probs:	0=0.9932153224945068	1=0.006784743629395962
+Arc:	[CLS] aux : pass [SEP] was [SEP] born [SEP]
+Pred:	0
+Probs:	0=0.9772284030914307	1=0.022771582007408142
+Arc:	[CLS] obl : in [SEP] 1913 [SEP] born [SEP]
+Pred:	0
+Probs:	0=0.9958398342132568	1=0.004160210955888033
+Arc:	[CLS] obl : in [SEP] paris [SEP] born [SEP]
+Pred:	0
+Probs:	0=0.9959025979042053	1=0.004097444005310535
+Arc:	[CLS] nsubj [SEP] he [SEP] wrote [SEP]
+Pred:	0
+Probs:	0=0.8912745118141174	1=0.10872543603181839
+Arc:	[CLS] parataxis [SEP] wrote [SEP] born [SEP]
+Pred:	0
+Probs:	0=0.9593638181686401	1=0.040636200457811356
+Arc:	[CLS] obj [SEP] novels [SEP] wrote [SEP]
+Pred:	0
+Probs:	0=0.9732042551040649	1=0.02679574489593506
+
+Sent-level factuality probability:	0.030790720134973526
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 2276
+Nr_of_triples : 2
+input_triples : ['Agremiação_Sportiva_Arapiraquense | league | Campeonato_Brasileiro_Série_C', 'Agremiação_Sportiva_Arapiraquense | season | 2015_Campeonato_Brasileiro_Série_C']
+reference_text : Agremiação Sportiva Arapiraquense from Campeonato Brasileiro Série C league competed in the 2015 Campeonato Brasileiro Série C.
+Index : 2276
+Generation : Campeonato Brasileiro Brasileiro Brasileiro Sao Paulo Brasileiro Série C season 2015 Campeonato Brasileiro Série C.
+Index : 2276
+DAE_result : Gold sentence :	[CLS] ag ##rem ##iac ##ao sport ##iva ara ##pi ##ra ##que ##nse from campeonato brasil ##eiro serie c league competed in the 2015 campeonato brasil ##eiro serie c . [SEP] campeonato brasil ##eiro brasil ##eiro brasil ##eiro sao paulo brasil ##eiro serie c season 2015 campeonato brasil ##eiro serie c . [SEP]
+Generated Output:	campeonato brasil ##eiro brasil ##eiro brasil ##eiro sao paulo brasil ##eiro serie c season 2015 campeonato brasil ##eiro serie c .
+Arc:	[CLS] compound [SEP] campeonato [SEP] c [SEP]
+Pred:	0
+Probs:	0=0.7341324687004089	1=0.2658675014972687
+Arc:	[CLS] compound [SEP] brasileiro [SEP] c [SEP]
+Pred:	0
+Probs:	0=0.7425036430358887	1=0.25749635696411133
+Arc:	[CLS] compound [SEP] brasileiro [SEP] c [SEP]
+Pred:	0
+Probs:	0=0.795504093170166	1=0.20449595153331757
+Arc:	[CLS] compound [SEP] brasileiro [SEP] c [SEP]
+Pred:	0
+Probs:	0=0.8415188193321228	1=0.15848112106323242
+Arc:	[CLS] compound [SEP] sao [SEP] c [SEP]
+Pred:	0
+Probs:	0=0.7329933643341064	1=0.2670065760612488
+Arc:	[CLS] compound [SEP] paulo [SEP] c [SEP]
+Pred:	0
+Probs:	0=0.6229153275489807	1=0.3770846426486969
+Arc:	[CLS] compound [SEP] brasileiro [SEP] c [SEP]
+Pred:	1
+Probs:	0=0.49265408515930176	1=0.5073459148406982
+Arc:	[CLS] compound [SEP] serie [SEP] c [SEP]
+Pred:	1
+Probs:	0=0.474073588848114	1=0.525926411151886
+Arc:	[CLS] compound [SEP] c [SEP] season [SEP]
+Pred:	0
+Probs:	0=0.5884559750556946	1=0.4115440845489502
+Arc:	[CLS] compound [SEP] season [SEP] c. [SEP]
+Pred:	0
+Probs:	0=0.9026740789413452	1=0.09732595086097717
+Arc:	[CLS] nummod [SEP] 2015 [SEP] season [SEP]
+Pred:	0
+Probs:	0=0.6448569893836975	1=0.3551429808139801
+Arc:	[CLS] compound [SEP] campeonato [SEP] brasileiro [SEP]
+Pred:	1
+Probs:	0=0.35616421699523926	1=0.6438357830047607
+Arc:	[CLS] compound [SEP] brasileiro [SEP] c. [SEP]
+Pred:	0
+Probs:	0=0.6449998617172241	1=0.3550000786781311
+Arc:	[CLS] compound [SEP] serie [SEP] c. [SEP]
+Pred:	0
+Probs:	0=0.6736100912094116	1=0.326389878988266
+
+Sent-level factuality probability:	0.3394959270954132
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 2277
+Nr_of_triples : 2
+input_triples : ['Agremiação_Sportiva_Arapiraquense | league | Campeonato_Brasileiro_Série_C', 'Agremiação_Sportiva_Arapiraquense | season | 2015_Campeonato_Brasileiro_Série_C']
+reference_text : Agremiação Sportiva Arapiraquense compete in the Campeonato Brasileiro Série C league that had a competition in 2015.
+Index : 2277
+Generation : Arapiraquense is a league of Campeonato Brasileiro Brasileiro Brasileiro Brasileiro Brasileiro Brasileiro Brasileiro Brasileiro Brasileiro Brasileira.
+Index : 2277
+DAE_result : Gold sentence :	[CLS] ag ##rem ##iac ##ao sport ##iva ara ##pi ##ra ##que ##nse compete in the campeonato brasil ##eiro serie c league that had a competition in 2015 . [SEP] ara ##pi ##ra ##que ##nse is a league of campeonato brasil ##eiro brasil ##eiro brasil ##eiro brasil ##eiro brasil ##eiro brasil ##eiro brasil ##eiro brasil ##eiro brasil ##eiro brasil ##eira . [SEP]
+Generated Output:	ara ##pi ##ra ##que ##nse is a league of campeonato brasil ##eiro brasil ##eiro brasil ##eiro brasil ##eiro brasil ##eiro brasil ##eiro brasil ##eiro brasil ##eiro brasil ##eiro brasil ##eira .
+Arc:	[CLS] nsubj [SEP] arapiraquense [SEP] league [SEP]
+Pred:	0
+Probs:	0=0.8615853786468506	1=0.1384146511554718
+Arc:	[CLS] compound [SEP] campeonato [SEP] brasileiro [SEP]
+Pred:	0
+Probs:	0=0.9487578868865967	1=0.05124206095933914
+Arc:	[CLS] compound [SEP] brasileiro [SEP] brasileiro [SEP]
+Pred:	0
+Probs:	0=0.9426413774490356	1=0.05735858529806137
+Arc:	[CLS] compound [SEP] brasileiro [SEP] brasileiro [SEP]
+Pred:	0
+Probs:	0=0.9354085326194763	1=0.06459152698516846
+Arc:	[CLS] compound [SEP] brasileiro [SEP] brasileiro [SEP]
+Pred:	0
+Probs:	0=0.931659460067749	1=0.06834052503108978
+Arc:	[CLS] compound [SEP] brasileiro [SEP] brasileiro [SEP]
+Pred:	0
+Probs:	0=0.9267149567604065	1=0.0732850655913353
+Arc:	[CLS] compound [SEP] brasileiro [SEP] brasileiro [SEP]
+Pred:	0
+Probs:	0=0.9322961568832397	1=0.06770379841327667
+Arc:	[CLS] compound [SEP] brasileiro [SEP] brasileiro [SEP]
+Pred:	0
+Probs:	0=0.9343637228012085	1=0.0656362771987915
+Arc:	[CLS] compound [SEP] brasileiro [SEP] brasileiro [SEP]
+Pred:	0
+Probs:	0=0.9198192358016968	1=0.08018073439598083
+Arc:	[CLS] compound [SEP] brasileiro [SEP] brasileiro [SEP]
+Pred:	0
+Probs:	0=0.9147767424583435	1=0.08522327244281769
+Arc:	[CLS] compound [SEP] brasileiro [SEP] brasileira [SEP]
+Pred:	0
+Probs:	0=0.9378231763839722	1=0.062176816165447235
+Arc:	[CLS] nmod : of [SEP] brasileira [SEP] league [SEP]
+Pred:	0
+Probs:	0=0.9616159796714783	1=0.03838402405381203
+
+Sent-level factuality probability:	0.07104477286338806
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 2278
+Nr_of_triples : 2
+input_triples : ['Agremiação_Sportiva_Arapiraquense | league | Campeonato_Brasileiro_Série_C', 'Agremiação_Sportiva_Arapiraquense | season | 2015_Campeonato_Brasileiro_Série_C']
+reference_text : Agremiação Sportiva Arapiraquense played in the Campeonato Brasileiro Série C league in 2015.
+Index : 2278
+Generation : Agremiação Sportiva Arapiraquense is in the Campeonato Brasileiro Sao Paulo Brasileiro Série C league.
+Index : 2278
+DAE_result : Gold sentence :	[CLS] ag ##rem ##iac ##ao sport ##iva ara ##pi ##ra ##que ##nse played in the campeonato brasil ##eiro serie c league in 2015 . [SEP] ag ##rem ##iac ##ao sport ##iva ara ##pi ##ra ##que ##nse is in the campeonato brasil ##eiro sao paulo brasil ##eiro serie c league . [SEP]
+Generated Output:	ag ##rem ##iac ##ao sport ##iva ara ##pi ##ra ##que ##nse is in the campeonato brasil ##eiro sao paulo brasil ##eiro serie c league .
+Arc:	[CLS] amod [SEP] agremiacao [SEP] arapiraquense [SEP]
+Pred:	1
+Probs:	0=0.05743834376335144	1=0.9425616264343262
+Arc:	[CLS] compound [SEP] sportiva [SEP] arapiraquense [SEP]
+Pred:	1
+Probs:	0=0.049715157598257065	1=0.9502848386764526
+Arc:	[CLS] nsubj [SEP] arapiraquense [SEP] league [SEP]
+Pred:	1
+Probs:	0=0.05278945341706276	1=0.9472104907035828
+Arc:	[CLS] compound [SEP] campeonato [SEP] c [SEP]
+Pred:	1
+Probs:	0=0.13080421090126038	1=0.8691957592964172
+Arc:	[CLS] compound [SEP] brasileiro [SEP] c [SEP]
+Pred:	1
+Probs:	0=0.19078987836837769	1=0.8092101216316223
+Arc:	[CLS] compound [SEP] sao [SEP] c [SEP]
+Pred:	1
+Probs:	0=0.24672240018844604	1=0.753277599811554
+Arc:	[CLS] compound [SEP] paulo [SEP] c [SEP]
+Pred:	1
+Probs:	0=0.12234465032815933	1=0.8776553869247437
+Arc:	[CLS] compound [SEP] brasileiro [SEP] c [SEP]
+Pred:	1
+Probs:	0=0.08318410813808441	1=0.9168159365653992
+Arc:	[CLS] compound [SEP] serie [SEP] c [SEP]
+Pred:	1
+Probs:	0=0.06036553159356117	1=0.9396344423294067
+Arc:	[CLS] compound [SEP] c [SEP] league [SEP]
+Pred:	1
+Probs:	0=0.04134909808635712	1=0.9586509466171265
+
+Sent-level factuality probability:	0.8964496850967407
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 2370
+Nr_of_triples : 1
+input_triples : ['Super_Capers | starring | Adam_West']
+reference_text : Adam West had a main role in the movie Super Capers.
+Index : 2370
+Generation : Super_Capers are starring Adam West.
+Index : 2370
+DAE_result : Gold sentence :	[CLS] adam west had a main role in the movie super cape ##rs . [SEP] super _ cape ##rs are starring adam west . [SEP]
+Generated Output:	super _ cape ##rs are starring adam west .
+Arc:	[CLS] nsubj [SEP] super _ capers [SEP] starring [SEP]
+Pred:	0
+Probs:	0=0.5707284808158875	1=0.42927151918411255
+Arc:	[CLS] compound [SEP] adam [SEP] west [SEP]
+Pred:	1
+Probs:	0=0.2836809754371643	1=0.7163190245628357
+Arc:	[CLS] obj [SEP] west [SEP] starring [SEP]
+Pred:	0
+Probs:	0=0.56737220287323	1=0.43262776732444763
+
+Sent-level factuality probability:	0.5260728001594543
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 2401
+Nr_of_triples : 4
+input_triples : ['Super_Capers | distributor | Lionsgate', 'Super_Capers | starring | Justin_Whalin', 'Super_Capers | distributor | Roadside_Attractions', 'Roadside_Attractions | foundingYear | 2003-01-01']
+reference_text : The movie Super Capers which starred Justin Whalin was distributed by Lionsgate and Roadside Attractions (founded in 2003).
+Index : 2401
+Generation : The Roadside Attractions, starring Justin Whalin.
+Index : 2401
+DAE_result : Gold sentence :	[CLS] the movie super cape ##rs which starred justin w ##hal ##in was distributed by lions ##gate and roadside attractions ( founded in 2003 ) . [SEP] the roadside attractions , starring justin w ##hal ##in . [SEP]
+Generated Output:	the roadside attractions , starring justin w ##hal ##in .
+Arc:	[CLS] compound [SEP] roadside [SEP] attractions [SEP]
+Pred:	0
+Probs:	0=0.7262352108955383	1=0.2737647294998169
+Arc:	[CLS] acl [SEP] starring [SEP] attractions [SEP]
+Pred:	0
+Probs:	0=0.8389149904251099	1=0.16108497977256775
+Arc:	[CLS] compound [SEP] justin [SEP] whalin [SEP]
+Pred:	1
+Probs:	0=0.4269527792930603	1=0.5730472207069397
+Arc:	[CLS] obj [SEP] whalin [SEP] starring [SEP]
+Pred:	0
+Probs:	0=0.5259336233139038	1=0.4740663170814514
+
+Sent-level factuality probability:	0.37049078941345215
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 2577
+Nr_of_triples : 7
+input_triples : ['Alan_B._Miller_Hall | architect | Robert_A._M._Stern', 'Alan_B._Miller_Hall | address | 101 Ukrop Way', 'Alan_B._Miller_Hall | buildingStartDate | 30 March 2007', 'Alan_B._Miller_Hall | currentTenants | Mason_School_of_Business', 'Alan_B._Miller_Hall | location | Virginia', 'Mason_School_of_Business | country | United_States', 'Alan_B._Miller_Hall | owner | College_of_William_&_Mary']
+reference_text : The address of the Alan B. Miller Hall is "101 Ukrop Way" in Virginia, USA and it currently houses The Mason School of Business. The College of William and Mary is the owner of the Robert A.M. Stern designed hall which began construction on 30/03/2007.
+Index : 2577
+Generation : The Mason School of Business was founded on 30 March, 2007.
+Index : 2577
+DAE_result : Gold sentence :	[CLS] the address of the alan b . miller hall is ` ` 101 uk ##rop way ' ' in virginia , usa and it currently houses the mason school of business . the college of william and mary is the owner of the robert a . m . stern designed hall which began construction on 30 / 03 / 2007 . [SEP] the mason school of business was founded on 30 march , 2007 . [SEP]
+Generated Output:	the mason school of business was founded on 30 march , 2007 .
+Arc:	[CLS] compound [SEP] mason [SEP] school [SEP]
+Pred:	1
+Probs:	0=0.028536444529891014	1=0.9714635610580444
+Arc:	[CLS] nsubj : pass [SEP] school [SEP] founded [SEP]
+Pred:	1
+Probs:	0=0.24101631343364716	1=0.7589836716651917
+Arc:	[CLS] nmod : of [SEP] business [SEP] school [SEP]
+Pred:	1
+Probs:	0=0.03062327764928341	1=0.9693766832351685
+Arc:	[CLS] aux : pass [SEP] was [SEP] founded [SEP]
+Pred:	0
+Probs:	0=0.7946576476097107	1=0.2053423672914505
+Arc:	[CLS] nummod [SEP] 30 [SEP] march [SEP]
+Pred:	0
+Probs:	0=0.9559817314147949	1=0.04401826113462448
+Arc:	[CLS] obl : on [SEP] march [SEP] founded [SEP]
+Pred:	0
+Probs:	0=0.9671092629432678	1=0.03289069980382919
+Arc:	[CLS] obl : tmod [SEP] 2007 [SEP] march [SEP]
+Pred:	0
+Probs:	0=0.9058645367622375	1=0.09413544088602066
+
+Sent-level factuality probability:	0.4394586682319641
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 2584
+Nr_of_triples : 3
+input_triples : ['Liselotte_Grschebina | birthDate | 1908-05-02', 'Liselotte_Grschebina | professionalField | Photographer', 'Liselotte_Grschebina | deathPlace | Petah_Tikva']
+reference_text : Liselotte Grschebina was a photographer born on the 2nd May 1908 and who died in Petah Tikva.
+Index : 2584
+Generation : Established on 05-02-02, Liselotte Graf was born in Petah Tikva.
+Index : 2584
+DAE_result : Gold sentence :	[CLS] li ##sel ##otte gr ##sche ##bina was a photographer born on the 2nd may 1908 and who died in pet ##ah ti ##k ##va . [SEP] established on 05 - 02 - 02 , li ##sel ##otte graf was born in pet ##ah ti ##k ##va . [SEP]
+Generated Output:	established on 05 - 02 - 02 , li ##sel ##otte graf was born in pet ##ah ti ##k ##va .
+Arc:	[CLS] obl : on [SEP] 05 - 02 - 02 [SEP] established [SEP]
+Pred:	0
+Probs:	0=0.9922751784324646	1=0.007724795490503311
+Arc:	[CLS] compound [SEP] liselotte [SEP] graf [SEP]
+Pred:	0
+Probs:	0=0.7789602875709534	1=0.22103966772556305
+Arc:	[CLS] nsubj : pass [SEP] graf [SEP] born [SEP]
+Pred:	0
+Probs:	0=0.9180230498313904	1=0.081976979970932
+Arc:	[CLS] aux : pass [SEP] was [SEP] born [SEP]
+Pred:	0
+Probs:	0=0.792915940284729	1=0.20708410441875458
+Arc:	[CLS] compound [SEP] petah [SEP] tikva [SEP]
+Pred:	1
+Probs:	0=0.14321008324623108	1=0.8567898869514465
+Arc:	[CLS] obl : in [SEP] tikva [SEP] born [SEP]
+Pred:	1
+Probs:	0=0.3859606683254242	1=0.6140393614768982
+
+Sent-level factuality probability:	0.3314424753189087
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 2656
+Nr_of_triples : 3
+input_triples : ['Hypermarcas | location | Brazil', 'Hypermarcas | product | Drugs', 'Hypermarcas | product | Healthcare']
+reference_text : Hypermarcas, which is located in Brazil, sells healthcare products and its main product is drugs.
+Index : 2656
+Generation : Hypermarcas is a healthcare product. Hypermarcas is a healthcare company located in Brazil.
+Index : 2656
+DAE_result : Gold sentence :	[CLS] hyper ##mar ##cas , which is located in brazil , sells healthcare products and its main product is drugs . [SEP] hyper ##mar ##cas is a healthcare product . hyper ##mar ##cas is a healthcare company located in brazil . [SEP]
+Generated Output:	hyper ##mar ##cas is a healthcare product . hyper ##mar ##cas is a healthcare company located in brazil .
+Arc:	[CLS] nsubj [SEP] hypermarcas [SEP] product [SEP]
+Pred:	1
+Probs:	0=0.22121930122375488	1=0.7787806987762451
+Arc:	[CLS] compound [SEP] healthcare [SEP] product [SEP]
+Pred:	1
+Probs:	0=0.1010943353176117	1=0.8989056348800659
+Arc:	[CLS] nsubj [SEP] hypermarcas [SEP] company [SEP]
+Pred:	1
+Probs:	0=0.005459831096231937	1=0.9945401549339294
+Arc:	[CLS] compound [SEP] healthcare [SEP] company [SEP]
+Pred:	1
+Probs:	0=0.005437018815428019	1=0.9945630431175232
+Arc:	[CLS] parataxis [SEP] company [SEP] product [SEP]
+Pred:	1
+Probs:	0=0.06929928064346313	1=0.9307006597518921
+Arc:	[CLS] acl [SEP] located [SEP] company [SEP]
+Pred:	1
+Probs:	0=0.00878023449331522	1=0.9912198185920715
+Arc:	[CLS] obl : in [SEP] brazil [SEP] located [SEP]
+Pred:	1
+Probs:	0=0.010747110471129417	1=0.9892528653144836
+
+Sent-level factuality probability:	0.9397090673446655
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 2757
+Nr_of_triples : 5
+input_triples : ['Nie_Haisheng | mission | Shenzhou_10', 'Nie_Haisheng | mission | Shenzhou_6', 'Nie_Haisheng | birthDate | 1964-10-13', 'Nie_Haisheng | birthPlace | Zaoyang', 'Nie_Haisheng | birthPlace | Hubei']
+reference_text : Nie Haisheng, born on 10/13/1964 in Zaoyang, Hubei Province, was a crew member on Shenzhou 6 and he also took part in the Shenzhou 10 mission.
+Index : 2757
+Generation : Nie Haisheng was born in Zaoyang.
+Index : 2757
+DAE_result : Gold sentence :	[CLS] ni ##e hai ##sh ##eng , born on 10 / 13 / 1964 in za ##oya ##ng , hub ##ei province , was a crew member on shen ##zhou 6 and he also took part in the shen ##zhou 10 mission . [SEP] ni ##e hai ##sh ##eng was born in za ##oya ##ng . [SEP]
+Generated Output:	ni ##e hai ##sh ##eng was born in za ##oya ##ng .
+Arc:	[CLS] compound [SEP] nie [SEP] haisheng [SEP]
+Pred:	1
+Probs:	0=0.10814157128334045	1=0.8918583989143372
+Arc:	[CLS] nsubj : pass [SEP] haisheng [SEP] born [SEP]
+Pred:	1
+Probs:	0=0.07121782749891281	1=0.9287821650505066
+Arc:	[CLS] aux : pass [SEP] was [SEP] born [SEP]
+Pred:	1
+Probs:	0=0.1158527061343193	1=0.8841472864151001
+Arc:	[CLS] obl : in [SEP] zaoyang [SEP] born [SEP]
+Pred:	1
+Probs:	0=0.05178266018629074	1=0.9482173919677734
+
+Sent-level factuality probability:	0.9132512807846069
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 2787
+Nr_of_triples : 3
+input_triples : ['Bionico | course | Dessert', 'Mexico | language | Spanish_language', 'Bionico | country | Mexico']
+reference_text : Bionico is a dessert found in Mexico and language of Mexico is Spanish.
+Index : 2787
+Generation : The Bionico course is served in Mexico, where the language spoken is Spanish.
+Index : 2787
+DAE_result : Gold sentence :	[CLS] bio ##nic ##o is a dessert found in mexico and language of mexico is spanish . [SEP] the bio ##nic ##o course is served in mexico , where the language spoken is spanish . [SEP]
+Generated Output:	the bio ##nic ##o course is served in mexico , where the language spoken is spanish .
+Arc:	[CLS] compound [SEP] bionico [SEP] course [SEP]
+Pred:	1
+Probs:	0=0.3896329700946808	1=0.6103670001029968
+Arc:	[CLS] nsubj : pass [SEP] course [SEP] served [SEP]
+Pred:	0
+Probs:	0=0.9010412096977234	1=0.0989588275551796
+Arc:	[CLS] aux : pass [SEP] is [SEP] served [SEP]
+Pred:	0
+Probs:	0=0.8353274464607239	1=0.1646725833415985
+Arc:	[CLS] obl : in [SEP] mexico [SEP] served [SEP]
+Pred:	1
+Probs:	0=0.3543654680252075	1=0.6456345319747925
+Arc:	[CLS] advmod [SEP] where [SEP] spoken [SEP]
+Pred:	1
+Probs:	0=0.08770383894443512	1=0.9122961759567261
+Arc:	[CLS] nsubj [SEP] language [SEP] spoken [SEP]
+Pred:	1
+Probs:	0=0.022916171699762344	1=0.9770838618278503
+Arc:	[CLS] acl : relcl [SEP] spoken [SEP] mexico [SEP]
+Pred:	1
+Probs:	0=0.08828842639923096	1=0.911711573600769
+Arc:	[CLS] obj [SEP] spanish [SEP] spoken [SEP]
+Pred:	1
+Probs:	0=0.02745787240564823	1=0.9725421667098999
+
+Sent-level factuality probability:	0.6616583466529846
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 2817
+Nr_of_triples : 4
+input_triples : ['Adolfo_Suárez_Madrid–Barajas_Airport | operatingOrganisation | ENAIRE', 'Adolfo_Suárez_Madrid–Barajas_Airport | runwayLength | 3500.0', 'Adolfo_Suárez_Madrid–Barajas_Airport | elevationAboveTheSeaLevel | 610.0', 'Adolfo_Suárez_Madrid–Barajas_Airport | location | San_Sebastián_de_los_Reyes']
+reference_text : The Adolfo Suárez Madrid–Barajas Airport is in San Sebastián de los Reyes and is operated by ENAIRE. The airport has a runway length of 3500 and is 610.0 metres above sea level.
+Index : 2817
+Generation : Adolfo Suárez Madrid–Barajas Airport is located in San Sebastián de los Reyes.
+Index : 2817
+DAE_result : Gold sentence :	[CLS] the adolf ##o suarez madrid – bar ##aja ##s airport is in san sebastian de los reyes and is operated by en ##aire . the airport has a runway length of 350 ##0 and is 610 . 0 metres above sea level . [SEP] adolf ##o suarez madrid – bar ##aja ##s airport is located in san sebastian de los reyes . [SEP]
+Generated Output:	adolf ##o suarez madrid – bar ##aja ##s airport is located in san sebastian de los reyes .
+Arc:	[CLS] amod [SEP] suarez [SEP] airport [SEP]
+Pred:	1
+Probs:	0=0.005393443629145622	1=0.9946065545082092
+Arc:	[CLS] compound [SEP] madrid [SEP] barajas [SEP]
+Pred:	1
+Probs:	0=0.009903084486722946	1=0.990096926689148
+Arc:	[CLS] compound [SEP] barajas [SEP] airport [SEP]
+Pred:	1
+Probs:	0=0.006295662838965654	1=0.9937043786048889
+Arc:	[CLS] nsubj : pass [SEP] airport [SEP] located [SEP]
+Pred:	1
+Probs:	0=0.0058475062251091	1=0.9941524863243103
+Arc:	[CLS] aux : pass [SEP] is [SEP] located [SEP]
+Pred:	1
+Probs:	0=0.009127755649387836	1=0.990872323513031
+Arc:	[CLS] compound [SEP] san [SEP] reyes [SEP]
+Pred:	1
+Probs:	0=0.014686986804008484	1=0.9853129982948303
+Arc:	[CLS] compound [SEP] sebastian [SEP] reyes [SEP]
+Pred:	1
+Probs:	0=0.009175451472401619	1=0.9908245801925659
+Arc:	[CLS] compound [SEP] de [SEP] reyes [SEP]
+Pred:	1
+Probs:	0=0.012808642350137234	1=0.9871913194656372
+Arc:	[CLS] compound [SEP] los [SEP] reyes [SEP]
+Pred:	1
+Probs:	0=0.011933054774999619	1=0.9880669116973877
+Arc:	[CLS] obl : in [SEP] reyes [SEP] located [SEP]
+Pred:	1
+Probs:	0=0.00698267575353384	1=0.993017315864563
+
+Sent-level factuality probability:	0.9907845258712769
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 2910
+Nr_of_triples : 3
+input_triples : ['Hypermarcas | location | Brazil', 'Hypermarcas | product | Drugs', 'Hypermarcas | foundingDate | 2001-01-01']
+reference_text : Hypermarcas, whose main product is drugs, was founded on January 1, 2001 and is located in Brazil.
+Index : 2910
+Generation : Hypermarcas is a pharmaceutical product company in Brazil.
+Index : 2910
+DAE_result : Gold sentence :	[CLS] hyper ##mar ##cas , whose main product is drugs , was founded on january 1 , 2001 and is located in brazil . [SEP] hyper ##mar ##cas is a pharmaceutical product company in brazil . [SEP]
+Generated Output:	hyper ##mar ##cas is a pharmaceutical product company in brazil .
+Arc:	[CLS] nsubj [SEP] hypermarcas [SEP] company [SEP]
+Pred:	1
+Probs:	0=0.028330432251095772	1=0.9716695547103882
+Arc:	[CLS] amod [SEP] pharmaceutical [SEP] company [SEP]
+Pred:	1
+Probs:	0=0.03368230164051056	1=0.9663177132606506
+Arc:	[CLS] compound [SEP] product [SEP] company [SEP]
+Pred:	1
+Probs:	0=0.03753850609064102	1=0.9624614715576172
+Arc:	[CLS] nmod : in [SEP] brazil [SEP] company [SEP]
+Pred:	1
+Probs:	0=0.05718901380896568	1=0.9428110122680664
+
+Sent-level factuality probability:	0.9608149528503418
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 2940
+Nr_of_triples : 4
+input_triples : ['Liselotte_Grschebina | birthPlace | Karlsruhe', 'Liselotte_Grschebina | birthDate | 1908-05-02', 'Liselotte_Grschebina | deathDate | 1994-06-14', 'Liselotte_Grschebina | birthPlace | German_Empire']
+reference_text : Liselotte Grschebina was born in Karlsruhe in the German Empire on May 2nd, 1908 and she died on June 14, 1994.
+Index : 2940
+Generation : The year of Lippi Grschebina was on the 16th of March 1908.
+Index : 2940
+DAE_result : Gold sentence :	[CLS] li ##sel ##otte gr ##sche ##bina was born in karlsruhe in the german empire on may 2nd , 1908 and she died on june 14 , 1994 . [SEP] the year of lip ##pi gr ##sche ##bina was on the 16th of march 1908 . [SEP]
+Generated Output:	the year of lip ##pi gr ##sche ##bina was on the 16th of march 1908 .
+Arc:	[CLS] nsubj [SEP] year [SEP] 16th [SEP]
+Pred:	0
+Probs:	0=0.9951536655426025	1=0.004846352152526379
+Arc:	[CLS] compound [SEP] lippi [SEP] grschebina [SEP]
+Pred:	0
+Probs:	0=0.9507710337638855	1=0.04922894015908241
+Arc:	[CLS] nmod : of [SEP] grschebina [SEP] year [SEP]
+Pred:	0
+Probs:	0=0.690302312374115	1=0.3096977174282074
+Arc:	[CLS] nmod : of [SEP] march [SEP] 16th [SEP]
+Pred:	0
+Probs:	0=0.9960132837295532	1=0.003986699506640434
+Arc:	[CLS] nummod [SEP] 1908 [SEP] march [SEP]
+Pred:	0
+Probs:	0=0.9801025986671448	1=0.019897442311048508
+
+Sent-level factuality probability:	0.07753142714500427
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 2962
+Nr_of_triples : 2
+input_triples : ['Nord_(Year_of_No_Light_album) | producer | Year_of_No_Light', 'Year_of_No_Light | associatedBand/associatedMusicalArtist | Altar_of_Plagues']
+reference_text : Nord is an album produced by Year of No Light, which is also associated with Altar of Plagues.
+Index : 2962
+Generation : The musical "Year Of No Light" was produced by Altar of Plagues.
+Index : 2962
+DAE_result : Gold sentence :	[CLS] nord is an album produced by year of no light , which is also associated with altar of plague ##s . [SEP] the musical " year of no light " was produced by altar of plague ##s . [SEP]
+Generated Output:	the musical " year of no light " was produced by altar of plague ##s .
+Arc:	[CLS] amod [SEP] musical [SEP] year [SEP]
+Pred:	0
+Probs:	0=0.8548067212104797	1=0.14519324898719788
+Arc:	[CLS] nsubj : pass [SEP] year [SEP] produced [SEP]
+Pred:	1
+Probs:	0=0.35841286182403564	1=0.6415871381759644
+Arc:	[CLS] nmod : of [SEP] light [SEP] year [SEP]
+Pred:	1
+Probs:	0=0.13086004555225372	1=0.8691399693489075
+Arc:	[CLS] aux : pass [SEP] was [SEP] produced [SEP]
+Pred:	0
+Probs:	0=0.739102840423584	1=0.26089712977409363
+Arc:	[CLS] obl : agent [SEP] altar [SEP] produced [SEP]
+Pred:	1
+Probs:	0=0.10904303938150406	1=0.8909569978713989
+Arc:	[CLS] nmod : of [SEP] plagues [SEP] altar [SEP]
+Pred:	1
+Probs:	0=0.05157629773020744	1=0.9484236240386963
+
+Sent-level factuality probability:	0.6260330080986023
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 2988
+Nr_of_triples : 2
+input_triples : ['Akeem_Ayers | debutTeam | Tennessee_Titans', 'Akeem_Ayers | birthDate | 1989-07-10']
+reference_text : Akeem Ayers was born on July 10, 1989 and made his debut for the Tennessee Titans.
+Index : 2988
+Generation : Akeem Ayers was born on 11-10-1989.
+Index : 2988
+DAE_result : Gold sentence :	[CLS] ak ##eem aye ##rs was born on july 10 , 1989 and made his debut for the tennessee titans . [SEP] ak ##eem aye ##rs was born on 11 - 10 - 1989 . [SEP]
+Generated Output:	ak ##eem aye ##rs was born on 11 - 10 - 1989 .
+Arc:	[CLS] compound [SEP] akeem [SEP] ayers [SEP]
+Pred:	1
+Probs:	0=0.21298934519290924	1=0.787010669708252
+Arc:	[CLS] nsubj : pass [SEP] ayers [SEP] born [SEP]
+Pred:	1
+Probs:	0=0.3258039355278015	1=0.6741960644721985
+Arc:	[CLS] aux : pass [SEP] was [SEP] born [SEP]
+Pred:	0
+Probs:	0=0.5260276198387146	1=0.473972350358963
+Arc:	[CLS] obl : on [SEP] 11 - 10 - 1989 [SEP] born [SEP]
+Pred:	1
+Probs:	0=0.4653593897819519	1=0.5346405506134033
+
+Sent-level factuality probability:	0.6174548864364624
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 3032
+Nr_of_triples : 1
+input_triples : ['English_Without_Tears | writer | Terence_Rattigan']
+reference_text : "English Without Tears" was written by Terence Rattigan.
+Index : 3032
+Generation : Terence Rattigan is an English writer who was a member of the English speaking English speaking community.
+Index : 3032
+DAE_result : Gold sentence :	[CLS] ` ` english without tears ' ' was written by terence rat ##ti ##gan . [SEP] terence rat ##ti ##gan is an english writer who was a member of the english speaking english speaking community . [SEP]
+Generated Output:	terence rat ##ti ##gan is an english writer who was a member of the english speaking english speaking community .
+Arc:	[CLS] compound [SEP] terence [SEP] rattigan [SEP]
+Pred:	0
+Probs:	0=0.8727509379386902	1=0.1272490918636322
+Arc:	[CLS] nsubj [SEP] rattigan [SEP] writer [SEP]
+Pred:	0
+Probs:	0=0.9144636392593384	1=0.0855364203453064
+Arc:	[CLS] compound [SEP] english [SEP] writer [SEP]
+Pred:	0
+Probs:	0=0.9920706152915955	1=0.007929330691695213
+Arc:	[CLS] acl [SEP] who [SEP] writer [SEP]
+Pred:	0
+Probs:	0=0.9748971462249756	1=0.025102781131863594
+Arc:	[CLS] nsubj [SEP] member [SEP] who [SEP]
+Pred:	0
+Probs:	0=0.9913011193275452	1=0.008698921650648117
+Arc:	[CLS] compound [SEP] english [SEP] community [SEP]
+Pred:	0
+Probs:	0=0.9947441816329956	1=0.005255803465843201
+Arc:	[CLS] amod [SEP] speaking [SEP] community [SEP]
+Pred:	0
+Probs:	0=0.996638298034668	1=0.0033617441076785326
+Arc:	[CLS] compound [SEP] english [SEP] community [SEP]
+Pred:	0
+Probs:	0=0.9946179986000061	1=0.005381966009736061
+Arc:	[CLS] amod [SEP] speaking [SEP] community [SEP]
+Pred:	0
+Probs:	0=0.9968441724777222	1=0.003155891550704837
+Arc:	[CLS] nmod : of [SEP] community [SEP] member [SEP]
+Pred:	0
+Probs:	0=0.9985114932060242	1=0.0014885261189192533
+
+Sent-level factuality probability:	0.027316048741340637
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 3100
+Nr_of_triples : 4
+input_triples : ['Lady_Anne_Monson | residence | India', 'India | leader | Pranab_Mukherjee', 'Lady_Anne_Monson | nationality | Kingdom_of_England', 'India | areaTotal | 3287590000000.0']
+reference_text : Lady Anne Monson lived in the Kingdom of England and held British nationality but resided in India for most of her life. Pranab Mukherjee is the leader of India, which has a total area of 32875900000000.
+Index : 3100
+Generation : India has an area of 3287590000000.0 and the Kingdom of England is the location of Lady Anne.
+Index : 3100
+DAE_result : Gold sentence :	[CLS] lady anne mons ##on lived in the kingdom of england and held british nationality but resided in india for most of her life . pr ##ana ##b mukherjee is the leader of india , which has a total area of 328 ##75 ##90 ##00 ##00 ##00 ##0 . [SEP] india has an area of 328 ##75 ##90 ##00 ##00 ##00 . 0 and the kingdom of england is the location of lady anne . [SEP]
+Generated Output:	india has an area of 328 ##75 ##90 ##00 ##00 ##00 . 0 and the kingdom of england is the location of lady anne .
+Arc:	[CLS] nsubj [SEP] india [SEP] has [SEP]
+Pred:	1
+Probs:	0=0.048097118735313416	1=0.9519028663635254
+Arc:	[CLS] csubj [SEP] has [SEP] location [SEP]
+Pred:	1
+Probs:	0=0.09977070242166519	1=0.9002293348312378
+Arc:	[CLS] obj [SEP] area [SEP] has [SEP]
+Pred:	1
+Probs:	0=0.02144167199730873	1=0.9785583019256592
+Arc:	[CLS] nmod : of [SEP] 3287590000000. 0 [SEP] area [SEP]
+Pred:	1
+Probs:	0=0.14562997221946716	1=0.8543699979782104
+Arc:	[CLS] cc [SEP] and [SEP] kingdom [SEP]
+Pred:	1
+Probs:	0=0.08712033182382584	1=0.9128796458244324
+Arc:	[CLS] obj [SEP] kingdom [SEP] has [SEP]
+Pred:	1
+Probs:	0=0.038758184760808945	1=0.9612417817115784
+Arc:	[CLS] conj : and [SEP] kingdom [SEP] area [SEP]
+Pred:	1
+Probs:	0=0.03932284936308861	1=0.9606771469116211
+Arc:	[CLS] nmod : of [SEP] england [SEP] kingdom [SEP]
+Pred:	1
+Probs:	0=0.029019121080636978	1=0.9709808826446533
+Arc:	[CLS] compound [SEP] lady [SEP] anne [SEP]
+Pred:	1
+Probs:	0=0.033223070204257965	1=0.9667769074440002
+Arc:	[CLS] nmod : of [SEP] anne [SEP] location [SEP]
+Pred:	1
+Probs:	0=0.055331215262413025	1=0.9446688294410706
+
+Sent-level factuality probability:	0.9402285814285278
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 3108
+Nr_of_triples : 3
+input_triples : ['Super_Capers | starring | Michael_Rooker', 'Super_Capers | starring | Tom_Sizemore', 'Super_Capers | language | English_language']
+reference_text : Michael Rooker played in Super Capers, an English-language film starring Tom Sizemore.
+Index : 3108
+Generation : Michael Rooker is a character in the film Super Caps.
+Index : 3108
+DAE_result : Gold sentence :	[CLS] michael rook ##er played in super cape ##rs , an english - language film starring tom size ##more . [SEP] michael rook ##er is a character in the film super caps . [SEP]
+Generated Output:	michael rook ##er is a character in the film super caps .
+Arc:	[CLS] compound [SEP] michael [SEP] rooker [SEP]
+Pred:	1
+Probs:	0=0.47932952642440796	1=0.520670473575592
+Arc:	[CLS] nsubj [SEP] rooker [SEP] character [SEP]
+Pred:	0
+Probs:	0=0.8147651553153992	1=0.18523479998111725
+Arc:	[CLS] compound [SEP] film [SEP] caps [SEP]
+Pred:	0
+Probs:	0=0.9654233455657959	1=0.03457667678594589
+Arc:	[CLS] amod [SEP] super [SEP] caps [SEP]
+Pred:	0
+Probs:	0=0.8512361645698547	1=0.14876385033130646
+Arc:	[CLS] nmod : in [SEP] caps [SEP] character [SEP]
+Pred:	0
+Probs:	0=0.9766830801963806	1=0.023316925391554832
+
+Sent-level factuality probability:	0.1825125366449356
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 3112
+Nr_of_triples : 5
+input_triples : ['Super_Capers | editing | Stacy_Katzman', 'Super_Capers | starring | Michael_Rooker', 'Super_Capers | starring | Tom_Sizemore', 'Super_Capers | language | English_language', 'Super_Capers | runtime | 98.0']
+reference_text : Super Capers is a 98 minute movie starring Michael Rooker and Tom Sizemore. Stacy Katzman edited Super Capers which was filmed in English.
+Index : 3112
+Generation : Two super-capers are produced by the film Super Capers.
+Index : 3112
+DAE_result : Gold sentence :	[CLS] super cape ##rs is a 98 minute movie starring michael rook ##er and tom size ##more . stacy katz ##man edited super cape ##rs which was filmed in english . [SEP] two super - cape ##rs are produced by the film super cape ##rs . [SEP]
+Generated Output:	two super - cape ##rs are produced by the film super cape ##rs .
+Arc:	[CLS] nummod [SEP] two [SEP] super - capers [SEP]
+Pred:	0
+Probs:	0=0.9795709848403931	1=0.020429017022252083
+Arc:	[CLS] nsubj : pass [SEP] super - capers [SEP] produced [SEP]
+Pred:	0
+Probs:	0=0.9357117414474487	1=0.06428831070661545
+Arc:	[CLS] aux : pass [SEP] are [SEP] produced [SEP]
+Pred:	0
+Probs:	0=0.9749241471290588	1=0.025075819343328476
+Arc:	[CLS] compound [SEP] film [SEP] capers [SEP]
+Pred:	0
+Probs:	0=0.8701441287994385	1=0.12985585629940033
+Arc:	[CLS] amod [SEP] super [SEP] capers [SEP]
+Pred:	0
+Probs:	0=0.5049121975898743	1=0.49508780241012573
+Arc:	[CLS] obl : agent [SEP] capers [SEP] produced [SEP]
+Pred:	0
+Probs:	0=0.8736615180969238	1=0.12633851170539856
+
+Sent-level factuality probability:	0.1435125470161438
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 3113
+Nr_of_triples : 5
+input_triples : ['Super_Capers | editing | Stacy_Katzman', 'Super_Capers | starring | Michael_Rooker', 'Super_Capers | starring | Tom_Sizemore', 'Super_Capers | language | English_language', 'Super_Capers | runtime | 98.0']
+reference_text : Super Capers, a film starring Tom Sizemore and Michael Rooker, is 98 minutes long. In charge of editing was Stacy Katzman, and the film is in English.
+Index : 3113
+Generation : The Super Capers is produced by the studio of Michael Rooker.
+Index : 3113
+DAE_result : Gold sentence :	[CLS] super cape ##rs , a film starring tom size ##more and michael rook ##er , is 98 minutes long . in charge of editing was stacy katz ##man , and the film is in english . [SEP] the super cape ##rs is produced by the studio of michael rook ##er . [SEP]
+Generated Output:	the super cape ##rs is produced by the studio of michael rook ##er .
+Arc:	[CLS] amod [SEP] super [SEP] capers [SEP]
+Pred:	1
+Probs:	0=0.21747152507305145	1=0.7825284600257874
+Arc:	[CLS] nsubj : pass [SEP] capers [SEP] produced [SEP]
+Pred:	0
+Probs:	0=0.8243269324302673	1=0.17567306756973267
+Arc:	[CLS] aux : pass [SEP] is [SEP] produced [SEP]
+Pred:	0
+Probs:	0=0.9584918022155762	1=0.04150819778442383
+Arc:	[CLS] obl : agent [SEP] studio [SEP] produced [SEP]
+Pred:	0
+Probs:	0=0.9908876419067383	1=0.009112388826906681
+Arc:	[CLS] compound [SEP] michael [SEP] rooker [SEP]
+Pred:	0
+Probs:	0=0.8908024430274963	1=0.10919757187366486
+Arc:	[CLS] nmod : of [SEP] rooker [SEP] studio [SEP]
+Pred:	0
+Probs:	0=0.9587676525115967	1=0.0412324033677578
+
+Sent-level factuality probability:	0.19320867955684662
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 3241
+Nr_of_triples : 4
+input_triples : ['GMA_New_Media | location | Philippines', 'Philippines | leader | Aquilino_Pimentel_III', 'Philippines | leader | Rodrigo_Duterte', 'GMA_New_Media | location | Quezon_City']
+reference_text : GMA New Media's headquarters are located in Quezon City in the Philippines, where Aquilino Pimentel III and Rodrigo Duterte are leaders of the country.
+Index : 3241
+Generation : Philippine New Media is located in Quezon City. The leader of the Philippines is Rodrigo Duterte.
+Index : 3241
+DAE_result : Gold sentence :	[CLS] gma new media ' s headquarters are located in quezon city in the philippines , where a ##quil ##ino pi ##ment ##el iii and rodrigo du ##ter ##te are leaders of the country . [SEP] philippine new media is located in quezon city . the leader of the philippines is rodrigo du ##ter ##te . [SEP]
+Generated Output:	philippine new media is located in quezon city . the leader of the philippines is rodrigo du ##ter ##te .
+Arc:	[CLS] amod [SEP] philippine [SEP] media [SEP]
+Pred:	1
+Probs:	0=0.1613261103630066	1=0.8386739492416382
+Arc:	[CLS] amod [SEP] new [SEP] media [SEP]
+Pred:	1
+Probs:	0=0.02980768494307995	1=0.9701923131942749
+Arc:	[CLS] nsubj : pass [SEP] media [SEP] located [SEP]
+Pred:	1
+Probs:	0=0.023002145811915398	1=0.9769978523254395
+Arc:	[CLS] aux : pass [SEP] is [SEP] located [SEP]
+Pred:	1
+Probs:	0=0.03798799589276314	1=0.962011992931366
+Arc:	[CLS] compound [SEP] quezon [SEP] city [SEP]
+Pred:	1
+Probs:	0=0.02332090400159359	1=0.9766790866851807
+Arc:	[CLS] obl : in [SEP] city [SEP] located [SEP]
+Pred:	1
+Probs:	0=0.02926008775830269	1=0.9707399010658264
+Arc:	[CLS] nsubj [SEP] leader [SEP] duterte [SEP]
+Pred:	1
+Probs:	0=0.011925720609724522	1=0.9880742430686951
+Arc:	[CLS] nmod : of [SEP] philippines [SEP] leader [SEP]
+Pred:	1
+Probs:	0=0.014098871499300003	1=0.9859011769294739
+Arc:	[CLS] amod [SEP] rodrigo [SEP] duterte [SEP]
+Pred:	1
+Probs:	0=0.02319781854748726	1=0.9768021702766418
+Arc:	[CLS] parataxis [SEP] duterte [SEP] located [SEP]
+Pred:	1
+Probs:	0=0.017986217513680458	1=0.9820137619972229
+
+Sent-level factuality probability:	0.9628086090087891
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 3286
+Nr_of_triples : 2
+input_triples : ['The_Fellowship_of_the_Ring | author | J._R._R._Tolkien', 'The_Fellowship_of_the_Ring | releaseDate | 1954-07-29']
+reference_text : The Fellowship of the Ring, written by J.R.R. Tolkien, was published on July 29, 1954.
+Index : 3286
+Generation : J.R. R. Tolkien was born on July 29, 1954 in Dublin.
+Index : 3286
+DAE_result : Gold sentence :	[CLS] the fellowship of the ring , written by j . r . r . tolkien , was published on july 29 , 1954 . [SEP] j . r . r . tolkien was born on july 29 , 1954 in dublin . [SEP]
+Generated Output:	j . r . r . tolkien was born on july 29 , 1954 in dublin .
+Arc:	[CLS] compound [SEP] j. r. [SEP] tolkien [SEP]
+Pred:	1
+Probs:	0=0.3966124653816223	1=0.6033875346183777
+Arc:	[CLS] compound [SEP] r. [SEP] tolkien [SEP]
+Pred:	1
+Probs:	0=0.3910854756832123	1=0.6089145541191101
+Arc:	[CLS] nsubj : pass [SEP] tolkien [SEP] born [SEP]
+Pred:	0
+Probs:	0=0.8325517177581787	1=0.1674482524394989
+Arc:	[CLS] aux : pass [SEP] was [SEP] born [SEP]
+Pred:	0
+Probs:	0=0.9418670535087585	1=0.05813292786478996
+Arc:	[CLS] obl : on [SEP] july [SEP] born [SEP]
+Pred:	0
+Probs:	0=0.8516359329223633	1=0.1483640968799591
+Arc:	[CLS] nummod [SEP] 29 [SEP] july [SEP]
+Pred:	0
+Probs:	0=0.6603965759277344	1=0.3396034836769104
+Arc:	[CLS] appos [SEP] 1954 [SEP] july [SEP]
+Pred:	0
+Probs:	0=0.7173632979393005	1=0.28263676166534424
+Arc:	[CLS] nmod : in [SEP] dublin [SEP] 1954 [SEP]
+Pred:	0
+Probs:	0=0.9751264452934265	1=0.024873608723282814
+
+Sent-level factuality probability:	0.2791701555252075
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 3436
+Nr_of_triples : 7
+input_triples : ['Mermaid_(Train_song) | musicalBand | Train_(band)', 'Mermaid_(Train_song) | writer | Espen_Lind', 'Mermaid_(Train_song) | runtime | 3.16', 'Mermaid_(Train_song) | genre | Reggae', 'Mermaid_(Train_song) | writer | Amund_Bjørklund', 'Mermaid_(Train_song) | followedBy | Imagine_(John_Lennon_song)', 'Mermaid_(Train_song) | producer | Espionage_(production_team)']
+reference_text : The song Mermaid was performed by the musical band Train. It was written by band members Espen Lind and Amund Bjorklund in the reggae genre and has a total length of three minutes and sixteen seconds. The song was produced by the production team Espionage and the band followed it up with a cover of John Lennon’s Imagine.
+Index : 3436
+Generation : A musical band, which is based on the musical band of the John Lenon song, was created by Espen Lind and is performed by the crew.
+Index : 3436
+DAE_result : Gold sentence :	[CLS] the song mermaid was performed by the musical band train . it was written by band members es ##pen lin ##d and am ##und b ##jo ##rk ##lund in the reggae genre and has a total length of three minutes and sixteen seconds . the song was produced by the production team espionage and the band followed it up with a cover of john lennon ’ s imagine . [SEP] a musical band , which is based on the musical band of the john len ##on song , was created by es ##pen lin ##d and is performed by the crew . [SEP]
+Generated Output:	a musical band , which is based on the musical band of the john len ##on song , was created by es ##pen lin ##d and is performed by the crew .
+Arc:	[CLS] amod [SEP] musical [SEP] band [SEP]
+Pred:	1
+Probs:	0=0.2212418168783188	1=0.77875816822052
+Arc:	[CLS] nsubj : pass [SEP] band [SEP] based [SEP]
+Pred:	0
+Probs:	0=0.8305871486663818	1=0.16941285133361816
+Arc:	[CLS] nsubj : pass [SEP] band [SEP] created [SEP]
+Pred:	1
+Probs:	0=0.4918971359729767	1=0.5081028342247009
+Arc:	[CLS] nsubj : pass [SEP] band [SEP] performed [SEP]
+Pred:	0
+Probs:	0=0.5650984048843384	1=0.434901624917984
+Arc:	[CLS] ref [SEP] which [SEP] band [SEP]
+Pred:	0
+Probs:	0=0.733070433139801	1=0.2669295370578766
+Arc:	[CLS] aux : pass [SEP] is [SEP] based [SEP]
+Pred:	0
+Probs:	0=0.9223478436470032	1=0.07765216380357742
+Arc:	[CLS] acl : relcl [SEP] based [SEP] band [SEP]
+Pred:	0
+Probs:	0=0.8505585193634033	1=0.14944151043891907
+Arc:	[CLS] amod [SEP] musical [SEP] band [SEP]
+Pred:	0
+Probs:	0=0.7131471037864685	1=0.2868528962135315
+Arc:	[CLS] obl : on [SEP] band [SEP] based [SEP]
+Pred:	0
+Probs:	0=0.9472246170043945	1=0.052775342017412186
+Arc:	[CLS] compound [SEP] john [SEP] lenon [SEP]
+Pred:	0
+Probs:	0=0.9726983308792114	1=0.027301670983433723
+Arc:	[CLS] compound [SEP] lenon [SEP] song [SEP]
+Pred:	0
+Probs:	0=0.9782186150550842	1=0.021781373769044876
+Arc:	[CLS] nmod : of [SEP] song [SEP] band [SEP]
+Pred:	0
+Probs:	0=0.933935821056366	1=0.06606416404247284
+Arc:	[CLS] aux : pass [SEP] was [SEP] created [SEP]
+Pred:	0
+Probs:	0=0.5660338997840881	1=0.43396610021591187
+Arc:	[CLS] compound [SEP] espen [SEP] lind [SEP]
+Pred:	1
+Probs:	0=0.11205170303583145	1=0.8879482746124268
+Arc:	[CLS] obl : agent [SEP] lind [SEP] created [SEP]
+Pred:	1
+Probs:	0=0.27917543053627014	1=0.7208245992660522
+Arc:	[CLS] cc [SEP] and [SEP] performed [SEP]
+Pred:	1
+Probs:	0=0.4888266921043396	1=0.5111732482910156
+Arc:	[CLS] aux : pass [SEP] is [SEP] performed [SEP]
+Pred:	0
+Probs:	0=0.752590000629425	1=0.24740999937057495
+Arc:	[CLS] conj : and [SEP] performed [SEP] created [SEP]
+Pred:	0
+Probs:	0=0.6824634671211243	1=0.3175365626811981
+Arc:	[CLS] obl : agent [SEP] crew [SEP] performed [SEP]
+Pred:	0
+Probs:	0=0.8618171215057373	1=0.1381828784942627
+
+Sent-level factuality probability:	0.32089555263519287
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 3456
+Nr_of_triples : 1
+input_triples : ['Brandon_Carter | knownFor | Doomsday_argument']
+reference_text : Brandon Carter is known for the Doomsday argument.
+Index : 3456
+Generation : 
+Index : 3456
+DAE_result : Gold sentence :	[CLS] brandon carter is known for the doom ##sd ##ay argument . [SEP] this is a fill ##er text because the model did not make a proper generation . [SEP]
+Generated Output:	this is a fill ##er text because the model did not make a proper generation .
+Arc:	[CLS] nsubj [SEP] this [SEP] text [SEP]
+Pred:	0
+Probs:	0=0.9783079028129578	1=0.021692052483558655
+Arc:	[CLS] compound [SEP] filler [SEP] text [SEP]
+Pred:	0
+Probs:	0=0.9742348194122314	1=0.025765128433704376
+Arc:	[CLS] nsubj [SEP] model [SEP] make [SEP]
+Pred:	0
+Probs:	0=0.9865656495094299	1=0.0134343970566988
+Arc:	[CLS] advmod [SEP] not [SEP] make [SEP]
+Pred:	0
+Probs:	0=0.9708991050720215	1=0.02910085953772068
+Arc:	[CLS] advcl : because [SEP] make [SEP] text [SEP]
+Pred:	0
+Probs:	0=0.9689763188362122	1=0.031023699790239334
+Arc:	[CLS] amod [SEP] proper [SEP] generation [SEP]
+Pred:	0
+Probs:	0=0.9710836410522461	1=0.028916364535689354
+Arc:	[CLS] obj [SEP] generation [SEP] make [SEP]
+Pred:	0
+Probs:	0=0.9801380038261414	1=0.019862035289406776
+
+Sent-level factuality probability:	0.02425636164844036
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 3462
+Nr_of_triples : 1
+input_triples : ['Lionsgate | service | Digital_distribution']
+reference_text : Digital distribution is a service of Lionsgate.
+Index : 3462
+Generation : Lionsgate has a service called Digital Distribution. The services are available in the UK.
+Index : 3462
+DAE_result : Gold sentence :	[CLS] digital distribution is a service of lions ##gate . [SEP] lions ##gate has a service called digital distribution . the services are available in the uk . [SEP]
+Generated Output:	lions ##gate has a service called digital distribution . the services are available in the uk .
+Arc:	[CLS] nsubj [SEP] lionsgate [SEP] has [SEP]
+Pred:	1
+Probs:	0=0.030078202486038208	1=0.9699217677116394
+Arc:	[CLS] obj [SEP] service [SEP] has [SEP]
+Pred:	1
+Probs:	0=0.025639608502388	1=0.9743604063987732
+Arc:	[CLS] amod [SEP] called [SEP] distribution [SEP]
+Pred:	1
+Probs:	0=0.06709422171115875	1=0.9329057335853577
+Arc:	[CLS] amod [SEP] digital [SEP] distribution [SEP]
+Pred:	1
+Probs:	0=0.009950265288352966	1=0.9900497198104858
+Arc:	[CLS] nsubj [SEP] services [SEP] available [SEP]
+Pred:	0
+Probs:	0=0.8566808104515076	1=0.14331915974617004
+Arc:	[CLS] obl : in [SEP] uk [SEP] available [SEP]
+Pred:	0
+Probs:	0=0.9961789846420288	1=0.003821002086624503
+
+Sent-level factuality probability:	0.6690629124641418
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 3679
+Nr_of_triples : 3
+input_triples : ['1147_Stavropolis | apoapsis | 418476000000.0', '1147_Stavropolis | absoluteMagnitude | 11.5', '1147_Stavropolis | discovered | 1929-06-11']
+reference_text : 1147 Stavropolis discovered on June 11, 1929 has an apoapsis of 418476000000.0 and an absolute magnitude of 11.5.
+Index : 3679
+Generation : The total area of 1147 Stavropolis is 419476000000.0.
+Index : 3679
+DAE_result : Gold sentence :	[CLS] 114 ##7 st ##av ##ropolis discovered on june 11 , 1929 has an ap ##oa ##psis of 41 ##8 ##47 ##60 ##00 ##00 ##0 . 0 and an absolute magnitude of 11 . 5 . [SEP] the total area of 114 ##7 st ##av ##ropolis is 41 ##9 ##47 ##60 ##00 ##00 ##0 . 0 . [SEP]
+Generated Output:	the total area of 114 ##7 st ##av ##ropolis is 41 ##9 ##47 ##60 ##00 ##00 ##0 . 0 .
+Arc:	[CLS] amod [SEP] total [SEP] area [SEP]
+Pred:	0
+Probs:	0=0.98162442445755	1=0.018375545740127563
+Arc:	[CLS] nsubj [SEP] area [SEP] 419476000000. 0 [SEP]
+Pred:	0
+Probs:	0=0.9710924029350281	1=0.02890760265290737
+Arc:	[CLS] nummod [SEP] 1147 [SEP] stavropolis [SEP]
+Pred:	1
+Probs:	0=0.10343102365732193	1=0.896569013595581
+Arc:	[CLS] nmod : of [SEP] stavropolis [SEP] area [SEP]
+Pred:	0
+Probs:	0=0.534325361251831	1=0.46567466855049133
+
+Sent-level factuality probability:	0.35238170623779297
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 3714
+Nr_of_triples : 1
+input_triples : ['Death_on_a_Factory_Farm | editor | Geof_Bartz']
+reference_text : Death on a Factory Farm was edited by Geof Bartz.
+Index : 3714
+Generation : Death ona Factory Farm is edited by Geof Bartz.
+Index : 3714
+DAE_result : Gold sentence :	[CLS] death on a factory farm was edited by geo ##f bart ##z . [SEP] death on ##a factory farm is edited by geo ##f bart ##z . [SEP]
+Generated Output:	death on ##a factory farm is edited by geo ##f bart ##z .
+Arc:	[CLS] compound [SEP] death [SEP] ona [SEP]
+Pred:	1
+Probs:	0=0.07696645706892014	1=0.9230335354804993
+Arc:	[CLS] compound [SEP] ona [SEP] farm [SEP]
+Pred:	1
+Probs:	0=0.1606987714767456	1=0.8393012881278992
+Arc:	[CLS] compound [SEP] factory [SEP] farm [SEP]
+Pred:	1
+Probs:	0=0.0355590283870697	1=0.9644409418106079
+Arc:	[CLS] nsubj : pass [SEP] farm [SEP] edited [SEP]
+Pred:	1
+Probs:	0=0.04689015820622444	1=0.9531099200248718
+Arc:	[CLS] aux : pass [SEP] is [SEP] edited [SEP]
+Pred:	1
+Probs:	0=0.35566556453704834	1=0.6443344354629517
+Arc:	[CLS] compound [SEP] geof [SEP] bartz [SEP]
+Pred:	1
+Probs:	0=0.06984783709049225	1=0.930152177810669
+Arc:	[CLS] obl : agent [SEP] bartz [SEP] edited [SEP]
+Pred:	1
+Probs:	0=0.047221362590789795	1=0.9527786374092102
+
+Sent-level factuality probability:	0.8867359161376953
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 3758
+Nr_of_triples : 4
+input_triples : ['Ciudad_Ayala | type | City', 'Ciudad_Ayala | populationDensity | 1604.0', 'Ciudad_Ayala | utcOffset | −6', 'Ciudad_Ayala | leaderTitle | Governator']
+reference_text : Ciudad Ayala is a city with a UTC offset of -6. The population density of Ciudad Ayala in 1604.0 and the leader of this population is called a governator.
+Index : 3758
+Generation : The City of Ciudad Ayala, located in the city of Ciudad Ayala, has 1604.0 inhabitants.
+Index : 3758
+DAE_result : Gold sentence :	[CLS] ciudad a ##yala is a city with a utc offset of - 6 . the population density of ciudad a ##yala in 1604 . 0 and the leader of this population is called a govern ##ator . [SEP] the city of ciudad a ##yala , located in the city of ciudad a ##yala , has 1604 . 0 inhabitants . [SEP]
+Generated Output:	the city of ciudad a ##yala , located in the city of ciudad a ##yala , has 1604 . 0 inhabitants .
+Arc:	[CLS] nsubj [SEP] city [SEP] has [SEP]
+Pred:	1
+Probs:	0=0.10078031569719315	1=0.8992196321487427
+Arc:	[CLS] compound [SEP] ciudad [SEP] ayala [SEP]
+Pred:	1
+Probs:	0=0.06927748024463654	1=0.9307225346565247
+Arc:	[CLS] nmod : of [SEP] ayala [SEP] city [SEP]
+Pred:	1
+Probs:	0=0.07232446223497391	1=0.9276755452156067
+Arc:	[CLS] acl [SEP] located [SEP] city [SEP]
+Pred:	0
+Probs:	0=0.5354642868041992	1=0.4645357131958008
+Arc:	[CLS] obl : in [SEP] city [SEP] located [SEP]
+Pred:	0
+Probs:	0=0.7740412950515747	1=0.22595874965190887
+Arc:	[CLS] compound [SEP] ciudad [SEP] ayala [SEP]
+Pred:	1
+Probs:	0=0.33035004138946533	1=0.6696498990058899
+Arc:	[CLS] nmod : of [SEP] ayala [SEP] city [SEP]
+Pred:	1
+Probs:	0=0.30698639154434204	1=0.693013608455658
+Arc:	[CLS] nummod [SEP] 1604. 0 [SEP] inhabitants [SEP]
+Pred:	1
+Probs:	0=0.03007424622774124	1=0.9699258208274841
+Arc:	[CLS] obj [SEP] inhabitants [SEP] has [SEP]
+Pred:	1
+Probs:	0=0.09989556670188904	1=0.9001044631004333
+
+Sent-level factuality probability:	0.7423117756843567
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 3763
+Nr_of_triples : 5
+input_triples : ['Adams_County,_Pennsylvania | hasToItsWest | Franklin_County,_Pennsylvania', '11th_Mississippi_Infantry_Monument | established | 2000', '11th_Mississippi_Infantry_Monument | location | Adams_County,_Pennsylvania', '11th_Mississippi_Infantry_Monument | category | Contributing_property', 'Adams_County,_Pennsylvania | hasToItsNorth | Cumberland_County,_Pennsylvania']
+reference_text : The 11th Mississippi Infantry Monument, established in the year 2000, falls under the category of contributing property and is located in Adams County Pennsylvania which is East of Franklin County, Pennsylvania. Adams County also has Cumberland County, Pennsylvania to its north.
+Index : 3763
+Generation : 11th Mississippi Infantry monument was established in 2000. Cumberland County Pennsylvania is in the Cumberland County.
+Index : 3763
+DAE_result : Gold sentence :	[CLS] the 11th mississippi infantry monument , established in the year 2000 , falls under the category of contributing property and is located in adams county pennsylvania which is east of franklin county , pennsylvania . adams county also has cumberland county , pennsylvania to its north . [SEP] 11th mississippi infantry monument was established in 2000 . cumberland county pennsylvania is in the cumberland county . [SEP]
+Generated Output:	11th mississippi infantry monument was established in 2000 . cumberland county pennsylvania is in the cumberland county .
+Arc:	[CLS] amod [SEP] 11th [SEP] monument [SEP]
+Pred:	1
+Probs:	0=0.009444116614758968	1=0.9905559420585632
+Arc:	[CLS] compound [SEP] mississippi [SEP] infantry [SEP]
+Pred:	1
+Probs:	0=0.009579913690686226	1=0.9904201626777649
+Arc:	[CLS] compound [SEP] infantry [SEP] monument [SEP]
+Pred:	1
+Probs:	0=0.007092071697115898	1=0.9929078817367554
+Arc:	[CLS] nsubj : pass [SEP] monument [SEP] established [SEP]
+Pred:	1
+Probs:	0=0.006991280708462	1=0.9930087327957153
+Arc:	[CLS] aux : pass [SEP] was [SEP] established [SEP]
+Pred:	1
+Probs:	0=0.013495279476046562	1=0.9865047335624695
+Arc:	[CLS] obl : in [SEP] 2000 [SEP] established [SEP]
+Pred:	1
+Probs:	0=0.016472846269607544	1=0.9835271239280701
+Arc:	[CLS] compound [SEP] cumberland [SEP] county [SEP]
+Pred:	0
+Probs:	0=0.6070622205734253	1=0.3929378092288971
+Arc:	[CLS] compound [SEP] county [SEP] pennsylvania [SEP]
+Pred:	0
+Probs:	0=0.5383816957473755	1=0.4616183042526245
+Arc:	[CLS] nsubj [SEP] pennsylvania [SEP] county [SEP]
+Pred:	0
+Probs:	0=0.8814490437507629	1=0.11855094134807587
+Arc:	[CLS] compound [SEP] cumberland [SEP] county [SEP]
+Pred:	0
+Probs:	0=0.9553723931312561	1=0.044627636671066284
+Arc:	[CLS] parataxis [SEP] county [SEP] established [SEP]
+Pred:	1
+Probs:	0=0.35909926891326904	1=0.6409006714820862
+
+Sent-level factuality probability:	0.6905054450035095
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 3786
+Nr_of_triples : 1
+input_triples : ['Super_Capers | language | English_language']
+reference_text : The language of the movie Super Capers is English.
+Index : 3786
+Generation : The English language is spoken in English, where the English is spoken.
+Index : 3786
+DAE_result : Gold sentence :	[CLS] the language of the movie super cape ##rs is english . [SEP] the english language is spoken in english , where the english is spoken . [SEP]
+Generated Output:	the english language is spoken in english , where the english is spoken .
+Arc:	[CLS] compound [SEP] english [SEP] language [SEP]
+Pred:	0
+Probs:	0=0.9479514360427856	1=0.05204854905605316
+Arc:	[CLS] nsubj : pass [SEP] language [SEP] spoken [SEP]
+Pred:	0
+Probs:	0=0.9760292172431946	1=0.023970792070031166
+Arc:	[CLS] aux : pass [SEP] is [SEP] spoken [SEP]
+Pred:	0
+Probs:	0=0.965860903263092	1=0.03413906320929527
+Arc:	[CLS] obl : in [SEP] english [SEP] spoken [SEP]
+Pred:	0
+Probs:	0=0.9811136722564697	1=0.018886297941207886
+Arc:	[CLS] advmod [SEP] where [SEP] spoken [SEP]
+Pred:	0
+Probs:	0=0.969704806804657	1=0.030295200645923615
+Arc:	[CLS] nsubj : pass [SEP] english [SEP] spoken [SEP]
+Pred:	0
+Probs:	0=0.9230400919914246	1=0.07695984840393066
+Arc:	[CLS] aux : pass [SEP] is [SEP] spoken [SEP]
+Pred:	0
+Probs:	0=0.9401736259460449	1=0.05982642248272896
+Arc:	[CLS] acl : relcl [SEP] spoken [SEP] english [SEP]
+Pred:	0
+Probs:	0=0.9810232520103455	1=0.018976811319589615
+
+Sent-level factuality probability:	0.03938787430524826
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 4089
+Nr_of_triples : 2
+input_triples : ['English_Without_Tears | producer | Anatole_de_Grunwald', 'Anatole_de_Grunwald | birthDate | 1910-12-25']
+reference_text : "English Without Tears" was produced by Anatole de Grunwald, who was born on December 25th 1910.
+Index : 4089
+Generation : American actor Anatole De Garrunwald was born on January 1, 1910 in 1910 in 1910.
+Index : 4089
+DAE_result : Gold sentence :	[CLS] ` ` english without tears ' ' was produced by ana ##to ##le de gr ##un ##wald , who was born on december 25th 1910 . [SEP] american actor ana ##to ##le de ga ##rr ##un ##wald was born on january 1 , 1910 in 1910 in 1910 . [SEP]
+Generated Output:	american actor ana ##to ##le de ga ##rr ##un ##wald was born on january 1 , 1910 in 1910 in 1910 .
+Arc:	[CLS] amod [SEP] american [SEP] actor [SEP]
+Pred:	0
+Probs:	0=0.9966548681259155	1=0.0033451570197939873
+Arc:	[CLS] compound [SEP] actor [SEP] garrunwald [SEP]
+Pred:	0
+Probs:	0=0.9653359055519104	1=0.034664083272218704
+Arc:	[CLS] compound [SEP] anatole [SEP] garrunwald [SEP]
+Pred:	1
+Probs:	0=0.4213208854198456	1=0.5786791443824768
+Arc:	[CLS] compound [SEP] de [SEP] garrunwald [SEP]
+Pred:	1
+Probs:	0=0.4686463475227356	1=0.5313536524772644
+Arc:	[CLS] nsubj : pass [SEP] garrunwald [SEP] born [SEP]
+Pred:	1
+Probs:	0=0.4451977014541626	1=0.5548022389411926
+Arc:	[CLS] aux : pass [SEP] was [SEP] born [SEP]
+Pred:	1
+Probs:	0=0.3777172565460205	1=0.6222827434539795
+Arc:	[CLS] obl : on [SEP] january [SEP] born [SEP]
+Pred:	0
+Probs:	0=0.9466717839241028	1=0.05332829803228378
+Arc:	[CLS] nummod [SEP] 1 [SEP] january [SEP]
+Pred:	0
+Probs:	0=0.9800034165382385	1=0.01999656856060028
+Arc:	[CLS] appos [SEP] 1910 [SEP] january [SEP]
+Pred:	0
+Probs:	0=0.8549932241439819	1=0.14500676095485687
+Arc:	[CLS] nmod : in [SEP] 1910 [SEP] 1910 [SEP]
+Pred:	0
+Probs:	0=0.9047600626945496	1=0.09523990750312805
+Arc:	[CLS] nmod : in [SEP] 1910 [SEP] 1910 [SEP]
+Pred:	0
+Probs:	0=0.8594657778739929	1=0.1405341625213623
+
+Sent-level factuality probability:	0.2526575028896332
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 4139
+Nr_of_triples : 7
+input_triples : ['Alan_Shepard | birthDate | 1923-11-18', 'Alan_Shepard | nationality | United_States', 'Alan_Shepard | servedAsChiefOfTheAstronautOfficeIn | 1963', 'Alan_Shepard | deathPlace | California', 'Alan_Shepard | selectedByNasa | 1959', 'Alan_Shepard | birthPlace | New_Hampshire', 'Alan_Shepard | award | Distinguished_Service_Medal_(United_States_Navy)']
+reference_text : Alan Shepard was an American, born on November 18, 1923 in New Hampshire. He was selected by NASA in 1959, and was the Chief of the Astronaut Office in 1963. The United States Navy awarded him the Distinguished Service Medal. He died in California.
+Index : 4139
+Generation : Alan Shepard's birth place is New Hampshire. He was born in New Hampshire.
+Index : 4139
+DAE_result : Gold sentence :	[CLS] alan shepard was an american , born on november 18 , 1923 in new hampshire . he was selected by nasa in 1959 , and was the chief of the astronaut office in 1963 . the united states navy awarded him the distinguished service medal . he died in california . [SEP] alan shepard ' s birth place is new hampshire . he was born in new hampshire . [SEP]
+Generated Output:	alan shepard ' s birth place is new hampshire . he was born in new hampshire .
+Arc:	[CLS] compound [SEP] alan [SEP] shepard [SEP]
+Pred:	1
+Probs:	0=0.2966453433036804	1=0.7033545970916748
+Arc:	[CLS] nmod : poss [SEP] shepard [SEP] place [SEP]
+Pred:	0
+Probs:	0=0.5842702984809875	1=0.41572967171669006
+Arc:	[CLS] compound [SEP] birth [SEP] place [SEP]
+Pred:	0
+Probs:	0=0.8832967877388	1=0.11670324206352234
+Arc:	[CLS] nsubj [SEP] place [SEP] hampshire [SEP]
+Pred:	0
+Probs:	0=0.8475682735443115	1=0.1524316966533661
+Arc:	[CLS] amod [SEP] new [SEP] hampshire [SEP]
+Pred:	1
+Probs:	0=0.22276096045970917	1=0.7772390246391296
+Arc:	[CLS] nsubj : pass [SEP] he [SEP] born [SEP]
+Pred:	1
+Probs:	0=0.1016218289732933	1=0.8983781933784485
+Arc:	[CLS] aux : pass [SEP] was [SEP] born [SEP]
+Pred:	1
+Probs:	0=0.14921894669532776	1=0.8507810831069946
+Arc:	[CLS] parataxis [SEP] born [SEP] hampshire [SEP]
+Pred:	1
+Probs:	0=0.25097551941871643	1=0.7490244507789612
+Arc:	[CLS] amod [SEP] new [SEP] hampshire [SEP]
+Pred:	1
+Probs:	0=0.05860540270805359	1=0.941394567489624
+Arc:	[CLS] obl : in [SEP] hampshire [SEP] born [SEP]
+Pred:	1
+Probs:	0=0.06950133293867111	1=0.9304986596107483
+
+Sent-level factuality probability:	0.6535535454750061
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 4375
+Nr_of_triples : 2
+input_triples : ['Turn_Me_On_(album) | precededBy | Let_It_Breed', 'Turn_Me_On_(album) | runtime | 35.1']
+reference_text : The album Turn Me On, which has a runtime of 35.1 minutes, is preceded by the album Let It Breed.
+Index : 4375
+Generation : The musical work of turn Me On is performed by Let It Breed.
+Index : 4375
+DAE_result : Gold sentence :	[CLS] the album turn me on , which has a run ##time of 35 . 1 minutes , is preceded by the album let it breed . [SEP] the musical work of turn me on is performed by let it breed . [SEP]
+Generated Output:	the musical work of turn me on is performed by let it breed .
+Arc:	[CLS] amod [SEP] musical [SEP] work [SEP]
+Pred:	0
+Probs:	0=0.9583315849304199	1=0.0416683703660965
+Arc:	[CLS] nsubj : pass [SEP] work [SEP] performed [SEP]
+Pred:	0
+Probs:	0=0.9778549671173096	1=0.022144990041851997
+Arc:	[CLS] nmod : of [SEP] turn [SEP] work [SEP]
+Pred:	0
+Probs:	0=0.7241659760475159	1=0.27583399415016174
+Arc:	[CLS] obj [SEP] me [SEP] turn [SEP]
+Pred:	1
+Probs:	0=0.12841396033763885	1=0.8715860843658447
+Arc:	[CLS] compound : prt [SEP] on [SEP] turn [SEP]
+Pred:	1
+Probs:	0=0.14853216707706451	1=0.8514677882194519
+Arc:	[CLS] aux : pass [SEP] is [SEP] performed [SEP]
+Pred:	0
+Probs:	0=0.9035045504570007	1=0.09649548679590225
+Arc:	[CLS] obl : agent [SEP] let [SEP] performed [SEP]
+Pred:	0
+Probs:	0=0.8407557010650635	1=0.15924428403377533
+Arc:	[CLS] nsubj [SEP] it [SEP] breed [SEP]
+Pred:	1
+Probs:	0=0.3911319673061371	1=0.6088680028915405
+Arc:	[CLS] ccomp [SEP] breed [SEP] let [SEP]
+Pred:	1
+Probs:	0=0.47075432538986206	1=0.5292457342147827
+
+Sent-level factuality probability:	0.38406166434288025
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 4392
+Nr_of_triples : 6
+input_triples : ['Hypermarcas | location | Brazil', 'Hypermarcas | type | S.A._(corporation)', 'Hypermarcas | subsidiary | Mantecorp', 'Hypermarcas | netIncome | 108600000', 'Hypermarcas | numberOfEmployees | 10252', 'Hypermarcas | location | São_Paulo']
+reference_text : Hypermarcas S.A. (a Brazilian company located in São Paulo) is a 10252 employee enterprise with net income of 108,600,000. The company has a subsidiary Mantecorp.
+Index : 4392
+Generation : Hypermarcas is a company located in Brazil. Mantecorp is a subsidiary of Mantecorp. The company is headquartered in Sao Paulo.
+Index : 4392
+DAE_result : Gold sentence :	[CLS] hyper ##mar ##cas s . a . ( a brazilian company located in sao paulo ) is a 102 ##52 employee enterprise with net income of 108 , 600 , 000 . the company has a subsidiary man ##tec ##or ##p . [SEP] hyper ##mar ##cas is a company located in brazil . man ##tec ##or ##p is a subsidiary of man ##tec ##or ##p . the company is headquartered in sao paulo . [SEP]
+Generated Output:	hyper ##mar ##cas is a company located in brazil . man ##tec ##or ##p is a subsidiary of man ##tec ##or ##p . the company is headquartered in sao paulo .
+Arc:	[CLS] nsubj [SEP] hypermarcas [SEP] company [SEP]
+Pred:	1
+Probs:	0=0.017778415232896805	1=0.9822215437889099
+Arc:	[CLS] amod [SEP] located [SEP] company [SEP]
+Pred:	1
+Probs:	0=0.026106327772140503	1=0.9738937020301819
+Arc:	[CLS] obl : in [SEP] brazil [SEP] located [SEP]
+Pred:	1
+Probs:	0=0.03880831226706505	1=0.9611916542053223
+Arc:	[CLS] nsubj [SEP] mantecorp [SEP] subsidiary [SEP]
+Pred:	0
+Probs:	0=0.6646761298179626	1=0.33532389998435974
+Arc:	[CLS] parataxis [SEP] subsidiary [SEP] company [SEP]
+Pred:	1
+Probs:	0=0.251609742641449	1=0.7483903169631958
+Arc:	[CLS] nmod : of [SEP] mantecorp [SEP] subsidiary [SEP]
+Pred:	0
+Probs:	0=0.8288294076919556	1=0.17117063701152802
+Arc:	[CLS] nsubj : pass [SEP] company [SEP] headquartered [SEP]
+Pred:	1
+Probs:	0=0.3588729798793793	1=0.6411269903182983
+Arc:	[CLS] aux : pass [SEP] is [SEP] headquartered [SEP]
+Pred:	0
+Probs:	0=0.5123550295829773	1=0.4876449406147003
+Arc:	[CLS] parataxis [SEP] headquartered [SEP] company [SEP]
+Pred:	1
+Probs:	0=0.404513955116272	1=0.595486044883728
+Arc:	[CLS] compound [SEP] sao [SEP] paulo [SEP]
+Pred:	1
+Probs:	0=0.13392502069473267	1=0.8660749793052673
+Arc:	[CLS] obl : in [SEP] paulo [SEP] headquartered [SEP]
+Pred:	1
+Probs:	0=0.4322313070297241	1=0.5677686333656311
+
+Sent-level factuality probability:	0.6663902997970581
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 4464
+Nr_of_triples : 1
+input_triples : ['Justin_Whalin | occupation | Presenter']
+reference_text : Justin Whalin was a presenter.
+Index : 4464
+Generation : The occupation of the President was Presenter.
+Index : 4464
+DAE_result : Gold sentence :	[CLS] justin w ##hal ##in was a presenter . [SEP] the occupation of the president was presenter . [SEP]
+Generated Output:	the occupation of the president was presenter .
+Arc:	[CLS] nsubj [SEP] occupation [SEP] presenter [SEP]
+Pred:	0
+Probs:	0=0.8296019434928894	1=0.1703980267047882
+Arc:	[CLS] nmod : of [SEP] president [SEP] occupation [SEP]
+Pred:	0
+Probs:	0=0.9897899031639099	1=0.01021010521799326
+
+Sent-level factuality probability:	0.09030406922101974
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 4467
+Nr_of_triples : 4
+input_triples : ['Nie_Haisheng | mission | Shenzhou_10', 'Nie_Haisheng | mission | Shenzhou_6', 'Nie_Haisheng | birthDate | 1964-10-13', 'Nie_Haisheng | birthPlace | Zaoyang']
+reference_text : Nie Haisheng was born on 10/13/1964 in Zaoyang. Nie Haisheng was a crew member on Shenzhou 6 and took part in the Shenzhou 10 mission.
+Index : 4467
+Generation : Nie Hai is a born on 13 October 1964 in Zaoyang. She was a crew member on the Shenzhou 10.
+Index : 4467
+DAE_result : Gold sentence :	[CLS] ni ##e hai ##sh ##eng was born on 10 / 13 / 1964 in za ##oya ##ng . ni ##e hai ##sh ##eng was a crew member on shen ##zhou 6 and took part in the shen ##zhou 10 mission . [SEP] ni ##e hai is a born on 13 october 1964 in za ##oya ##ng . she was a crew member on the shen ##zhou 10 . [SEP]
+Generated Output:	ni ##e hai is a born on 13 october 1964 in za ##oya ##ng . she was a crew member on the shen ##zhou 10 .
+Arc:	[CLS] compound [SEP] nie [SEP] hai [SEP]
+Pred:	1
+Probs:	0=0.07416127622127533	1=0.9258387088775635
+Arc:	[CLS] nsubj [SEP] hai [SEP] member [SEP]
+Pred:	1
+Probs:	0=0.032577432692050934	1=0.9674225449562073
+Arc:	[CLS] nummod [SEP] 13 [SEP] october [SEP]
+Pred:	1
+Probs:	0=0.3234589099884033	1=0.6765411496162415
+Arc:	[CLS] obl : on [SEP] october [SEP] born [SEP]
+Pred:	0
+Probs:	0=0.5654392838478088	1=0.43456077575683594
+Arc:	[CLS] nummod [SEP] 1964 [SEP] october [SEP]
+Pred:	1
+Probs:	0=0.2183052897453308	1=0.7816947102546692
+Arc:	[CLS] obl : in [SEP] zaoyang [SEP] born [SEP]
+Pred:	1
+Probs:	0=0.06554444879293442	1=0.9344556331634521
+Arc:	[CLS] nsubj [SEP] she [SEP] member [SEP]
+Pred:	1
+Probs:	0=0.054274432361125946	1=0.9457256197929382
+Arc:	[CLS] compound [SEP] crew [SEP] member [SEP]
+Pred:	1
+Probs:	0=0.016482345759868622	1=0.9835176467895508
+Arc:	[CLS] nmod : on [SEP] shenzhou [SEP] member [SEP]
+Pred:	1
+Probs:	0=0.02331364154815674	1=0.9766863584518433
+Arc:	[CLS] nummod [SEP] 10 [SEP] shenzhou [SEP]
+Pred:	1
+Probs:	0=0.042209528386592865	1=0.9577904939651489
+
+Sent-level factuality probability:	0.8584233522415161
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 4522
+Nr_of_triples : 5
+input_triples : ['Death_on_a_Factory_Farm | director | Tom_Simon', 'Death_on_a_Factory_Farm | producer | Tom_Simon', 'Death_on_a_Factory_Farm | broadcastedBy | HBO', 'Death_on_a_Factory_Farm | editor | Geof_Bartz', 'Death_on_a_Factory_Farm | runtime | 83.0']
+reference_text : The HBO film Death on a Factory Farm was produced and directed by Tom Simon. The film, which runs 83 minutes, was edited by Geof Bartz.
+Index : 4522
+Generation : Tom Simon was the director of Death Ona Factory Farm in England.
+Index : 4522
+DAE_result : Gold sentence :	[CLS] the hbo film death on a factory farm was produced and directed by tom simon . the film , which runs 83 minutes , was edited by geo ##f bart ##z . [SEP] tom simon was the director of death on ##a factory farm in england . [SEP]
+Generated Output:	tom simon was the director of death on ##a factory farm in england .
+Arc:	[CLS] compound [SEP] tom [SEP] simon [SEP]
+Pred:	1
+Probs:	0=0.08886430412530899	1=0.911135733127594
+Arc:	[CLS] nsubj [SEP] simon [SEP] director [SEP]
+Pred:	1
+Probs:	0=0.14408189058303833	1=0.8559181094169617
+Arc:	[CLS] compound [SEP] death [SEP] ona [SEP]
+Pred:	1
+Probs:	0=0.12469219416379929	1=0.8753078579902649
+Arc:	[CLS] compound [SEP] ona [SEP] farm [SEP]
+Pred:	1
+Probs:	0=0.4172351062297821	1=0.5827648639678955
+Arc:	[CLS] compound [SEP] factory [SEP] farm [SEP]
+Pred:	1
+Probs:	0=0.11546645313501358	1=0.8845335245132446
+Arc:	[CLS] nmod : of [SEP] farm [SEP] director [SEP]
+Pred:	1
+Probs:	0=0.27739447355270386	1=0.7226055860519409
+Arc:	[CLS] nmod : in [SEP] england [SEP] director [SEP]
+Pred:	0
+Probs:	0=0.9825752973556519	1=0.017424719408154488
+
+Sent-level factuality probability:	0.6928129196166992
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 4562
+Nr_of_triples : 3
+input_triples : ['Nord_(Year_of_No_Light_album) | followedBy | Live_at_Roadburn_2008_(Year_of_No_Light_album)', 'Nord_(Year_of_No_Light_album) | genre | Sludge_metal', 'Nord_(Year_of_No_Light_album) | producer | Year_of_No_Light']
+reference_text : Live at Roadburn 2008 was preceded by Nord, an album produced by Year of No Light, which is in the sludge metal genre.
+Index : 4562
+Generation : The year of No Light album was followed by Live at Roadburn 2008.
+Index : 4562
+DAE_result : Gold sentence :	[CLS] live at road ##burn 2008 was preceded by nord , an album produced by year of no light , which is in the sl ##udge metal genre . [SEP] the year of no light album was followed by live at road ##burn 2008 . [SEP]
+Generated Output:	the year of no light album was followed by live at road ##burn 2008 .
+Arc:	[CLS] nsubj : pass [SEP] year [SEP] followed [SEP]
+Pred:	1
+Probs:	0=0.1714249849319458	1=0.8285750150680542
+Arc:	[CLS] amod [SEP] light [SEP] album [SEP]
+Pred:	1
+Probs:	0=0.041900668293237686	1=0.9580993056297302
+Arc:	[CLS] nmod : of [SEP] album [SEP] year [SEP]
+Pred:	1
+Probs:	0=0.09517155587673187	1=0.9048284292221069
+Arc:	[CLS] aux : pass [SEP] was [SEP] followed [SEP]
+Pred:	1
+Probs:	0=0.2316117286682129	1=0.7683882117271423
+Arc:	[CLS] advcl : by [SEP] live [SEP] followed [SEP]
+Pred:	1
+Probs:	0=0.0904521718621254	1=0.9095478653907776
+Arc:	[CLS] obl : at [SEP] roadburn [SEP] live [SEP]
+Pred:	1
+Probs:	0=0.009486807510256767	1=0.9905132055282593
+Arc:	[CLS] nummod [SEP] 2008 [SEP] roadburn [SEP]
+Pred:	1
+Probs:	0=0.02042834833264351	1=0.9795716404914856
+
+Sent-level factuality probability:	0.9056462645530701
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 4597
+Nr_of_triples : 2
+input_triples : ['Trane | location | Swords,_Dublin', 'Swords,_Dublin | leaderTitle | County Manager']
+reference_text : The title of the leader of Swords, Dublin, where Trane is located, is County Manager.
+Index : 4597
+Generation : The County Manager is the county manager.
+Index : 4597
+DAE_result : Gold sentence :	[CLS] the title of the leader of swords , dublin , where tran ##e is located , is county manager . [SEP] the county manager is the county manager . [SEP]
+Generated Output:	the county manager is the county manager .
+Arc:	[CLS] compound [SEP] county [SEP] manager [SEP]
+Pred:	1
+Probs:	0=0.4227413535118103	1=0.5772586464881897
+Arc:	[CLS] nsubj [SEP] manager [SEP] manager [SEP]
+Pred:	0
+Probs:	0=0.7399587035179138	1=0.2600412368774414
+Arc:	[CLS] compound [SEP] county [SEP] manager [SEP]
+Pred:	0
+Probs:	0=0.7848813533782959	1=0.2151186317205429
+
+Sent-level factuality probability:	0.3508061468601227
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 4646
+Nr_of_triples : 2
+input_triples : ['Akeem_Ayers | draftRound | 2', 'Akeem_Ayers | debutTeam | Tennessee_Titans']
+reference_text : Akeem Ayers was in draft round 2 and made his debut for the Tennessee Titans.
+Index : 4646
+Generation : Akeem Ayers was drafted by the Tennessee Titans. He was drafted in 2nd round of the draft. He is in the draft round.
+Index : 4646
+DAE_result : Gold sentence :	[CLS] ak ##eem aye ##rs was in draft round 2 and made his debut for the tennessee titans . [SEP] ak ##eem aye ##rs was drafted by the tennessee titans . he was drafted in 2nd round of the draft . he is in the draft round . [SEP]
+Generated Output:	ak ##eem aye ##rs was drafted by the tennessee titans . he was drafted in 2nd round of the draft . he is in the draft round .
+Arc:	[CLS] compound [SEP] akeem [SEP] ayers [SEP]
+Pred:	1
+Probs:	0=0.06948572397232056	1=0.9305143356323242
+Arc:	[CLS] nsubj : pass [SEP] ayers [SEP] drafted [SEP]
+Pred:	1
+Probs:	0=0.11206716299057007	1=0.8879328370094299
+Arc:	[CLS] aux : pass [SEP] was [SEP] drafted [SEP]
+Pred:	1
+Probs:	0=0.2460600584745407	1=0.7539399266242981
+Arc:	[CLS] compound [SEP] tennessee [SEP] titans [SEP]
+Pred:	1
+Probs:	0=0.05536848306655884	1=0.9446314573287964
+Arc:	[CLS] obl : agent [SEP] titans [SEP] drafted [SEP]
+Pred:	1
+Probs:	0=0.135336235165596	1=0.8646637201309204
+Arc:	[CLS] nsubj : pass [SEP] he [SEP] drafted [SEP]
+Pred:	0
+Probs:	0=0.5482808351516724	1=0.45171913504600525
+Arc:	[CLS] aux : pass [SEP] was [SEP] drafted [SEP]
+Pred:	0
+Probs:	0=0.6706641912460327	1=0.3293358087539673
+Arc:	[CLS] parataxis [SEP] drafted [SEP] drafted [SEP]
+Pred:	0
+Probs:	0=0.5391153693199158	1=0.4608846604824066
+Arc:	[CLS] amod [SEP] 2nd [SEP] round [SEP]
+Pred:	0
+Probs:	0=0.8484429717063904	1=0.1515570878982544
+Arc:	[CLS] obl : in [SEP] round [SEP] drafted [SEP]
+Pred:	0
+Probs:	0=0.8146520256996155	1=0.18534797430038452
+Arc:	[CLS] nmod : of [SEP] draft [SEP] round [SEP]
+Pred:	0
+Probs:	0=0.6914333701133728	1=0.3085666298866272
+Arc:	[CLS] nsubj [SEP] he [SEP] round [SEP]
+Pred:	0
+Probs:	0=0.9230120778083801	1=0.07698788493871689
+Arc:	[CLS] compound [SEP] draft [SEP] round [SEP]
+Pred:	0
+Probs:	0=0.9236419796943665	1=0.07635798305273056
+Arc:	[CLS] parataxis [SEP] round [SEP] drafted [SEP]
+Pred:	0
+Probs:	0=0.8096348643302917	1=0.19036512076854706
+
+Sent-level factuality probability:	0.47234317660331726
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 4729
+Nr_of_triples : 2
+input_triples : ['Expect_a_Miracle | artist | Brian_Kelly_(composer_&_pianist)', 'Expect_a_Miracle | producer | Brian_Kelly_(composer_&_pianist)']
+reference_text : Expect a Miracle was recorded and produced by Brian Kelly.
+Index : 4729
+Generation : Brian Kelly performs musical music. He is the producer of the musical The Miracles which was created by Brian Kelly.
+Index : 4729
+DAE_result : Gold sentence :	[CLS] expect a miracle was recorded and produced by brian kelly . [SEP] brian kelly performs musical music . he is the producer of the musical the miracles which was created by brian kelly . [SEP]
+Generated Output:	brian kelly performs musical music . he is the producer of the musical the miracles which was created by brian kelly .
+Arc:	[CLS] compound [SEP] brian [SEP] kelly [SEP]
+Pred:	0
+Probs:	0=0.8894714713096619	1=0.11052853614091873
+Arc:	[CLS] nsubj [SEP] kelly [SEP] performs [SEP]
+Pred:	0
+Probs:	0=0.9519091248512268	1=0.04809089004993439
+Arc:	[CLS] amod [SEP] musical [SEP] music [SEP]
+Pred:	0
+Probs:	0=0.9897335171699524	1=0.01026647537946701
+Arc:	[CLS] obj [SEP] music [SEP] performs [SEP]
+Pred:	0
+Probs:	0=0.9936155080795288	1=0.006384453270584345
+Arc:	[CLS] nsubj [SEP] he [SEP] producer [SEP]
+Pred:	0
+Probs:	0=0.9654625654220581	1=0.0345374196767807
+Arc:	[CLS] parataxis [SEP] producer [SEP] performs [SEP]
+Pred:	0
+Probs:	0=0.9789397120475769	1=0.021060235798358917
+Arc:	[CLS] amod [SEP] musical [SEP] miracles [SEP]
+Pred:	0
+Probs:	0=0.9782966375350952	1=0.02170337550342083
+Arc:	[CLS] nmod : of [SEP] miracles [SEP] producer [SEP]
+Pred:	0
+Probs:	0=0.957779586315155	1=0.042220380157232285
+Arc:	[CLS] nsubj : pass [SEP] miracles [SEP] created [SEP]
+Pred:	0
+Probs:	0=0.9591192007064819	1=0.04088081419467926
+Arc:	[CLS] ref [SEP] which [SEP] miracles [SEP]
+Pred:	0
+Probs:	0=0.9701494574546814	1=0.029850492253899574
+Arc:	[CLS] aux : pass [SEP] was [SEP] created [SEP]
+Pred:	0
+Probs:	0=0.9463937282562256	1=0.05360621586441994
+Arc:	[CLS] acl : relcl [SEP] created [SEP] miracles [SEP]
+Pred:	0
+Probs:	0=0.9685190916061401	1=0.03148096054792404
+Arc:	[CLS] compound [SEP] brian [SEP] kelly [SEP]
+Pred:	0
+Probs:	0=0.7583284378051758	1=0.24167153239250183
+Arc:	[CLS] obl : agent [SEP] kelly [SEP] created [SEP]
+Pred:	0
+Probs:	0=0.8636862635612488	1=0.13631372153759003
+
+Sent-level factuality probability:	0.059185389429330826
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 4827
+Nr_of_triples : 4
+input_triples : ['1147_Stavropolis | apoapsis | 418476000000.0', '1147_Stavropolis | orbitalPeriod | 1249.6', '1147_Stavropolis | discoverer | Grigory_Neujmin', '1147_Stavropolis | absoluteMagnitude | 11.5']
+reference_text : Grigory Neujmin discovered the asteroid 1147 Stavropolis of an absolute magnitude of 11.5, with 418476000000.0 apoapsis and 1249.6 days orbital period.
+Index : 4827
+Generation : The asteroid 1147 Stavropolis has an apoapsis of 41846000000.0.
+Index : 4827
+DAE_result : Gold sentence :	[CLS] gr ##igo ##ry ne ##uj ##min discovered the asteroid 114 ##7 st ##av ##ropolis of an absolute magnitude of 11 . 5 , with 41 ##8 ##47 ##60 ##00 ##00 ##0 . 0 ap ##oa ##psis and 124 ##9 . 6 days orbital period . [SEP] the asteroid 114 ##7 st ##av ##ropolis has an ap ##oa ##psis of 41 ##8 ##46 ##00 ##00 ##00 . 0 . [SEP]
+Generated Output:	the asteroid 114 ##7 st ##av ##ropolis has an ap ##oa ##psis of 41 ##8 ##46 ##00 ##00 ##00 . 0 .
+Arc:	[CLS] compound [SEP] asteroid [SEP] stavropolis [SEP]
+Pred:	1
+Probs:	0=0.021524500101804733	1=0.9784754514694214
+Arc:	[CLS] nummod [SEP] 1147 [SEP] asteroid [SEP]
+Pred:	1
+Probs:	0=0.013940442353487015	1=0.9860596060752869
+Arc:	[CLS] nsubj [SEP] stavropolis [SEP] has [SEP]
+Pred:	1
+Probs:	0=0.009292222559452057	1=0.9907077550888062
+Arc:	[CLS] obj [SEP] apoapsis [SEP] has [SEP]
+Pred:	1
+Probs:	0=0.004849177319556475	1=0.9951508045196533
+Arc:	[CLS] nmod : of [SEP] 41846000000. 0 [SEP] apoapsis [SEP]
+Pred:	1
+Probs:	0=0.013635795563459396	1=0.9863641858100891
+
+Sent-level factuality probability:	0.9873515367507935
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 4837
+Nr_of_triples : 3
+input_triples : ['Bootleg_Series_Volume_1:_The_Quine_Tapes | producer | The_Velvet_Underground', 'Bootleg_Series_Volume_1:_The_Quine_Tapes | recordLabel | Polydor_Records', 'Bootleg_Series_Volume_1:_The_Quine_Tapes | recordLabel | Universal_Music_Group']
+reference_text : The producer of the album Bootleg Series Volume 1: The Quine Tapes (recorded under the Polydor Records label on Universal Music Group) was the Velvet Underground.
+Index : 4837
+Generation : The records of The Velvet Underground are the record label. The record label is Universal Music Group.
+Index : 4837
+DAE_result : Gold sentence :	[CLS] the producer of the album boot ##leg series volume 1 : the qui ##ne tapes ( recorded under the poly ##dor records label on universal music group ) was the velvet underground . [SEP] the records of the velvet underground are the record label . the record label is universal music group . [SEP]
+Generated Output:	the records of the velvet underground are the record label . the record label is universal music group .
+Arc:	[CLS] nsubj [SEP] records [SEP] label [SEP]
+Pred:	0
+Probs:	0=0.9529000520706177	1=0.04709991440176964
+Arc:	[CLS] compound [SEP] velvet [SEP] underground [SEP]
+Pred:	1
+Probs:	0=0.4267641603946686	1=0.573235809803009
+Arc:	[CLS] nmod : of [SEP] underground [SEP] records [SEP]
+Pred:	0
+Probs:	0=0.7332429885864258	1=0.26675695180892944
+Arc:	[CLS] compound [SEP] record [SEP] label [SEP]
+Pred:	0
+Probs:	0=0.9160106778144836	1=0.08398931473493576
+Arc:	[CLS] compound [SEP] record [SEP] label [SEP]
+Pred:	1
+Probs:	0=0.08072669804096222	1=0.919273316860199
+Arc:	[CLS] nsubj [SEP] label [SEP] group [SEP]
+Pred:	1
+Probs:	0=0.10136992484331131	1=0.8986301422119141
+Arc:	[CLS] amod [SEP] universal [SEP] group [SEP]
+Pred:	1
+Probs:	0=0.05152105540037155	1=0.9484789967536926
+Arc:	[CLS] compound [SEP] music [SEP] group [SEP]
+Pred:	1
+Probs:	0=0.04312199354171753	1=0.9568780064582825
+Arc:	[CLS] parataxis [SEP] group [SEP] label [SEP]
+Pred:	0
+Probs:	0=0.6043500900268555	1=0.39564985036849976
+
+Sent-level factuality probability:	0.5655547380447388
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 4931
+Nr_of_triples : 1
+input_triples : ['Train_(band) | formerBandMember | Charlie_Colin']
+reference_text : Charlie Colin is the former member of Train.
+Index : 4931
+Generation : In the same band Charlie Colin played.
+Index : 4931
+DAE_result : Gold sentence :	[CLS] charlie colin is the former member of train . [SEP] in the same band charlie colin played . [SEP]
+Generated Output:	in the same band charlie colin played .
+Arc:	[CLS] amod [SEP] same [SEP] band [SEP]
+Pred:	0
+Probs:	0=0.9832677245140076	1=0.016732312738895416
+Arc:	[CLS] obl : in [SEP] band [SEP] played [SEP]
+Pred:	0
+Probs:	0=0.9803104996681213	1=0.019689468666911125
+Arc:	[CLS] compound [SEP] charlie [SEP] colin [SEP]
+Pred:	0
+Probs:	0=0.8928769826889038	1=0.10712303966283798
+Arc:	[CLS] nsubj [SEP] colin [SEP] played [SEP]
+Pred:	0
+Probs:	0=0.8910752534866333	1=0.10892476886510849
+
+Sent-level factuality probability:	0.06311739981174469
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 4945
+Nr_of_triples : 3
+input_triples : ['Mermaid_(Train_song) | genre | Pop_rock', 'Mermaid_(Train_song) | musicalBand | Train_(band)', 'Mermaid_(Train_song) | runtime | 3.16']
+reference_text : Mermaid is a pop rock song by Train. It is three minutes and sixteen seconds long.
+Index : 4945
+Generation : The musical band Mermaid (Train song) is a musical band. The musical band is called the Train.
+Index : 4945
+DAE_result : Gold sentence :	[CLS] mermaid is a pop rock song by train . it is three minutes and sixteen seconds long . [SEP] the musical band mermaid ( train song ) is a musical band . the musical band is called the train . [SEP]
+Generated Output:	the musical band mermaid ( train song ) is a musical band . the musical band is called the train .
+Arc:	[CLS] amod [SEP] musical [SEP] band [SEP]
+Pred:	0
+Probs:	0=0.9305054545402527	1=0.06949459761381149
+Arc:	[CLS] compound [SEP] band [SEP] mermaid [SEP]
+Pred:	0
+Probs:	0=0.92228102684021	1=0.07771898806095123
+Arc:	[CLS] nsubj [SEP] mermaid [SEP] band [SEP]
+Pred:	0
+Probs:	0=0.917873740196228	1=0.08212621510028839
+Arc:	[CLS] compound [SEP] train [SEP] song [SEP]
+Pred:	0
+Probs:	0=0.8580079078674316	1=0.14199203252792358
+Arc:	[CLS] appos [SEP] song [SEP] mermaid [SEP]
+Pred:	0
+Probs:	0=0.8382672071456909	1=0.16173280775547028
+Arc:	[CLS] amod [SEP] musical [SEP] band [SEP]
+Pred:	0
+Probs:	0=0.9241487383842468	1=0.07585123181343079
+Arc:	[CLS] amod [SEP] musical [SEP] band [SEP]
+Pred:	1
+Probs:	0=0.2900577187538147	1=0.7099422216415405
+Arc:	[CLS] nsubj : pass [SEP] band [SEP] called [SEP]
+Pred:	0
+Probs:	0=0.7642397880554199	1=0.2357601672410965
+Arc:	[CLS] aux : pass [SEP] is [SEP] called [SEP]
+Pred:	0
+Probs:	0=0.9108160734176636	1=0.08918391168117523
+Arc:	[CLS] parataxis [SEP] called [SEP] band [SEP]
+Pred:	0
+Probs:	0=0.9826367497444153	1=0.01736319623887539
+Arc:	[CLS] obj [SEP] train [SEP] called [SEP]
+Pred:	0
+Probs:	0=0.6907765865325928	1=0.30922338366508484
+
+Sent-level factuality probability:	0.17912624776363373
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 4990
+Nr_of_triples : 4
+input_triples : ['Abraham_A._Ribicoff | spouse | Ruth Ribicoff', 'Abraham_A._Ribicoff | nationality | American', 'Abraham_A._Ribicoff | birthPlace | United_States', 'Abraham_A._Ribicoff | office | United States Secretary of Health, Education, and Welfare']
+reference_text : Abraham A. Ribicoff, whose spouse is Ruth Ribicoff, is an American citizen and was born in the USA. He worked for the United States Secretary of Health, Education, and Welfare office.
+Index : 4990
+Generation : In the United States, the United States Secretary of Health, Education, and Welfare is the spouse of Abraham A. Ribicoff.
+Index : 4990
+DAE_result : Gold sentence :	[CLS] abraham a . rib ##ico ##ff , whose spouse is ruth rib ##ico ##ff , is an american citizen and was born in the usa . he worked for the united states secretary of health , education , and welfare office . [SEP] in the united states , the united states secretary of health , education , and welfare is the spouse of abraham a . rib ##ico ##ff . [SEP]
+Generated Output:	in the united states , the united states secretary of health , education , and welfare is the spouse of abraham a . rib ##ico ##ff .
+Arc:	[CLS] amod [SEP] united [SEP] states [SEP]
+Pred:	1
+Probs:	0=0.12371621280908585	1=0.8762838244438171
+Arc:	[CLS] obl : in [SEP] states [SEP] spouse [SEP]
+Pred:	1
+Probs:	0=0.3064754903316498	1=0.6935245394706726
+Arc:	[CLS] amod [SEP] united [SEP] states [SEP]
+Pred:	1
+Probs:	0=0.015661781653761864	1=0.9843382239341736
+Arc:	[CLS] compound [SEP] states [SEP] secretary [SEP]
+Pred:	1
+Probs:	0=0.016814442351460457	1=0.9831855297088623
+Arc:	[CLS] nsubj [SEP] secretary [SEP] spouse [SEP]
+Pred:	1
+Probs:	0=0.10349849611520767	1=0.8965015411376953
+Arc:	[CLS] nmod : of [SEP] health [SEP] secretary [SEP]
+Pred:	1
+Probs:	0=0.007369877304881811	1=0.992630124092102
+Arc:	[CLS] nmod : of [SEP] education [SEP] secretary [SEP]
+Pred:	1
+Probs:	0=0.009846768341958523	1=0.9901532530784607
+Arc:	[CLS] conj : and [SEP] education [SEP] health [SEP]
+Pred:	1
+Probs:	0=0.004502100870013237	1=0.9954979419708252
+Arc:	[CLS] cc [SEP] and [SEP] welfare [SEP]
+Pred:	1
+Probs:	0=0.006246498785912991	1=0.9937534928321838
+Arc:	[CLS] nmod : of [SEP] welfare [SEP] secretary [SEP]
+Pred:	1
+Probs:	0=0.008250240236520767	1=0.9917497038841248
+Arc:	[CLS] conj : and [SEP] welfare [SEP] health [SEP]
+Pred:	1
+Probs:	0=0.0037688424345105886	1=0.9962311387062073
+Arc:	[CLS] compound [SEP] abraham [SEP] ribicoff [SEP]
+Pred:	1
+Probs:	0=0.11313603818416595	1=0.8868640065193176
+Arc:	[CLS] compound [SEP] a. [SEP] ribicoff [SEP]
+Pred:	1
+Probs:	0=0.06845876574516296	1=0.9315412640571594
+Arc:	[CLS] nmod : of [SEP] ribicoff [SEP] spouse [SEP]
+Pred:	1
+Probs:	0=0.18797872960567474	1=0.8120213150978088
+
+Sent-level factuality probability:	0.9303054213523865
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 5066
+Nr_of_triples : 2
+input_triples : ['English_Without_Tears | producer | Anatole_de_Grunwald', 'English_Without_Tears | writer | Anatole_de_Grunwald']
+reference_text : "English Without Tears" was produced and written by Anatole de Grunwald.
+Index : 5066
+Generation : The American severed severed English is spoken in English, which is spoken in the United States.
+Index : 5066
+DAE_result : Gold sentence :	[CLS] ` ` english without tears ' ' was produced and written by ana ##to ##le de gr ##un ##wald . [SEP] the american severed severed english is spoken in english , which is spoken in the united states . [SEP]
+Generated Output:	the american severed severed english is spoken in english , which is spoken in the united states .
+Arc:	[CLS] amod [SEP] american [SEP] english [SEP]
+Pred:	0
+Probs:	0=0.987667441368103	1=0.012332608923316002
+Arc:	[CLS] amod [SEP] severed [SEP] english [SEP]
+Pred:	0
+Probs:	0=0.9802215099334717	1=0.019778482615947723
+Arc:	[CLS] amod [SEP] severed [SEP] english [SEP]
+Pred:	0
+Probs:	0=0.9804549813270569	1=0.01954503171145916
+Arc:	[CLS] nsubj : pass [SEP] english [SEP] spoken [SEP]
+Pred:	0
+Probs:	0=0.9889601469039917	1=0.011039919219911098
+Arc:	[CLS] aux : pass [SEP] is [SEP] spoken [SEP]
+Pred:	0
+Probs:	0=0.9881580471992493	1=0.011841904371976852
+Arc:	[CLS] obl : in [SEP] english [SEP] spoken [SEP]
+Pred:	0
+Probs:	0=0.9840837121009827	1=0.01591627672314644
+Arc:	[CLS] nsubj : pass [SEP] english [SEP] spoken [SEP]
+Pred:	0
+Probs:	0=0.9691944718360901	1=0.030805474147200584
+Arc:	[CLS] ref [SEP] which [SEP] english [SEP]
+Pred:	0
+Probs:	0=0.9791823029518127	1=0.02081764116883278
+Arc:	[CLS] aux : pass [SEP] is [SEP] spoken [SEP]
+Pred:	0
+Probs:	0=0.9605395197868347	1=0.0394604355096817
+Arc:	[CLS] acl : relcl [SEP] spoken [SEP] english [SEP]
+Pred:	0
+Probs:	0=0.9780974984169006	1=0.021902509033679962
+Arc:	[CLS] amod [SEP] united [SEP] states [SEP]
+Pred:	0
+Probs:	0=0.9754178524017334	1=0.0245821513235569
+Arc:	[CLS] obl : in [SEP] states [SEP] spoken [SEP]
+Pred:	0
+Probs:	0=0.9833129048347473	1=0.016687043011188507
+
+Sent-level factuality probability:	0.02039245516061783
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+
+### Beginning of the instance###
+Index : 5149
+Nr_of_triples : 3
+input_triples : ['Ciudad_Ayala | country | Mexico', 'Ciudad_Ayala | timeZone | Pacific_Daylight_Time', 'Ciudad_Ayala | timeZone | Pacific_Standard_Time_Zone']
+reference_text : Ciudad Ayala located in the country of Mexico uses the Pacific Standard Time Zone and Pacific Daylight Time.
+Index : 5149
+Generation : The average time in Mexico, the Pacific Standard Time Zone is Pacific Standard Time.
+Index : 5149
+DAE_result : Gold sentence :	[CLS] ciudad a ##yala located in the country of mexico uses the pacific standard time zone and pacific daylight time . [SEP] the average time in mexico , the pacific standard time zone is pacific standard time . [SEP]
+Generated Output:	the average time in mexico , the pacific standard time zone is pacific standard time .
+Arc:	[CLS] amod [SEP] average [SEP] time [SEP]
+Pred:	0
+Probs:	0=0.8894068598747253	1=0.11059308797121048
+Arc:	[CLS] obl : tmod [SEP] time [SEP] time [SEP]
+Pred:	0
+Probs:	0=0.7830981016159058	1=0.21690194308757782
+Arc:	[CLS] nmod : in [SEP] mexico [SEP] time [SEP]
+Pred:	1
+Probs:	0=0.4243874251842499	1=0.5756125450134277
+Arc:	[CLS] amod [SEP] pacific [SEP] zone [SEP]
+Pred:	1
+Probs:	0=0.07603428512811661	1=0.9239656925201416
+Arc:	[CLS] amod [SEP] standard [SEP] zone [SEP]
+Pred:	1
+Probs:	0=0.08278586715459824	1=0.9172140955924988
+Arc:	[CLS] compound [SEP] time [SEP] zone [SEP]
+Pred:	1
+Probs:	0=0.06077175959944725	1=0.9392282366752625
+Arc:	[CLS] nsubj [SEP] zone [SEP] time [SEP]
+Pred:	1
+Probs:	0=0.36557576060295105	1=0.6344242095947266
+Arc:	[CLS] amod [SEP] pacific [SEP] time [SEP]
+Pred:	0
+Probs:	0=0.6836726069450378	1=0.31632739305496216
+Arc:	[CLS] amod [SEP] standard [SEP] time [SEP]
+Pred:	0
+Probs:	0=0.7964843511581421	1=0.20351561903953552
+
+Sent-level factuality probability:	0.5375314354896545
+
+Sent-level prediction:	1
+
+
+#### End of the instance ####
+

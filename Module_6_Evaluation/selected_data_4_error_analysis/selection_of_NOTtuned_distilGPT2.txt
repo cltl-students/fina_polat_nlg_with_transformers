@@ -1,0 +1,900 @@
+Beginning of the instance
+Index : 53
+Nr_of_triples : 3
+input_triples : ['Abraham_A._Ribicoff | deathPlace | United_States', 'Abraham_A._Ribicoff | birthPlace | United_States', 'United_States | ethnicGroup | African_Americans']
+reference_text : Abraham A. Ribicoff was born and died in the United States where African Americans are an ethnic group.
+Index : 53
+Generation : 
+#### End of the instance ####
+
+Beginning of the instance
+Index : 204
+Nr_of_triples : 3
+input_triples : ['Pontiac_Rageous | assembly | Michigan', 'Pontiac_Rageous | assembly | Detroit', 'Pontiac_Rageous | productionEndYear | 1997']
+reference_text : The Pontiac Rageous assembled in Michigan with assembly line in Detroit was last produced in 1997.
+Index : 204
+Generation : Michigan, S
+#### End of the instance ####
+
+Beginning of the instance
+Index : 217
+Nr_of_triples : 1
+input_triples : ['Olga_Bondareva | professionalField | Economics']
+reference_text : Olga Bondareva currently works in the field of Economics.
+Index : 217
+Generation : Bio
+#### End of the instance ####
+
+Beginning of the instance
+Index : 244
+Nr_of_triples : 1
+input_triples : ['Expect_a_Miracle | genre | Easy_listening']
+reference_text : Expect a Miracle's genre is easy listening.
+Index : 244
+Generation : 
+#### End of the instance ####
+
+Beginning of the instance
+Index : 260
+Nr_of_triples : 5
+input_triples : ['Mexico | currency | Mexican_peso', 'Mexico | demonym | Mexicans', 'Bionico | course | Dessert', 'Bionico | dishVariation | Honey', 'Bionico | country | Mexico']
+reference_text : Bionico is a dessert food that can be made with honey and is found in Mexico. Mexico is inhabited by Mexicans and their currency is the peso.
+Index : 260
+Generation : Mexican.co | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country | country |
+#### End of the instance ####
+
+Beginning of the instance
+Index : 262
+Nr_of_triples : 1
+input_triples : ['Gdynia,_Poland | timeZone | Central_European_Summer_Time']
+reference_text : Gdynia, Poland follows the Central European Summer Time timezone.
+Index : 262
+Generation : Region:0,1,2,3,4,5,6 | Region:1,2,3,4,5,6 | Region:1,2,3,4,5,6 | Region:1,2,3,4,5,6 | Region:1,2,3,4,5,6 | Region:1,2,3,4,5,6 | Region:1,2,3,4,5,6 | Region:1,2,3,4,5,6 | Region:1,2,3,4,5,6 | Region:1,2,3,4,5,6 | Region:1,1,2,3,4,5,6 | Region:1,2,3,4,5,6 | Region:1,2,3,4,5,6 | Region:1,2,3,4,5,6 |
+#### End of the instance ####
+
+Beginning of the instance
+Index : 355
+Nr_of_triples : 3
+input_triples : ['Super_Capers | starring | Danielle_Harris', 'Super_Capers | writer | Ray_Griggs_(director)', 'Super_Capers | runtime | 98.0']
+reference_text : Super Capers, a film written by Ray Griggs, is 98 minutes long. Danielle Harris was one of the stars of the movie.
+Index : 355
+Generation : The first trailer is a bit more than just a teaser, but it's a very real thing, and the trailer is a very real thing, and it is a very real thing, and it is a very real thing. It's not the first trailer, but it's a very real thing and the trailer is a very real thing. It's not the first trailer, but it's a very real thing.The first trailer is a little more than just a teaser, but it's a very real thing. The first trailer is a little more than just a teaser, and it's a very real thing. It's not the first trailer, but it's a very real thing. It's not the first trailer, but it's a very real thing.The first trailer is a very real thing. It's not the first trailer, but it's a very real thing. It's not the first trailer, but it's a very real thing. It's not
+#### End of the instance ####
+
+Beginning of the instance
+Index : 375
+Nr_of_triples : 3
+input_triples : ['Abraham_A._Ribicoff | spouse | Casey_Ribicoff', 'Abraham_A._Ribicoff | deathPlace | United_States', 'United_States | ethnicGroup | African_Americans']
+reference_text : In the United States, one of the national ethnic groups are the African Americans. The United States is where Abraham A. Ribicoff, who was married to Casey Ribicoff, died.
+Index : 375
+Generation : 
+#### End of the instance ####
+
+Beginning of the instance
+Index : 458
+Nr_of_triples : 3
+input_triples : ['Aaron_Turner | genre | Post-metal', 'Aaron_Turner | associatedBand/associatedMusicalArtist | Twilight_(band)', 'Aaron_Turner | activeYearsStartYear | 1995']
+reference_text : Aaron Turner is a post metal musician who started performing in 1995 and played with the band, Twilight.
+Index : 458
+Generation : 
+#### End of the instance ####
+
+Beginning of the instance
+Index : 542
+Nr_of_triples : 1
+input_triples : ['Take_It_Off! | producer | The_Honeymoon_Killers_(American_band)']
+reference_text : Take It Off! was produced by the American band, the Honeymoon Killers.
+Index : 542
+Generation : 
+#### End of the instance ####
+
+Beginning of the instance
+Index : 569
+Nr_of_triples : 1
+input_triples : ['Bedford_Aerodrome | cityServed | Bedford_Autodrome']
+reference_text : Bedford Aerodrome has served the Bedford Autodrome.
+Index : 569
+Generation : CitySize:1
+#### End of the instance ####
+
+Beginning of the instance
+Index : 584
+Nr_of_triples : 5
+input_triples : ['Abraham_A._Ribicoff | spouse | Ruth Ribicoff', 'Abraham_A._Ribicoff | inOfficeWhilePresident | John_F._Kennedy', 'Abraham_A._Ribicoff | nationality | American', 'Abraham_A._Ribicoff | successor | John_N._Dempsey', 'Abraham_A._Ribicoff | birthPlace | Connecticut']
+reference_text : Abraham A. Ribicoff’s spouse was Ruth Ribicoff and his successor was John N. Dempsey. Abraham was in office during the John F. Kennedy presidency. Abraham A. Ribicoff was American and was born in Connecticut.
+Index : 584
+Generation : 
+#### End of the instance ####
+
+Beginning of the instance
+Index : 645
+Nr_of_triples : 5
+input_triples : ['Darinka_Dentcheva | influencedBy | Andrzej_Piotr_Ruszczyński', 'Darinka_Dentcheva | citizenship | United_States', 'Darinka_Dentcheva | birthDate | 1958-01-01', 'Darinka_Dentcheva | professionalField | Mathematical_optimization', 'Darinka_Dentcheva | knownFor | Stochastic_programming']
+reference_text : Darinka Dentcheva, born January 1, 1958, is a US citizen and is known for stochastic programming. She is a professional in the field of mathematical optimization and was influenced by Andrzej Piotr Ruszczyński.
+Index : 645
+Generation : Stochastic_
+#### End of the instance ####
+
+Beginning of the instance
+Index : 653
+Nr_of_triples : 1
+input_triples : ['Death_on_a_Factory_Farm | broadcastedBy | HBO']
+reference_text : Death on a Factory Farm is a film broadcasted by HBO.
+Index : 653
+Generation : The film is a very interesting, interesting and very interesting, film about a man who is in a position to make the most of his own money, and he has to make a lot of money to make a lot of money. The story of the story is very interesting and very interesting, and very interesting, and very interesting, and very interesting, and very interesting.The film is very interesting, very interesting and very interesting, and very interesting, and very interesting, and very interesting.The film is very interesting, very interesting and very interesting, and very interesting, and very interesting, and very interesting, and very interesting, and very interesting.The film is very interesting, very interesting and very interesting, and very interesting, and very interesting, and very interesting, and very interesting, and very interesting, and very interesting, and very interesting, and very interesting, and very interesting, and very interesting, and very interesting, and very interesting, and
+#### End of the instance ####
+
+Beginning of the instance
+Index : 712
+Nr_of_triples : 6
+input_triples : ['Adolfo_Suárez_Madrid–Barajas_Airport | operatingOrganisation | ENAIRE', 'Adolfo_Suárez_Madrid–Barajas_Airport | location | Alcobendas', 'Adolfo_Suárez_Madrid–Barajas_Airport | runwayLength | 4349.0', 'Adolfo_Suárez_Madrid–Barajas_Airport | runwayName | 14R/32L', 'ENAIRE | city | Madrid', 'Adolfo_Suárez_Madrid–Barajas_Airport | elevationAboveTheSeaLevel | 610.0']
+reference_text : Adolfo Suárez Madrid–Barajas Airport is in Alcobendas and is operated by ENAIRE in which is in Madrid. The runway length of Adolfo Suárez Madrid–Barajas Airport is 4,349 and is named 14R/32L, Adolfo Suárez Madrid-Barajas Airport also has an elevation of 610.0 metres above sea level and a runway length of 4,349.
+Index : 712
+Generation : Josef Rodriguez-Pasilla-Barrillo-Carrillo-Carrillo-Carrillo-Carrillo-Carrillo-Carrillo-Carrillo-Carrillo-Carrillo-Carrillo-Carrillo-Carrillo-Carrillo-Carrillo-Carrillo-Carrillo-Carrillo-Carrillo-Carrillo-Carrillo-Carrillo-Carrillo-Carrillo-Carrillo-Carrillo-Carrillo-Carrillo-Carrillo-Carrillo-Carrillo-Carrillo
+#### End of the instance ####
+
+Beginning of the instance
+Index : 759
+Nr_of_triples : 6
+input_triples : ['Turn_Me_On_(album) | runtime | 35.1', 'Turn_Me_On_(album) | artist | The_Honeymoon_Killers_(American_band)', 'Turn_Me_On_(album) | genre | Punk_blues', 'Turn_Me_On_(album) | producer | The_Honeymoon_Killers_(American_band)', 'Turn_Me_On_(album) | genre | Noise_rock', 'Turn_Me_On_(album) | producer | Wharton_Tiers']
+reference_text : In the genre of punk blues, the Honeymoon Killers' "Turn Me On" is a 35 minutes 10 seconds example of noise rock produced by Wharton Tiers for this American band. The band also participated in the production.
+Index : 759
+Generation : [Music for the Record Store]
+#### End of the instance ####
+
+Beginning of the instance
+Index : 767
+Nr_of_triples : 2
+input_triples : ['Liselotte_Grschebina | birthPlace | German_Empire', 'Liselotte_Grschebina | professionalField | Photographer']
+reference_text : Liselotte Grschebina was a photographer who was born in the German Empire.
+Index : 767
+Generation : 1:02pm
+#### End of the instance ####
+
+Beginning of the instance
+Index : 792
+Nr_of_triples : 1
+input_triples : ['Let_It_Breed | followedBy | Turn_Me_On_(album)']
+reference_text : "Let It Breed" was followed by the album "Turn Me On".
+Index : 792
+Generation : 
+#### End of the instance ####
+
+Beginning of the instance
+Index : 827
+Nr_of_triples : 5
+input_triples : ['Super_Capers | distributor | Lionsgate', 'Super_Capers | director | Ray_Griggs_(director)', 'Super_Capers | runtime | 98.0', 'Super_Capers | starring | Tom_Lister,_Jr.', 'Super_Capers | gross | 30955.0']
+reference_text : The box office $30,955.00 film, Super Capers, with a running time of 98 minutes, starring Tom Lister Jr., was distributed by Lionsgate and directed by Ray Griggs.
+Index : 827
+Generation : -2.5%
+#### End of the instance ####
+
+Beginning of the instance
+Index : 837
+Nr_of_triples : 3
+input_triples : ['Bananaman | starring | Bill_Oddie', 'Bananaman | broadcastedBy | BBC', 'BBC | city | London']
+reference_text : Bananaman starring Bill Oddie is broadcast by the BBC, which is located in London.
+Index : 837
+Generation : New YorkThis is a list of comics that have appeared in over 20 years and that includes the most popular of them all:The first two comics are based on a comic by the same name and have the same name.The third comic is based on an original comic by the same name and has the same name.The fourth comic is based on an original comic by the same name and has the same name.The last comic is based on an original comic by the same name and has the same name.The last comic is based on an original comic by the same name and has the same name. The last comic is based on an original comic by the same name.The first comic is based on an original comic by the same name.
+#### End of the instance ####
+
+Beginning of the instance
+Index : 839
+Nr_of_triples : 3
+input_triples : ['Bananaman | starring | Bill_Oddie', 'Bananaman | broadcastedBy | BBC', 'BBC | city | London']
+reference_text : Bananaman the TV series starring Bill Oddie was shown on the BBC and BBC is located in London.
+Index : 839
+Generation : and by all rights reserved.
+#### End of the instance ####
+
+Beginning of the instance
+Index : 912
+Nr_of_triples : 2
+input_triples : ['Nie_Haisheng | mission | Shenzhou_6', 'Shenzhou_6 | cosparId | 2005-040A']
+reference_text : Nie Haisheng took part in the Shenzhou 6 mission which had a COSPAR ID of 2005-040A.
+Index : 912
+Generation : Spacecraft | Spacecraft | Spacecraft | Spacecraft | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceeport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport | Spaceport
+#### End of the instance ####
+
+Beginning of the instance
+Index : 1022
+Nr_of_triples : 1
+input_triples : ['Noise_rock | stylisticOrigin | Noise_music']
+reference_text : The stylistic origins of noise rock are from noise music.
+Index : 1022
+Generation : AudioType: Sound | AudioType: AudioType: AudioType: Sound | AudioType: AudioType: Sound | AudioType: Sound | AudioType: AudioType: Sound | AudioType: AudioType: AudioType: Sound | AudioType: Sound | AudioType: Sound | AudioType: Sound | AudioType: Sound | AudioType: Sound | AudioType: Sound | AudioType: Sound | AudioType: Sound | AudioType: Sound | AudioType: Sound | AudioType: Sound | AudioType: Sound | AudioType: Sound | AudioType: Sound | AudioType: Sound | AudioType: Sound | AudioType: Sound | AudioType: Sound | AudioType: Sound | AudioType: Sound | AudioType: Sound | AudioType: Sound | AudioType: Sound | AudioType: AudioType: Sound | AudioType: Sound | AudioType: Sound | AudioType: Sound | AudioType: Sound | AudioType: AudioType: Sound | Audio
+#### End of the instance ####
+
+Beginning of the instance
+Index : 1143
+Nr_of_triples : 3
+input_triples : ['Bionico | course | Dessert', 'Dessert | dishVariation | Cookie', 'Bionico | country | Mexico']
+reference_text : Bionico is a dessert, which is found in Mexico. Cookie is also a type of dessert.
+Index : 1143
+Generation : desserts and dessert
+#### End of the instance ####
+
+Beginning of the instance
+Index : 1170
+Nr_of_triples : 2
+input_triples : ['Olga_Bondareva | knownFor | Bondareva–Shapley_theorem', 'Olga_Bondareva | almaMater | Leningrad_State_University']
+reference_text : Olga Bondareva, whose alma mater is Leningrad State University, is known for the Bondareva-Shapley theorem.
+Index : 1170
+Generation : 
+#### End of the instance ####
+
+Beginning of the instance
+Index : 1273
+Nr_of_triples : 4
+input_triples : ['Nurhan_Atasoy | birthPlace | Reşadiye', 'Reşadiye | isPartOf | Tokat_Province', 'Turkey | areaTotal | 783356.0', 'Nurhan_Atasoy | birthPlace | Turkey']
+reference_text : Nurhan Atasoy was born in Resadiye, a town located in the Tokat Province in Turkey. Turkey has a total area of 783,356.0 km^2.
+Index : 1273
+Generation : U.S. | areaTotal | 793365.0 || Nurhan
+#### End of the instance ####
+
+Beginning of the instance
+Index : 1307
+Nr_of_triples : 5
+input_triples : ['GMA_New_Media | keyPerson | Felipe_Gozon', 'GMA_New_Media | industry | Entertainment', 'GMA_New_Media | subsidiary | Philippine_Entertainment_Portal', 'GMA_New_Media | subsidiary | Digify,_Inc.', 'GMA_New_Media | parentCompany | GMA_Network_(company)']
+reference_text : GMA New Media, Inc. is a subsidiary of GMA Network. GMA New Media offers applications in the Entertainment Industry. Felipe Gozon is the key person in GMA New Media. Both Philippine Entertainment Portal, Inc. and Digify Inc. are subsidiaries of the company.
+Index : 1307
+Generation : 
+#### End of the instance ####
+
+Beginning of the instance
+Index : 1332
+Nr_of_triples : 4
+input_triples : ['Mermaid_(Train_song) | genre | Pop_rock', 'Mermaid_(Train_song) | recordLabel | Columbia_Records', 'Mermaid_(Train_song) | runtime | 3.16', 'Mermaid_(Train_song) | recordLabel | Sony_Music_Entertainment']
+reference_text : Mermaid, a pop rock song by Train with a length of 3 minutes and 16 seconds, was released by Sony Music Entertainment under their Columbia Records label.
+Index : 1332
+Generation : - Music
+#### End of the instance ####
+
+Beginning of the instance
+Index : 1338
+Nr_of_triples : 1
+input_triples : ['United_States | demonym | American']
+reference_text : People from the United States are called Americans.
+Index : 1338
+Generation : }The following table shows the results of the experiment.The results were generated from the following data:
+#### End of the instance ####
+
+Beginning of the instance
+Index : 1401
+Nr_of_triples : 5
+input_triples : ['Abraham_A._Ribicoff | spouse | Ruth Ribicoff', 'Abraham_A._Ribicoff | inOfficeWhilePresident | John_F._Kennedy', 'Abraham_A._Ribicoff | nationality | American', 'Abraham_A._Ribicoff | deathPlace | United_States', 'Abraham_A._Ribicoff | birthPlace | Connecticut']
+reference_text : Abraham A. Ribicoff was in office during the John F. Kennedy presidency and was married to Ruth Ribicoff. Abraham A. Ribicoff was American and his place of birth was Connecticut. He also died in the USA.
+Index : 1401
+Generation : U.S. Citizenship & Immigration Services
+#### End of the instance ####
+
+Beginning of the instance
+Index : 1575
+Nr_of_triples : 1
+input_triples : ['Ciudad_Ayala | timeZone | Pacific_Standard_Time_Zone']
+reference_text : The timezone of Ciudad Ayala is the Pacific Standard Time Zone.
+Index : 1575
+Generation : 
+#### End of the instance ####
+
+Beginning of the instance
+Index : 1628
+Nr_of_triples : 4
+input_triples : ['University_of_Burgundy | numberOfUndergraduateStudents | 16800', 'University_of_Burgundy | staff | 2900', 'University_of_Burgundy | numberOfStudents | 27400', 'University_of_Burgundy | numberOfDoctoralStudents | 1299']
+reference_text : The University of Burgundy has a staff of 2900 members. The number of students currently in attendance is 27400, including 16800 undergraduate students and 1299 doctoral students.
+Index : 1628
+Generation : University_of_Burgundy | numberOfDoctoralStudents
+#### End of the instance ####
+
+Beginning of the instance
+Index : 1716
+Nr_of_triples : 4
+input_triples : ['Expect_a_Miracle | artist | Brian_Kelly_(composer_&_pianist)', 'Expect_a_Miracle | type | Compilation_Album', 'Expect_a_Miracle | runtime | 54.56', 'Expect_a_Miracle | precededBy | Pools_of_Light_(Brian_Kelly_album)']
+reference_text : Expect a Miracle, a compilation album with runtime of 54.56 minutes was created by composer & pianist Artist Brian Kelly. This album was preceded by the album Pools of Light.
+Index : 1716
+Generation : p1 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19I’m not sure how many people have heard of the ‪miracle‬ of the ‪miracle, but it is a good thing. I have seen a lot of people say that it’s a great thing. It’s an amazing thing, but it’s not an amazing thing.I’m not sure how many people have heard of the ‪miracle‬ of the ‪miracle‬ of the ‪miracle‬ of the ‪miracle‬ of the ‪miracle‬ of the ‪miracle‬ of the ‪miracle‬ of the ‪miracle‬ of the ‪miracle‬ of the ‪mir
+#### End of the instance ####
+
+Beginning of the instance
+Index : 1728
+Nr_of_triples : 5
+input_triples : ['Brandon_Carter | professionalField | General_relativity', 'Brandon_Carter | knownFor | Carter_constant', 'Brandon_Carter | knownFor | No-hair_theorem', 'Brandon_Carter | doctoralAdvisor | Dennis_William_Sciama', 'Brandon_Carter | birthDate | 1942-01-01']
+reference_text : Brandon Carter (born on born on 01-01-1942) is a professional in the field of general relativity, known for for the Carter constant and the No-hair theorem. Dennis William Sciama was his doctoral advisor.
+Index : 1728
+Generation : (Dates) | 1-2-2-3-4-5-6-7 | 2-3-4-5-6-7 | 3-4-5-6-7-8 | 4-6-6-7-8-9 | 5-6-7-9-10 | 6-6-7-10-11 | 7-7-7-11-12 | 7-7-7-12-13 | 8-7-7-13-14 | 9-7-7-14-15 | 10-7-7-15-16 | 9-7-7-16-17 | 10-7-7-17-18 | 10-7-7-18 | 11-7-7-19-20 | 11-7-7-20-21 | 12-7-7-21 | 12-7-7-22 | 13-7-7-23 | 14
+#### End of the instance ####
+
+Beginning of the instance
+Index : 1741
+Nr_of_triples : 7
+input_triples : ['Ciudad_Ayala | type | City', 'Ciudad_Ayala | leaderTitle | Governator', 'Ciudad_Ayala | isPartOf | Morelos', 'Ciudad_Ayala | country | Mexico', 'Ciudad_Ayala | elevationAboveTheSeaLevel | 1147.0', 'Ciudad_Ayala | timeZone | Pacific_Daylight_Time', 'Ciudad_Ayala | populationDensity | 1604.0']
+reference_text : Ciudad Ayala is a city and a part of Morelos located in Mexico. This city has a population density of 1604.0, with an elevation of 1147.0 above sea level. The city is in PDT time zone. The leader in Ciudad Ayala is called the governator.
+Index : 1741
+Generation : The
+#### End of the instance ####
+
+Beginning of the instance
+Index : 1763
+Nr_of_triples : 6
+input_triples : ['University_of_Burgundy | numberOfUndergraduateStudents | 16800', 'University_of_Burgundy | staff | 2900', 'University_of_Burgundy | numberOfStudents | 27400', 'University_of_Burgundy | numberOfDoctoralStudents | 1299', 'University_of_Burgundy | campus | Dijon', 'University_of_Burgundy | city | Dijon']
+reference_text : The University of Burgundy which is located in the city of Dijon has 27400 students, of which 16800 are undergraduates and 1299 are doctoral students. It has 2900 staff members.
+Index : 1763
+Generation : University_of_Burgundy | university | city | city | city | city | city | city | city | city | university | city | city | city | city | city | city | city | city | city | city | city | city | city | city | city | city | city | city | city | city | city | city | city | city | city | city | city | city | city | city | city | city | city | city | city | city | city | city | city | city | city | city | city | city | city | city | city | city | city | city | city | city | city | city | city | city | city | city | city | city | city |
+#### End of the instance ####
+
+Beginning of the instance
+Index : 1791
+Nr_of_triples : 2
+input_triples : ['Al_Asad_Airbase | operatingOrganisation | United_States_Air_Force', 'Al_Asad_Airbase | runwayName | 09L/27R']
+reference_text : Al Asad airbase operated by United States Air Force has the runway named as "09L/27R".
+Index : 1791
+Generation : The first flight was scheduled on September 27, 2016. The first flight was scheduled for September 28, 2016.The second flight was scheduled on September 28, 2016.The third flight was scheduled on September 28, 2016.The fourth flight was planned for September 29, 2016.The last flight was scheduled on September 29, 2016.The last flight was planned on September 29, 2016.The last flight was planned on September 29, 2016.The last flight was planned on September 29, 2016.The last flight was planned on September 29, 2016.The last flight was scheduled on September 29, 2016.The last flight was planned on September 29, 2016.The last flight was planned on September 29, 2016.
+#### End of the instance ####
+
+Beginning of the instance
+Index : 1799
+Nr_of_triples : 1
+input_triples : ['India | demonym | Indian']
+reference_text : The demonym for a person from India is Indian.
+Index : 1799
+Generation : name: Indian | name: India | name: India | name: India | name: India | name: India | name: India | name: India | name: India | name: India | name: India | name: India | name: India | name: India | name: India | name: India | name: India | name: India | name: India | name: India | name: India | name: India | name: India | name: India | name: India | name: India | name: India | name: India | name: India | name: India | name: India | name: India | name: India | name: India | name: India | name: India | name: India | name: India | name: India | name: India | name: India | name: India | name: India | name: India | name: India | name: India | name: India | name: India | name: India | name: India |
+#### End of the instance ####
+
+Beginning of the instance
+Index : 1805
+Nr_of_triples : 1
+input_triples : ['Ciudad_Ayala | populationMetro | 1777539']
+reference_text : The population of the metropolitan area of Ciudad Ayala is 1,777,539.
+Index : 1805
+Generation : Location: San Diego, CA 91818
+#### End of the instance ####
+
+Beginning of the instance
+Index : 1828
+Nr_of_triples : 2
+input_triples : ['Abraham_A._Ribicoff | spouse | Casey_Ribicoff', 'Abraham_A._Ribicoff | office | United States Secretary of Health, Education, and Welfare']
+reference_text : Casey Ribicoff is the wife of Abraham A. Ribicoff, the US secretary of Health, Education, and Welfare.
+Index : 1828
+Generation : 
+#### End of the instance ####
+
+Beginning of the instance
+Index : 1866
+Nr_of_triples : 4
+input_triples : ['Aleksandr_Prudnikov | club | FC_Amkar_Perm', 'Aleksandr_Prudnikov | height | 185.0 (centimetres)', 'Aleksandr_Prudnikov | birthDate | 1989-02-24', 'FC_Amkar_Perm | manager | Gadzhi_Gadzhiyev']
+reference_text : Aleksandr Prudnikov was born on February 24th, 1989 and stands at a height of 185.0. He plays for the FC Amkar Perm Football Club, managed by Gadzhi Gadzhiyev.
+Index : 1866
+Generation : club | FK_K_Mov | club | FC_Amkar_Perm | manager | FK_K_Mov | club | FC_Amkar_Perm | manager | FC_Amkar_Perm | manager | FC_Amkar_Perm | manager | FC_Amkar_Perm | manager | FC_Amkar_Perm | manager | FC_Amkar_Perm | manager | FK_K_Mov | club | FC_Amkar_Perm | manager | FC_Amkar_Perm | manager | FC_Amkar_Perm | manager | FC_Amkar_Perm | manager | FC_Amkar_Perm | manager | FC_Amkar_Perm | manager | FC_Amkar_Perm | manager | FC_Amkar_Perm | manager | FC_Amkar_Perm | manager | FC_Amkar_Perm |
+#### End of the instance ####
+
+Beginning of the instance
+Index : 1876
+Nr_of_triples : 7
+input_triples : ['Mexico | currency | Mexican_peso', 'Mexico | demonym | Mexicans', 'Bionico | course | Dessert', 'Bionico | region | Guadalajara', 'Bionico | ingredient | Granola', 'Dessert | dishVariation | Sandesh_(confectionery)', 'Bionico | country | Mexico']
+reference_text : The people in Mexico are called Mexicans and the currency is the peso. Bionico is a dessert food found in Mexico in the Guadalajara area. This dish requires granola as one of its ingredients. Another types of dessert is Sandesh.
+Index : 1876
+Generation : This recipe is based on a recipe from the Mexican Food Network, which has a wide variety of recipes and recipes.Ingredients1/2 cup sugar (1/3 cup water)1/2 cup flour (2/4 cup water)1/4 cup water1/2 cup sugar2/4 cup sugar1/4 cup sugar1/4 cup sugar2/4 cup sugar1/4 cup sugar1/4 cup sugar2/4 cup sugar2/4 cup sugar2/4 cup sugar1/4 cup sugar1/4 cup sugar
+#### End of the instance ####
+
+Beginning of the instance
+Index : 1905
+Nr_of_triples : 3
+input_triples : ['Turn_Me_On_(album) | runtime | 35.1', 'Turn_Me_On_(album) | precededBy | Let_It_Breed', 'Let_It_Breed | precededBy | Love_American_Style_(album)']
+reference_text : Following the albums, Let it Breed and Love American Style, Turn me on was released at a length of 35 minutes and 10 seconds.
+Index : 1905
+Generation : 
+#### End of the instance ####
+
+Beginning of the instance
+Index : 1907
+Nr_of_triples : 5
+input_triples : ['Nurhan_Atasoy | residence | Istanbul', 'Nurhan_Atasoy | citizenship | Turkey', 'Nurhan_Atasoy | nationality | Turkish_people', 'Nurhan_Atasoy | residence | Turkey', 'Nurhan_Atasoy | award | State_Award_for_Superior_Achievement']
+reference_text : Nurhan Atasoy, of Turkish citizenship and nationality, resides in Istanbul, Turkey. Nurhan won the State Award for Superior Achievement.
+Index : 1907
+Generation : -5-6-8-9-1 | -5-8-10-2 | -5-8-10-3 | -5-8-10-4 | -5-8-10-5 | -5-8-10-6
+#### End of the instance ####
+
+Beginning of the instance
+Index : 2005
+Nr_of_triples : 3
+input_triples : ['Nord_(Year_of_No_Light_album) | releaseDate | 2006-09-06', 'Nord_(Year_of_No_Light_album) | followedBy | Live_at_Roadburn_2008_(Year_of_No_Light_album)', 'Nord_(Year_of_No_Light_album) | artist | Year_of_No_Light']
+reference_text : Nord is an album by Year of No Light that was released on June 9th, 2006. The band followed Nord with the album Live at Roadburn 2008.
+Index : 2005
+Generation : 
+#### End of the instance ####
+
+Beginning of the instance
+Index : 2006
+Nr_of_triples : 6
+input_triples : ['Acharya_Institute_of_Technology | campus | In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090.', 'All_India_Council_for_Technical_Education | location | Mumbai', 'Acharya_Institute_of_Technology | director | Dr. G. P. Prabhukumar', 'Acharya_Institute_of_Technology | affiliation | Visvesvaraya_Technological_University', 'Visvesvaraya_Technological_University | city | Belgaum', 'Acharya_Institute_of_Technology | wasGivenTheTechnicalCampusStatusBy | All_India_Council_for_Technical_Education']
+reference_text : The campus of the Acharya Institute of Technology, directed by Dr.G. Prabhukumar and affiliated with the Belgaum-located Visvesvaraya Technological University, may be found at at Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090, India. It was given 'Technical Campus' status by the All India Council for Technical Education of Mumbai.
+Index : 2006
+Generation : wasPublished by The Indian Express Tribune, December 13, 2016.
+#### End of the instance ####
+
+Beginning of the instance
+Index : 2166
+Nr_of_triples : 7
+input_triples : ['Alan_Shepard | birthDate | 1923-11-18', 'Alan_Shepard | nationality | United_States', 'Alan_Shepard | servedAsChiefOfTheAstronautOfficeIn | 1963', 'Alan_Shepard | deathPlace | California', 'Alan_Shepard | birthPlace | New_Hampshire', 'Alan_Shepard | mission | Apollo_14', 'Alan_Shepard | award | Distinguished_Service_Medal_(United_States_Navy)']
+reference_text : American Alan Shepard, who was the Chief of the Astronaut Office in 1963, and a member of the Apollo 14 crew, was awarded the Distinguished Service Medal in the United States Navy. He was born in New Hampshire on Nov 18, 1923 and died in California.
+Index : 2166
+Generation : } //...The following is the official list of the Astronaut's accomplishments.The list of achievements is the following:The following is the Official list of achievements:The following is the Official list of achievements:The following is the Official list of achievements:The following is the Official list of achievements:The following is the official list of achievements:The following is the Official list of achievements:The following is the Official list of achievements:The following is the Official list of achievements:The following is the Official list of achievements:The following is the Official list of achievements:The following is the Official list of achievements:The following is the Official list of achievements:The following is the Official list of achievements:This is the Official list of achievements:The following is the Official list of achievements:The following is the Official list of achievements:The following is the Official list of achievements:The following is
+#### End of the instance ####
+
+Beginning of the instance
+Index : 2169
+Nr_of_triples : 3
+input_triples : ['Turn_Me_On_(album) | runtime | 35.1', 'Turn_Me_On_(album) | artist | The_Honeymoon_Killers_(American_band)', 'Turn_Me_On_(album) | producer | The_Honeymoon_Killers_(American_band)']
+reference_text : The album Turn Me On (produced by American band the Honeymoon Killers) is 35 minutes 10 seconds long.
+Index : 2169
+Generation : // this is a very small sample. It is not very much of a sample, it is a bit of an example. // I'm going to use the same sample for the album, I'll just use the same sample for the album, but I'm not going to use the same sample for the album. // This is the sample that I'm going to use for this album. // I'm going to use the same sample for the album. // I'm going to use this sample for the album. // This sample that I'm going to use for this record. // This sample that I'm going to use for this album. // This sample that I'm going to use for this album. // This sample that I'm going to use for this album. // This sample that I'm going to use for this album. // This sample that I'm going to use for this album. // This sample that I'm going to use for this album. }
+#### End of the instance ####
+
+Beginning of the instance
+Index : 2187
+Nr_of_triples : 4
+input_triples : ['McVeagh_of_the_South_Seas | director | Harry_Carey_(actor_born_1878)', 'McVeagh_of_the_South_Seas | distributor | Alliance_Films_Corporation', 'McVeagh_of_the_South_Seas | director | Gregory_Allen', 'McVeagh_of_the_South_Seas | imdbId | 0004319']
+reference_text : "McVeagh of the South Seas" is distributed by Alliance Films Corporation and has the IMDb id of 0004319. It’s directed by Harry Carey and Gregory Allen. Carey was born in 1878.
+Index : 2187
+Generation : $2 / $3 / $4 / $5 / $6 / $7 / $8 / $9 / $10 / $11 / $12 / $13 / $14 / $15 / $16 / $17 / $18 / $19 / $20 / $21 / $22 / $23 / $24 / $25 / $26 / $27 / $28 / $29 / $30 / $31 / $32 / $33 / $34 / $35 / $36 / $37 / $38 / $39 / $40 / $41 / $42 / $43 / $44 / $45 / $46 / $47 / $48 / $49 / $50 / $51 / $52 / $53 / $54 / $55 / $56 / $57 / $58 / $59 / $60 / $61 / $62 / $63 / $64 / $65 / $66 / $67 / $68
+#### End of the instance ####
+
+Beginning of the instance
+Index : 2193
+Nr_of_triples : 2
+input_triples : ['Death_on_a_Factory_Farm | director | Sarah_Teale', 'Death_on_a_Factory_Farm | runtime | 83.0']
+reference_text : Sarah Teale directed the movie Death on a Factory Farm which has a duration of 83 minutes.
+Index : 2193
+Generation : 
+#### End of the instance ####
+
+Beginning of the instance
+Index : 2211
+Nr_of_triples : 5
+input_triples : ['BBC | city | Broadcasting_House', 'Bananaman | starring | Bill_Oddie', 'Bananaman | creator | Steve_Bright', 'BBC | foundedBy | John_Reith,_1st_Baron_Reith', 'Bananaman | broadcastedBy | BBC']
+reference_text : Bananaman starring Bill Oddie and created by Steve Bright was broadcasted by BBC. BBC was founded by 1st Baron, John Reith and has its home at Broadcasting House.
+Index : 2211
+Generation : first published by: The Daily Mail, The Daily Mail, The Sunday Times, The Guardian, The Daily Mail, The Daily Mail.The Daily Mail has been criticised for its coverage of the murder of a British woman by a British police officer.The Daily Mail has been criticised for its coverage of the murder of a British woman by a British police officer.In a statement on Monday, the Daily Mail said it was “trying to make the story of a woman who was killed by a British police officer a “real“ story.“We are not trying to make the story about the murder or the murder of a British woman by a British police officer, or any other person.““We are not trying to make the story about the murder or the murder of a British woman by a British police officer, or any other person.“The Daily Mail has been criticised for its coverage of the murder of a British woman
+#### End of the instance ####
+
+Beginning of the instance
+Index : 2253
+Nr_of_triples : 3
+input_triples : ['Anatole_de_Grunwald | birthDate | 1910-12-25', 'English_Without_Tears | writer | Anatole_de_Grunwald', 'English_Without_Tears | writer | Terence_Rattigan']
+reference_text : Anatole de Grunwald, born December 25, 1910, and Terence Rattigan wrote English Without Tears.
+Index : 2253
+Generation : writer = Anatole_de_Grunwald | author = Terence_Rattigan
+#### End of the instance ####
+
+Beginning of the instance
+Index : 2276
+Nr_of_triples : 2
+input_triples : ['Agremiação_Sportiva_Arapiraquense | league | Campeonato_Brasileiro_Série_C', 'Agremiação_Sportiva_Arapiraquense | season | 2015_Campeonato_Brasileiro_Série_C']
+reference_text : Agremiação Sportiva Arapiraquense from Campeonato Brasileiro Série C league competed in the 2015 Campeonato Brasileiro Série C.
+Index : 2276
+Generation : match: 2012
+#### End of the instance ####
+
+Beginning of the instance
+Index : 2277
+Nr_of_triples : 2
+input_triples : ['Agremiação_Sportiva_Arapiraquense | league | Campeonato_Brasileiro_Série_C', 'Agremiação_Sportiva_Arapiraquense | season | 2015_Campeonato_Brasileiro_Série_C']
+reference_text : Agremiação Sportiva Arapiraquense compete in the Campeonato Brasileiro Série C league that had a competition in 2015.
+Index : 2277
+Generation : | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | season | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | season | year | | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year |
+#### End of the instance ####
+
+Beginning of the instance
+Index : 2278
+Nr_of_triples : 2
+input_triples : ['Agremiação_Sportiva_Arapiraquense | league | Campeonato_Brasileiro_Série_C', 'Agremiação_Sportiva_Arapiraquense | season | 2015_Campeonato_Brasileiro_Série_C']
+reference_text : Agremiação Sportiva Arapiraquense played in the Campeonato Brasileiro Série C league in 2015.
+Index : 2278
+Generation : 2017-03-18 | 10:30:00 | Category: SportsTeam, Size:2, Triples: Agremiação_Sportiva_Brapiraquense | season | 2015-03-18 | 10:30:00 | Category: SportsTeam, Size:2, Triples: Agremiação_Sportiva_Arapiraquense | season | 2015-
+#### End of the instance ####
+
+Beginning of the instance
+Index : 2370
+Nr_of_triples : 1
+input_triples : ['Super_Capers | starring | Adam_West']
+reference_text : Adam West had a main role in the movie Super Capers.
+Index : 2370
+Generation : Editing by: Michael B. JordanTheatricalTheatricalTheatricalTheatricalTheatricalTheatricalTheatricalTheatricalTheatricalTheatricalTheatricalTheatricalTheatrical
+#### End of the instance ####
+
+Beginning of the instance
+Index : 2401
+Nr_of_triples : 4
+input_triples : ['Super_Capers | distributor | Lionsgate', 'Super_Capers | starring | Justin_Whalin', 'Super_Capers | distributor | Roadside_Attractions', 'Roadside_Attractions | foundingYear | 2003-01-01']
+reference_text : The movie Super Capers which starred Justin Whalin was distributed by Lionsgate and Roadside Attractions (founded in 2003).
+Index : 2401
+Generation : www.lionsgate.com/product/lionsgate.htm
+#### End of the instance ####
+
+Beginning of the instance
+Index : 2577
+Nr_of_triples : 7
+input_triples : ['Alan_B._Miller_Hall | architect | Robert_A._M._Stern', 'Alan_B._Miller_Hall | address | 101 Ukrop Way', 'Alan_B._Miller_Hall | buildingStartDate | 30 March 2007', 'Alan_B._Miller_Hall | currentTenants | Mason_School_of_Business', 'Alan_B._Miller_Hall | location | Virginia', 'Mason_School_of_Business | country | United_States', 'Alan_B._Miller_Hall | owner | College_of_William_&_Mary']
+reference_text : The address of the Alan B. Miller Hall is "101 Ukrop Way" in Virginia, USA and it currently houses The Mason School of Business. The College of William and Mary is the owner of the Robert A.M. Stern designed hall which began construction on 30/03/2007.
+Index : 2577
+Generation : and | State | United_States | United_States | United_States | United_States | United_States | United_States | United_States | United_States | United_States | United_States | U_States | United_States | United_States | United_States | United_States | United_States | United_States | United_States | United_States | United_States | United_States | United_States | United_States | United_States | United_States | United_States | United_States | United_States | United_States | United_States | United_States | United_States | United_States | United_States | United_States | United_States | United_States | United_States | United_States | United_States | United_States | United_States | United_States | United_States | United_States | United_States | United_States | United_States | United_States |
+#### End of the instance ####
+
+Beginning of the instance
+Index : 2584
+Nr_of_triples : 3
+input_triples : ['Liselotte_Grschebina | birthDate | 1908-05-02', 'Liselotte_Grschebina | professionalField | Photographer', 'Liselotte_Grschebina | deathPlace | Petah_Tikva']
+reference_text : Liselotte Grschebina was a photographer born on the 2nd May 1908 and who died in Petah Tikva.
+Index : 2584
+Generation : liselsot | liselsot | liselsot | liselsot | liselsot | liselsot |liselsot | liselsot | liselsot | liselsot | liselsot | liselsot | liselsot | liselsot | liselsot | liselsot | liselsot | liselsot | liselsot | liselsot | Liselsot | liselsot | liselsot | liselsot | liselsot | liselsot | Liselsot | liselsot | liselsot | liselsot | liselsot | liselsot | liselsot | liselsot | liselsot | liselsot | liselsot | liselsot | liselsot | liselsot |
+#### End of the instance ####
+
+Beginning of the instance
+Index : 2656
+Nr_of_triples : 3
+input_triples : ['Hypermarcas | location | Brazil', 'Hypermarcas | product | Drugs', 'Hypermarcas | product | Healthcare']
+reference_text : Hypermarcas, which is located in Brazil, sells healthcare products and its main product is drugs.
+Index : 2656
+Generation : Pharmaceuticals || Health || Health || Health || Health || Healthcare || Health || Healthcare || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || H || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health || Health
+#### End of the instance ####
+
+Beginning of the instance
+Index : 2757
+Nr_of_triples : 5
+input_triples : ['Nie_Haisheng | mission | Shenzhou_10', 'Nie_Haisheng | mission | Shenzhou_6', 'Nie_Haisheng | birthDate | 1964-10-13', 'Nie_Haisheng | birthPlace | Zaoyang', 'Nie_Haisheng | birthPlace | Hubei']
+reference_text : Nie Haisheng, born on 10/13/1964 in Zaoyang, Hubei Province, was a crew member on Shenzhou 6 and he also took part in the Shenzhou 10 mission.
+Index : 2757
+Generation : Lengqiao
+#### End of the instance ####
+
+Beginning of the instance
+Index : 2787
+Nr_of_triples : 3
+input_triples : ['Bionico | course | Dessert', 'Mexico | language | Spanish_language', 'Bionico | country | Mexico']
+reference_text : Bionico is a dessert found in Mexico and language of Mexico is Spanish.
+Index : 2787
+Generation : 
+#### End of the instance ####
+
+Beginning of the instance
+Index : 2817
+Nr_of_triples : 4
+input_triples : ['Adolfo_Suárez_Madrid–Barajas_Airport | operatingOrganisation | ENAIRE', 'Adolfo_Suárez_Madrid–Barajas_Airport | runwayLength | 3500.0', 'Adolfo_Suárez_Madrid–Barajas_Airport | elevationAboveTheSeaLevel | 610.0', 'Adolfo_Suárez_Madrid–Barajas_Airport | location | San_Sebastián_de_los_Reyes']
+reference_text : The Adolfo Suárez Madrid–Barajas Airport is in San Sebastián de los Reyes and is operated by ENAIRE. The airport has a runway length of 3500 and is 610.0 metres above sea level.
+Index : 2817
+Generation : In order to make this possible we need to create an account that is not in use by the airport. This is a simple one.Create an account that is not in use by the airport. This is a simple one. Create a account that is not in use by the airport. This is a simple one. Create a account that is not in use by the airport. This is a simple one. Create a account that is not in use by the airport. This is a simple one. Create a account that is not in use by the airport. This is a simple one. Create a account that is not in use by the airport. This is a simple one. Create a account that is not in use by the airport. This is a simple one. Create a account that is not in use by the airport. This is a simple one. Create a account that is not in use by the airport. This is a simple one. Create a account that is not in use by
+#### End of the instance ####
+
+Beginning of the instance
+Index : 2910
+Nr_of_triples : 3
+input_triples : ['Hypermarcas | location | Brazil', 'Hypermarcas | product | Drugs', 'Hypermarcas | foundingDate | 2001-01-01']
+reference_text : Hypermarcas, whose main product is drugs, was founded on January 1, 2001 and is located in Brazil.
+Index : 2910
+Generation : -0.01
+#### End of the instance ####
+
+Beginning of the instance
+Index : 2940
+Nr_of_triples : 4
+input_triples : ['Liselotte_Grschebina | birthPlace | Karlsruhe', 'Liselotte_Grschebina | birthDate | 1908-05-02', 'Liselotte_Grschebina | deathDate | 1994-06-14', 'Liselotte_Grschebina | birthPlace | German_Empire']
+reference_text : Liselotte Grschebina was born in Karlsruhe in the German Empire on May 2nd, 1908 and she died on June 14, 1994.
+Index : 2940
+Generation : 
+#### End of the instance ####
+
+Beginning of the instance
+Index : 2962
+Nr_of_triples : 2
+input_triples : ['Nord_(Year_of_No_Light_album) | producer | Year_of_No_Light', 'Year_of_No_Light | associatedBand/associatedMusicalArtist | Altar_of_Plagues']
+reference_text : Nord is an album produced by Year of No Light, which is also associated with Altar of Plagues.
+Index : 2962
+Generation : 
+#### End of the instance ####
+
+Beginning of the instance
+Index : 2988
+Nr_of_triples : 2
+input_triples : ['Akeem_Ayers | debutTeam | Tennessee_Titans', 'Akeem_Ayers | birthDate | 1989-07-10']
+reference_text : Akeem Ayers was born on July 10, 1989 and made his debut for the Tennessee Titans.
+Index : 2988
+Generation : The
+#### End of the instance ####
+
+Beginning of the instance
+Index : 3032
+Nr_of_triples : 1
+input_triples : ['English_Without_Tears | writer | Terence_Rattigan']
+reference_text : "English Without Tears" was written by Terence Rattigan.
+Index : 3032
+Generation : cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg_cg
+#### End of the instance ####
+
+Beginning of the instance
+Index : 3100
+Nr_of_triples : 4
+input_triples : ['Lady_Anne_Monson | residence | India', 'India | leader | Pranab_Mukherjee', 'Lady_Anne_Monson | nationality | Kingdom_of_England', 'India | areaTotal | 3287590000000.0']
+reference_text : Lady Anne Monson lived in the Kingdom of England and held British nationality but resided in India for most of her life. Pranab Mukherjee is the leader of India, which has a total area of 32875900000000.
+Index : 3100
+Generation : 
+#### End of the instance ####
+
+Beginning of the instance
+Index : 3108
+Nr_of_triples : 3
+input_triples : ['Super_Capers | starring | Michael_Rooker', 'Super_Capers | starring | Tom_Sizemore', 'Super_Capers | language | English_language']
+reference_text : Michael Rooker played in Super Capers, an English-language film starring Tom Sizemore.
+Index : 3108
+Generation : | language_en_US | language_en_US | language_en_US
+#### End of the instance ####
+
+Beginning of the instance
+Index : 3112
+Nr_of_triples : 5
+input_triples : ['Super_Capers | editing | Stacy_Katzman', 'Super_Capers | starring | Michael_Rooker', 'Super_Capers | starring | Tom_Sizemore', 'Super_Capers | language | English_language', 'Super_Capers | runtime | 98.0']
+reference_text : Super Capers is a 98 minute movie starring Michael Rooker and Tom Sizemore. Stacy Katzman edited Super Capers which was filmed in English.
+Index : 3112
+Generation : 
+#### End of the instance ####
+
+Beginning of the instance
+Index : 3113
+Nr_of_triples : 5
+input_triples : ['Super_Capers | editing | Stacy_Katzman', 'Super_Capers | starring | Michael_Rooker', 'Super_Capers | starring | Tom_Sizemore', 'Super_Capers | language | English_language', 'Super_Capers | runtime | 98.0']
+reference_text : Super Capers, a film starring Tom Sizemore and Michael Rooker, is 98 minutes long. In charge of editing was Stacy Katzman, and the film is in English.
+Index : 3113
+Generation : 81The first film was made for the first time. The second film is based on an original screenplay. The first film was made for the first
+#### End of the instance ####
+
+Beginning of the instance
+Index : 3241
+Nr_of_triples : 4
+input_triples : ['GMA_New_Media | location | Philippines', 'Philippines | leader | Aquilino_Pimentel_III', 'Philippines | leader | Rodrigo_Duterte', 'GMA_New_Media | location | Quezon_City']
+reference_text : GMA New Media's headquarters are located in Quezon City in the Philippines, where Aquilino Pimentel III and Rodrigo Duterte are leaders of the country.
+Index : 3241
+Generation : location | Philippines | leader | Rodrigo_Duterte | leader | Rodrigo_Duterte | leader | Rodrigo_Duterte | leader | Rodrigo_Duterte | leader | Rodrigo_Duterte | leader | Rodrigo_Duterte | leader | Rodrigo_Duterte | leader | Rodrigo_Duterte | leader | Rodrigo_Duterte | leader | Rodrigo_Duterte | leader | Rodrigo_Duterte | leader | Rodrigo_Duterte | leader | Rodrigo_Duterte | leader | Rodrigo_Duterte | leader | Rodrigo_Duterte | leader | Rodrigo_Duterte | leader | Rodrigo_Duterte | leader | Rodrigo_Duterte | leader | Rodrigo_Duterte | leader | Rodrigo_Duterte | leader | Rodrigo_Duterte | leader | Rodrigo_Duterte | leader | Rodrigo_Duterte | leader | Rodrigo_Duterte | leader | Rodrigo_Duterte | leader | Rodrigo_Duterte | leader | Rodrigo_Duterte | leader | Rodrigo_Duterte |
+#### End of the instance ####
+
+Beginning of the instance
+Index : 3286
+Nr_of_triples : 2
+input_triples : ['The_Fellowship_of_the_Ring | author | J._R._R._Tolkien', 'The_Fellowship_of_the_Ring | releaseDate | 1954-07-29']
+reference_text : The Fellowship of the Ring, written by J.R.R. Tolkien, was published on July 29, 1954.
+Index : 3286
+Generation : date: 2019-01-28.This article was originally published on the official website of the Fellowship of the Ring.
+#### End of the instance ####
+
+Beginning of the instance
+Index : 3436
+Nr_of_triples : 7
+input_triples : ['Mermaid_(Train_song) | musicalBand | Train_(band)', 'Mermaid_(Train_song) | writer | Espen_Lind', 'Mermaid_(Train_song) | runtime | 3.16', 'Mermaid_(Train_song) | genre | Reggae', 'Mermaid_(Train_song) | writer | Amund_Bjørklund', 'Mermaid_(Train_song) | followedBy | Imagine_(John_Lennon_song)', 'Mermaid_(Train_song) | producer | Espionage_(production_team)']
+reference_text : The song Mermaid was performed by the musical band Train. It was written by band members Espen Lind and Amund Bjorklund in the reggae genre and has a total length of three minutes and sixteen seconds. The song was produced by the production team Espionage and the band followed it up with a cover of John Lennon’s Imagine.
+Index : 3436
+Generation : The first song, “A Dream,“ is a musical piece of music. It is composed by the artist, and is written by the composer. The song is composed by the artist. The composer is the producer. The song is composed by the composer. The song is written by the producer. The song is written by the composer. The song is written by the composer.The song is written by the composer. The song is composed by the composer. The song is written by the composer. The song is written by the composer. The song is written by the composer. The song is written by the composer.The song is written by the composer. The song is written by the composer. The song is written by the composer. The song is written by the composer.The song is written by
+#### End of the instance ####
+
+Beginning of the instance
+Index : 3456
+Nr_of_triples : 1
+input_triples : ['Brandon_Carter | knownFor | Doomsday_argument']
+reference_text : Brandon Carter is known for the Doomsday argument.
+Index : 3456
+Generation : The following is the list of the top scientists in the United States.
+#### End of the instance ####
+
+Beginning of the instance
+Index : 3462
+Nr_of_triples : 1
+input_triples : ['Lionsgate | service | Digital_distribution']
+reference_text : Digital distribution is a service of Lionsgate.
+Index : 3462
+Generation : e-mail: [email protected].
+#### End of the instance ####
+
+Beginning of the instance
+Index : 3679
+Nr_of_triples : 3
+input_triples : ['1147_Stavropolis | apoapsis | 418476000000.0', '1147_Stavropolis | absoluteMagnitude | 11.5', '1147_Stavropolis | discovered | 1929-06-11']
+reference_text : 1147 Stavropolis discovered on June 11, 1929 has an apoapsis of 418476000000.0 and an absolute magnitude of 11.5.
+Index : 3679
+Generation : } /* Note: The following is not a reference to the above code, it is just a reference to this code, it was written to be a reference to the following code. */ /* The above code is not a reference to the above code, it is just a reference to the following code. */ /* The above code is not a reference to the above code. */ /* The above code is not a reference to the above code. */ /* The above code is not a reference to the above code. */ /* The above code is not a reference to the above code. */ /* The above code is not a reference to the above code. */ /* The above code is not a reference to the above code. */ /* The above code is not a reference to the above code. */ /* The above code is not a reference to the above code. */ /* The above code is not a reference to the above code. */ /* The above code is not a reference to the above code.
+#### End of the instance ####
+
+Beginning of the instance
+Index : 3714
+Nr_of_triples : 1
+input_triples : ['Death_on_a_Factory_Farm | editor | Geof_Bartz']
+reference_text : Death on a Factory Farm was edited by Geof Bartz.
+Index : 3714
+Generation : 
+#### End of the instance ####
+
+Beginning of the instance
+Index : 3758
+Nr_of_triples : 4
+input_triples : ['Ciudad_Ayala | type | City', 'Ciudad_Ayala | populationDensity | 1604.0', 'Ciudad_Ayala | utcOffset | −6', 'Ciudad_Ayala | leaderTitle | Governator']
+reference_text : Ciudad Ayala is a city with a UTC offset of -6. The population density of Ciudad Ayala in 1604.0 and the leader of this population is called a governator.
+Index : 3758
+Generation : State, Ethnic, Gender | Political, Ethnic | Political, Ethnic, Gender | Political, Ethnic | Political, Ethnic | Political, Ethnic | Political, Ethnic | Political | Ethnic | Political, Ethnic | Political, Ethnic | Political, Ethnic | Political, Ethnic | Political, Ethnic | Political, Ethnic | Political, Ethnic | Political, Ethnic | Political, Ethnic | Political, Ethnic | Political, Ethnic | Political, Ethnic | Political | Political, Ethnic | Political, Ethnic | Political, Ethnic | Political, Ethnic | Political, Ethnic | Political, Ethnic | Political, Ethnic | Political, Ethnic | Political, Ethnic | Political, Ethnic | Political, Ethnic | Political, Ethnic | Political, Ethnic | Political, Ethnic | Political, Ethnic | Political, Ethnic | Political, Ethnic | Political, Ethnic | Political, Ethnic | Political, Ethnic | Political, Ethnic | Political, Ethnic | Political, Ethnic | Political, Ethnic | Political, Ethnic | Political, Ethnic, Political, Ethnic | Political, Ethnic | Political,
+#### End of the instance ####
+
+Beginning of the instance
+Index : 3763
+Nr_of_triples : 5
+input_triples : ['Adams_County,_Pennsylvania | hasToItsWest | Franklin_County,_Pennsylvania', '11th_Mississippi_Infantry_Monument | established | 2000', '11th_Mississippi_Infantry_Monument | location | Adams_County,_Pennsylvania', '11th_Mississippi_Infantry_Monument | category | Contributing_property', 'Adams_County,_Pennsylvania | hasToItsNorth | Cumberland_County,_Pennsylvania']
+reference_text : The 11th Mississippi Infantry Monument, established in the year 2000, falls under the category of contributing property and is located in Adams County Pennsylvania which is East of Franklin County, Pennsylvania. Adams County also has Cumberland County, Pennsylvania to its north.
+Index : 3763
+Generation : hasToItsNorth | Cumberland_County,_Pennsylvania | hasToItsNorth | Cumberland_County,_Pennsylvania | hasToItsNorth | Cumberland_County,_Pennsylvania | hasToItsNorth | Cumberland_County,_Pennsylvania | hasToItsNorth | Cumberland_County,_Pennsylvania | hasToItsNorth | Cumberland_County,_Pennsylvania | hasToItsNorth | Cumberland_County,_Pennsylvania | hasToItsNorth | Cumberland_County,_Pennsylvania | hasToItsNorth | Cumberland_County,_Pennsylvania | hasToItsNorth | Cumberland_County,_Pennsylvania | hasToItsNorth | Cumberland_County,_Pennsylvania | hasToItsNorth | Cumberland_County,_Pennsylvania | hasToItsNorth | Cumberland_County,_Pennsylvania | hasToItsNorth |
+#### End of the instance ####
+
+Beginning of the instance
+Index : 3786
+Nr_of_triples : 1
+input_triples : ['Super_Capers | language | English_language']
+reference_text : The language of the movie Super Capers is English.
+Index : 3786
+Generation : Translated |
+#### End of the instance ####
+
+Beginning of the instance
+Index : 4089
+Nr_of_triples : 2
+input_triples : ['English_Without_Tears | producer | Anatole_de_Grunwald', 'Anatole_de_Grunwald | birthDate | 1910-12-25']
+reference_text : "English Without Tears" was produced by Anatole de Grunwald, who was born on December 25th 1910.
+Index : 4089
+Generation : 
+#### End of the instance ####
+
+Beginning of the instance
+Index : 4139
+Nr_of_triples : 7
+input_triples : ['Alan_Shepard | birthDate | 1923-11-18', 'Alan_Shepard | nationality | United_States', 'Alan_Shepard | servedAsChiefOfTheAstronautOfficeIn | 1963', 'Alan_Shepard | deathPlace | California', 'Alan_Shepard | selectedByNasa | 1959', 'Alan_Shepard | birthPlace | New_Hampshire', 'Alan_Shepard | award | Distinguished_Service_Medal_(United_States_Navy)']
+reference_text : Alan Shepard was an American, born on November 18, 1923 in New Hampshire. He was selected by NASA in 1959, and was the Chief of the Astronaut Office in 1963. The United States Navy awarded him the Distinguished Service Medal. He died in California.
+Index : 4139
+Generation : }This article has been modified to reflect the fact that the original version of this article was published in the early 1990s.
+#### End of the instance ####
+
+Beginning of the instance
+Index : 4375
+Nr_of_triples : 2
+input_triples : ['Turn_Me_On_(album) | precededBy | Let_It_Breed', 'Turn_Me_On_(album) | runtime | 35.1']
+reference_text : The album Turn Me On, which has a runtime of 35.1 minutes, is preceded by the album Let It Breed.
+Index : 4375
+Generation : The music is done in the same order as the original. It is done in the same order as the original. The music is done in the same order as the original. The songs are done in the same order as the original. It is done in the same order as the original. The songs are done in the same order as the original. The songs are done in the same order as the original. The songs are done in the same order as the original.The songs are done in the same order as the original.The tracks in the original are done in the same order as the original.The songs are done in the same order as the original.The tracks in the original are done in the same order as the original. The tracks in the original are done in the same order as the original.The tracks in
+#### End of the instance ####
+
+Beginning of the instance
+Index : 4392
+Nr_of_triples : 6
+input_triples : ['Hypermarcas | location | Brazil', 'Hypermarcas | type | S.A._(corporation)', 'Hypermarcas | subsidiary | Mantecorp', 'Hypermarcas | netIncome | 108600000', 'Hypermarcas | numberOfEmployees | 10252', 'Hypermarcas | location | São_Paulo']
+reference_text : Hypermarcas S.A. (a Brazilian company located in São Paulo) is a 10252 employee enterprise with net income of 108,600,000. The company has a subsidiary Mantecorp.
+Index : 4392
+Generation : }The company is a subsidiary of the Brazilian company, which has a total value of about 1,000. The company has a total value of about 1,000.The company has a total value of about 1,000.The company has a total value of about 1,000.The company has a total value of about 1,000.The company has a total value of about 1,000.The company has a total value of about 1,000.The company has a total value of about 1,000.The company has a total value of about 1,000.The company has a total value of about 1,000.The company has a total value of about 1,000.The company has a total value of about 1,000.The company has a total value of about 1,000.The company has a total value of about 1,000.The company has a total
+#### End of the instance ####
+
+Beginning of the instance
+Index : 4464
+Nr_of_triples : 1
+input_triples : ['Justin_Whalin | occupation | Presenter']
+reference_text : Justin Whalin was a presenter.
+Index : 4464
+Generation : Media: News, Entertainment, Entertainment, News, Entertainment, News, Entertainment, News, Entertainment, News, Entertainment, News, Entertainment, News, Entertainment, News, Entertainment, News, Entertainment, News, Entertainment, News, Entertainment, News, Entertainment, News, Entertainment, News, Entertainment, News, Entertainment, News, Entertainment, News, Entertainment, News, Entertainment, News, Entertainment, News, Entertainment, News, Entertainment, News, Entertainment, News, Entertainment, News, Entertainment, News, Entertainment, News, Entertainment, News, Entertainment, News, Entertainment, News, Entertainment, News, Entertainment, News, Entertainment, News, Entertainment, News, Entertainment, News, Entertainment, News, Entertainment, News, Entertainment, News, Entertainment, News, Entertainment, News, Entertainment, News, Entertainment, News, Entertainment, News, Entertainment, News, Entertainment, News, Entertainment, News, Entertainment, News, Entertainment, News, Entertainment, News, Entertainment, News, Entertainment,
+#### End of the instance ####
+
+Beginning of the instance
+Index : 4467
+Nr_of_triples : 4
+input_triples : ['Nie_Haisheng | mission | Shenzhou_10', 'Nie_Haisheng | mission | Shenzhou_6', 'Nie_Haisheng | birthDate | 1964-10-13', 'Nie_Haisheng | birthPlace | Zaoyang']
+reference_text : Nie Haisheng was born on 10/13/1964 in Zaoyang. Nie Haisheng was a crew member on Shenzhou 6 and took part in the Shenzhou 10 mission.
+Index : 4467
+Generation : Nie_Haisheng | birthDate | 1964-11-13 || Nie_Haisheng | birthDate | 1964-11-13 || Nie_Haisheng | birthDate | 1964-11-13 || Nie_Haisheng | birthDate | 1964-11-13 || Nie_Haisheng | birthDate | 1964-11-13 || Nie_Haisheng | birthDate | 1964-11-
+#### End of the instance ####
+
+Beginning of the instance
+Index : 4522
+Nr_of_triples : 5
+input_triples : ['Death_on_a_Factory_Farm | director | Tom_Simon', 'Death_on_a_Factory_Farm | producer | Tom_Simon', 'Death_on_a_Factory_Farm | broadcastedBy | HBO', 'Death_on_a_Factory_Farm | editor | Geof_Bartz', 'Death_on_a_Factory_Farm | runtime | 83.0']
+reference_text : The HBO film Death on a Factory Farm was produced and directed by Tom Simon. The film, which runs 83 minutes, was edited by Geof Bartz.
+Index : 4522
+Generation : | 122.0
+#### End of the instance ####
+
+Beginning of the instance
+Index : 4562
+Nr_of_triples : 3
+input_triples : ['Nord_(Year_of_No_Light_album) | followedBy | Live_at_Roadburn_2008_(Year_of_No_Light_album)', 'Nord_(Year_of_No_Light_album) | genre | Sludge_metal', 'Nord_(Year_of_No_Light_album) | producer | Year_of_No_Light']
+reference_text : Live at Roadburn 2008 was preceded by Nord, an album produced by Year of No Light, which is in the sludge metal genre.
+Index : 4562
+Generation : I have to say, the album is a very special album, and I think the album is very special. I think it is very special because I am the first person to have a very special album. I am the first person to have a very special album. I think it is very special because I am the first person to have a special album. I think it is very special because I am the first person to have a special album. I am the first person to have a special album. I am the first person to have a special album. I am the first person to have a special album. I am the first person to have a special album. I am the first person to have a special album. I am the first person to have a special album. I am the first person to have a special album. I am the first person to have a special album. I am the first person to have a special album. I am the first person to have a special album
+#### End of the instance ####
+
+Beginning of the instance
+Index : 4597
+Nr_of_triples : 2
+input_triples : ['Trane | location | Swords,_Dublin', 'Swords,_Dublin | leaderTitle | County Manager']
+reference_text : The title of the leader of Swords, Dublin, where Trane is located, is County Manager.
+Index : 4597
+Generation : 
+#### End of the instance ####
+
+Beginning of the instance
+Index : 4646
+Nr_of_triples : 2
+input_triples : ['Akeem_Ayers | draftRound | 2', 'Akeem_Ayers | debutTeam | Tennessee_Titans']
+reference_text : Akeem Ayers was in draft round 2 and made his debut for the Tennessee Titans.
+Index : 4646
+Generation : This is the second time that a team that has had an All-American player since the start of the 2013 season was named the team that has been named the team that has had an All-American player since the start of the 2013 season was named the team that has been named the team that has been named the team that has had an All-American player since the start of the 2013 season was named the team that has been named the team that has been named the team that has not been named the team that has not been named the team that has not been named the team that has not been named the team that has not been named the team that has not been named the team that has been named the team that has not been named the team that has not be named the team that has not been named the team that has not been named the team that has not been named the team that has not been named the team that has not been named the team that has not been named the team
+#### End of the instance ####
+
+Beginning of the instance
+Index : 4729
+Nr_of_triples : 2
+input_triples : ['Expect_a_Miracle | artist | Brian_Kelly_(composer_&_pianist)', 'Expect_a_Miracle | producer | Brian_Kelly_(composer_&_pianist)']
+reference_text : Expect a Miracle was recorded and produced by Brian Kelly.
+Index : 4729
+Generation : // Use the same template in the template for the project. // Use the same template for the project. // Use the same template for the project. // use the same template for the project. }The following code snippet is generated from the following code snippet:// Create a template for the project. // The template will be created with the following code snippet:// Create a template for the project. // The template will be created with the following code snippet:// Create a template for the project. // The template will be created with the following code snippet: // Create a template for the project.// Create a template for the project. // The template will be created with the following code snippet: // Create a template for the project. // The template will be created with the following code snippet: // Create a template for the project. // The template will be created with the following code snippet: // Create a template for the project. // The template
+#### End of the instance ####
+
+Beginning of the instance
+Index : 4827
+Nr_of_triples : 4
+input_triples : ['1147_Stavropolis | apoapsis | 418476000000.0', '1147_Stavropolis | orbitalPeriod | 1249.6', '1147_Stavropolis | discoverer | Grigory_Neujmin', '1147_Stavropolis | absoluteMagnitude | 11.5']
+reference_text : Grigory Neujmin discovered the asteroid 1147 Stavropolis of an absolute magnitude of 11.5, with 418476000000.0 apoapsis and 1249.6 days orbital period.
+Index : 4827
+Generation : 1000000
+#### End of the instance ####
+
+Beginning of the instance
+Index : 4837
+Nr_of_triples : 3
+input_triples : ['Bootleg_Series_Volume_1:_The_Quine_Tapes | producer | The_Velvet_Underground', 'Bootleg_Series_Volume_1:_The_Quine_Tapes | recordLabel | Polydor_Records', 'Bootleg_Series_Volume_1:_The_Quine_Tapes | recordLabel | Universal_Music_Group']
+reference_text : The producer of the album Bootleg Series Volume 1: The Quine Tapes (recorded under the Polydor Records label on Universal Music Group) was the Velvet Underground.
+Index : 4837
+Generation : _=0.5 | _=0.5 | _=0.5 | _=0.6 | _=0.6 | _=0.6 | _=0.6 | _=0.6 | _=0.6 | _=0.6 | _=0.6 | _=0.6 | _=0.6 | _=0.6 | _=0.6 | _=0.6 | _=0.6 | _=0.6 | _=0.6 | _=0.8 | _=0.8 | _=0.8 | _=0.8 | _=0.8 | _=0.8 | _=0.8 | _=0.8 | _=0.8 | _=0.8 | _=0.8 | _=0.8 | _=0.8 | _=0.8 | _=
+#### End of the instance ####
+
+Beginning of the instance
+Index : 4931
+Nr_of_triples : 1
+input_triples : ['Train_(band) | formerBandMember | Charlie_Colin']
+reference_text : Charlie Colin is the former member of Train.
+Index : 4931
+Generation : formerBandMember
+#### End of the instance ####
+
+Beginning of the instance
+Index : 4945
+Nr_of_triples : 3
+input_triples : ['Mermaid_(Train_song) | genre | Pop_rock', 'Mermaid_(Train_song) | musicalBand | Train_(band)', 'Mermaid_(Train_song) | runtime | 3.16']
+reference_text : Mermaid is a pop rock song by Train. It is three minutes and sixteen seconds long.
+Index : 4945
+Generation : The first part of the show, which was a little bit longer, was a little bit longer, but the show is still pretty good. The second part of the show, which was a little bit longer, was a little bit shorter, but the show is still pretty good. The third part of the show, which was a bit longer, was a little bit longer, but the show is still pretty good. The fourth part of the show, which was a little bit longer, was a little bit longer, but the show is still pretty good. The fourth part of the show, which was a little bit longer, was a little bit longer, but the show is still pretty good. The fourth part of the show, which was a little bit longer, was a little bit longer, but the show is still pretty good. The fifth part of the show, which was a little bit shorter, was a little bit longer, but the show is still pretty good.I
+#### End of the instance ####
+
+Beginning of the instance
+Index : 4990
+Nr_of_triples : 4
+input_triples : ['Abraham_A._Ribicoff | spouse | Ruth Ribicoff', 'Abraham_A._Ribicoff | nationality | American', 'Abraham_A._Ribicoff | birthPlace | United_States', 'Abraham_A._Ribicoff | office | United States Secretary of Health, Education, and Welfare']
+reference_text : Abraham A. Ribicoff, whose spouse is Ruth Ribicoff, is an American citizen and was born in the USA. He worked for the United States Secretary of Health, Education, and Welfare office.
+Index : 4990
+Generation : 
+#### End of the instance ####
+
+Beginning of the instance
+Index : 5066
+Nr_of_triples : 2
+input_triples : ['English_Without_Tears | producer | Anatole_de_Grunwald', 'English_Without_Tears | writer | Anatole_de_Grunwald']
+reference_text : "English Without Tears" was produced and written by Anatole de Grunwald.
+Index : 5066
+Generation : 
+#### End of the instance ####
+
+Beginning of the instance
+Index : 5149
+Nr_of_triples : 3
+input_triples : ['Ciudad_Ayala | country | Mexico', 'Ciudad_Ayala | timeZone | Pacific_Daylight_Time', 'Ciudad_Ayala | timeZone | Pacific_Standard_Time_Zone']
+reference_text : Ciudad Ayala located in the country of Mexico uses the Pacific Standard Time Zone and Pacific Daylight Time.
+Index : 5149
+Generation : }
+#### End of the instance ####
+
