@@ -35,6 +35,13 @@ For DAE scores:
     run prepare_my_outputs.py - resulting files will be located in 'DAE/prepared_data' folder
     run evaluate_generated_outputs.py - results will be in 'DAE_results'
     
+For T2G evaluation: 
+
+    Run evaluate_T2G_output_of_CycleGT.py
+    
+For selecting data for error analysis:
+
+    run data_selection_4_error_analysis.py
     
 Imported note: A few generation instances contain issues like being too short or too long. Most of the issues are gone after running prepare_my_outputs.py but a few samples are corrected manually. You may find those instances by searching 'filler filler filler filler' string.
 
