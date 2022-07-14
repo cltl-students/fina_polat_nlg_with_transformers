@@ -45,7 +45,7 @@ For selecting data for error analysis:
     
 For getting the results of human annotation study:
     
-    run .py in the annotation_study directory
+    run evaluate_annotations.py in the annotation_study directory
     
 Imported note: A few generation instances contain issues like being too short or too long. Most of the issues are gone after running prepare_my_outputs.py but a few samples are corrected manually. You may find those instances by searching 'filler filler filler filler' string.
 
