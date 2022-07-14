@@ -1,0 +1,24 @@
+Infile: sample_finetuned_T5_wiki desc.tsv
+100
+100
+Number of intances that contains hallucinated generation: 71
+Number of intances that DO NOT contain hallucinated generation: 29
+Number of instances with intrinsic hallucinations: 52
+Number of instances with extrinsic hallucinations: 53
+Number of instances both with intrinsic and extrinsic hallucinations: 34
+Number of instances only intrinsic hallucination: 18
+Number of instances only intrinsic hallucination: 19
+Avarage DAE score of the sample: 0.66
+
+
+Infile: sample_sup_CycleGT.tsv
+100
+100
+Number of intances that contains hallucinated generation: 71
+Number of intances that DO NOT contain hallucinated generation: 29
+Number of instances with intrinsic hallucinations: 68
+Number of instances with extrinsic hallucinations: 17
+Number of instances both with intrinsic and extrinsic hallucinations: 14
+Number of instances only intrinsic hallucination: 54
+Number of instances only intrinsic hallucination: 3
+Avarage DAE score of the sample: 0.53
