@@ -43,5 +43,9 @@ For selecting data for error analysis:
 
     run data_selection_4_error_analysis.py
     
+For getting the results of human annotation study:
+    
+    run .py in the 
+    
 Imported note: A few generation instances contain issues like being too short or too long. Most of the issues are gone after running prepare_my_outputs.py but a few samples are corrected manually. You may find those instances by searching 'filler filler filler filler' string.
 
